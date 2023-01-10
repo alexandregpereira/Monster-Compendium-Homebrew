@@ -533,6 +533,29 @@
                 "type": "SPELLCASTER",
                 "spells_by_group": [
                     {
+                        "group": "Cajado da Cura (10 cargas)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Bolha Ácida",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Raio de Fogo",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mass-cure-wounds",
+                                "name": "Raio de Gelo",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
                         "group": "Truques (à vontade)",
                         "spells": [
                             {
