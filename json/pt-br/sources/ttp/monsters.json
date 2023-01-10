@@ -1,0 +1,574 @@
+[
+    {
+        "index": "decapus",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Decapo",
+        "subtitle": "Grande monstruosidade, desalinhada",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 14,
+        "hit_points": 75,
+        "hit_dice": "10d10+20",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 15,
+                    "value_formatted": "15 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 4,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O decapus realiza dois ataques: um com sua mordida e outro com seus tentáculos.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d4+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, uma criatura agarrada pelo decapus. 7 (2d4 + 2) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "9d4+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    },
+                    {
+                        "dice": "5d4+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 3 metros, um alvo. 24 (9d4 + 2) de dano de concussão ou 14 (5d4 + 2) de dano de concussão se o decapus estiver agarrando uma criatura que não seja o alvo ou se o decapus estiver no chão ou no chão. O alvo também está agarrado (CD de fuga 14), a menos que o decapus já esteja agarrando uma criatura. Até que este agarrão termine, o alvo está contido.",
+                "name": "Tentáculos"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "O pacote Tortle",
+            "acronym": "TTP"
+        }
+    },
+    {
+        "index": "geonid",
+        "type": "ELEMENTAL",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Geonida",
+        "subtitle": "Elemental pequeno, neutro",
+        "size": "Small",
+        "alignment": "neutral",
+        "armor_class": 17,
+        "hit_points": 26,
+        "hit_dice": "4d6+12",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 2,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés",
+            "sentido do tremor 30 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Guise Boulder",
+                "desc": "Enquanto totalmente recolhido em sua concha, o geonid não pode ver e é indistinguível de um pequeno pedregulho"
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. 3 (1d4 + 1) de dano de concussão.",
+                "name": "Porrete"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O geonid toca um objeto ou superfície de pedra e sabe quais tipos de criaturas estiveram a até 3 metros daquela pedra nas últimas 24 horas. O geonid também pode determinar o número de criaturas de cada tipo, mas não suas identidades.",
+                "name": "Stone Tell"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "O pacote Tortle",
+            "acronym": "TTP"
+        }
+    },
+    {
+        "index": "giant-slug",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Lesma Gigante",
+        "subtitle": "Grande monstruosidade, desalinhada",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 66,
+        "hit_dice": "6d10+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Abissal, Aquan, Comum",
+        "special_abilities": [
+            {
+                "name": "Olfato Aguçado",
+                "desc": "A lesma tem vantagem em testes de Sabedoria (Percepção) que dependem do olfato. "
+            },
+            {
+                "name": "Spider Climb",
+                "desc": "A lesma pode escalar superfícies difíceis, inclusive de cabeça para baixo em tetos, sem precisar fazer um teste de habilidade."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade de conjuração inata da lesma é a Sabedoria (resistência à magia CD 11, +3 para acertar com ataques de magia). Ele pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "guiding-bolt",
+                                "name": "Guiding Bolt",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Santuário",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Arma Espiritual",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "A lesma faz dois ataques: um com seus tentáculos e outro com sua mordida.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque corpo a corpo com arma: +8 para acertar, alcance 3 metros, uma criatura. 4 (1d4 + 2) de dano venenoso, e o alvo deve ser bem sucedido em um teste de resistência de Constituição CD 13 ou será envenenado por 1 minuto. Até que este veneno termine, o alvo fica paralisado. O alvo pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o veneno em si mesmo em caso de sucesso.",
+                "name": "Tentáculos"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d4+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. 7 (2d4 + 2) de dano perfurante.",
+                "name": "Mordida"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Animate Tentacle",
+                "desc": "Quando a lesma leva dano nesta caverna (Shrine of Umberlee), ela pode usar sua reação para animar um dos tentáculos da estátua do kraken e fazer com que ele faça um ataque de arma corpo a corpo (+3 para acertar) contra uma criatura dentro de 6 metros da estátua que a lesma pode ver. O tentáculo causa 8 (1d8 + 4) de dano de concussão em um acerto."
+            }
+        ],
+        "source": {
+            "name": "O pacote Tortle",
+            "acronym": "TTP"
+        }
+    },
+    {
+        "index": "topi",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Chapéu",
+        "subtitle": "Pequeno morto-vivo, mal caótico",
+        "size": "Small",
+        "alignment": "chaotic evil",
+        "armor_class": 13,
+        "hit_points": 13,
+        "hit_dice": "3d6+3",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "concussão"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "compreende as línguas que conheceu em vida, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Resistência a Turn",
+                "desc": "O topi tem vantagem em testes de resistência contra qualquer efeito que expulse mortos-vivos. "
+            },
+            {
+                "name": "Undead Fortitude",
+                "desc": "Se o dano reduz o topi a 0 pontos de vida, ele deve fazer um teste de resistência de Constituição com uma CD de 5+o dano recebido, a menos que o dano seja radiante ou de um acerto crítico. Em caso de sucesso, o topi cai para 1 ponto de vida."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortante"
+                        }
+                    },
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. 4 (1d4 + 2) de dano cortante mais 2 (1d4) de dano de veneno, e o alvo deve ter sucesso em um teste de resistência de Constituição CD 11 ou será envenenado até o final do próximo turno do alvo.",
+                "name": "Garras venenosas"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "O pacote Tortle",
+            "acronym": "TTP"
+        }
+    }
+]

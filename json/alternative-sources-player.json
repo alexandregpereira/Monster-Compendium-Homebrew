@@ -1,0 +1,65 @@
+[
+    {
+        "source": {
+            "name": "Eberron: Rising from the Last War",
+            "acronym": "ERLW"
+        },
+        "totalMonsters": 43
+    },
+    {
+        "source": {
+            "name": "Guildmaster's Guide to Ravnica",
+            "acronym": "GGR"
+        },
+        "totalMonsters": 79
+    },
+    {
+        "source": {
+            "name": "Icewind Dale: Rime of the Frostmaiden",
+            "acronym": "IDRotF"
+        },
+        "totalMonsters": 81
+    },
+    {
+        "source": {
+            "name": "Monster Manual",
+            "acronym": "MM"
+        },
+        "totalMonsters": 450
+    },
+    {
+        "source": {
+            "name": "Mordenkainen's Fiendish Folio",
+            "acronym": "MFF"
+        },
+        "totalMonsters": 18
+    },
+    {
+        "source": {
+            "name": "Mordenkainen's Tome of Foes",
+            "acronym": "MTF"
+        },
+        "totalMonsters": 140
+    },
+    {
+        "source": {
+            "name": "Mythic Odysseys of Theros",
+            "acronym": "MOT"
+        },
+        "totalMonsters": 51
+    },
+    {
+        "source": {
+            "name": "Volo's Guide to Monsters",
+            "acronym": "VGM"
+        },
+        "totalMonsters": 136
+    },
+    {
+        "source": {
+            "name": "Boka",
+            "acronym": "BOKA"
+        },
+        "totalMonsters": 3
+    }
+]

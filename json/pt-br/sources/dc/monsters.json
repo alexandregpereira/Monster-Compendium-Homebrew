@@ -1,0 +1,239 @@
+[
+    {
+        "index": "ebondeath",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Morte de Vínculo",
+        "subtitle": "Morto-vivo médio, sem alinhamento",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 15,
+        "hit_points": 225,
+        "hit_dice": "10d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 0,
+                    "value_formatted": "0 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 17,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            },
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fogo"
+            },
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Relâmpago"
+            },
+            {
+                "index": "thunder",
+                "type": "THUNDER",
+                "name": "Trovão"
+            },
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Frio"
+            },
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrótico"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "grappled",
+                "type": "GRAPPLED",
+                "name": "Agarrado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "petrificada"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            },
+            {
+                "index": "prone",
+                "type": "PRONE",
+                "name": "Propenso"
+            },
+            {
+                "index": "restrained",
+                "type": "RESTRAINED",
+                "name": "Restringido"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Quaisquer línguas que conheceu na vida",
+        "special_abilities": [
+            {
+                "name": "Visão Etérea",
+                "desc": "Ebondeath pode ver 60 pés no Plano Etéreo quando está no Plano Material, e vice-versa. "
+            },
+            {
+                "name": "Movimento Incorpóreo",
+                "desc": "Ebondeath pode se mover através de outras criaturas e objetos como se fossem terreno difícil. Leva 5 (1d10) de dano de força se terminar seu turno dentro de um objeto. "
+            },
+            {
+                "name": "Resistência Lendária (3/dia)",
+                "desc": "Se o dragão falhar em um teste de resistência, ele pode optar por ter sucesso."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d6+3",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrótico"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para atingir, alcance 1,5 m, um alvo. 17 (4d6 + 3) de dano necrótico.",
+                "name": "Toque fulminante"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Ebondeath entra no Plano Etéreo do Plano Material, ou vice-versa. É visível no Plano Material enquanto está na Fronteira Etérea, e vice-versa, mas não pode afetar ou ser afetado por nada no outro plano.",
+                "name": "Etéreo"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Cada criatura não morta-viva a até 18 metros de Ebondeath que possa vê-la deve ser bem sucedida em um teste de resistência de Sabedoria CD 13 ou ficará amedrontada por 1 minuto. Se o teste falhar por 5 ou mais, o alvo também envelhece 1d4 × 10 anos. Um alvo amedrontado pode repetir o teste de resistência no final de cada um de seus turnos, acabando com a condição de amedrontado em caso de sucesso. Se o teste de resistência de um alvo for bem-sucedido ou o efeito terminar, o alvo fica imune ao Semblante Horripilante deste Ebondeath pelas próximas 24 horas. O efeito do envelhecimento pode ser revertido com um feitiço de restauração maior, mas apenas 24 horas após a ocorrência.",
+                "name": "Semblante Horripilante"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Um humanóide que Ebondeath possa ver a até 1,5 metro dele deve ser bem sucedido em um teste de resistência de Carisma CD 20 ou será possuído por Ebondeath; Ebondeath então desaparece, e o alvo fica incapacitado e perde o controle de seu corpo. Ebondeath agora controla o corpo, mas não priva o alvo de consciência. Ebondeath não pode ser alvo de nenhum ataque, feitiço ou outro efeito, exceto aqueles que expulsam mortos-vivos, e mantém seu alinhamento, Inteligência, Sabedoria, Carisma e imunidade a ser enfeitiçado e amedrontado. Caso contrário, ele usa as estatísticas do alvo possuído, incluindo o acesso ao conhecimento do alvo, recursos de classe e proficiências.\nA possessão dura até que o corpo caia para 0 pontos de vida, Ebondeath termina com uma ação bônus, ou Ebondeath é expulso ou forçado a sair por um efeito como o feitiço dissipar o mal e o bem. Quando a possessão termina, Ebondeath reaparece em um espaço desocupado a até 1,5 metro do corpo. O alvo fica imune a Ebondeath Possession por 24 horas após ter sucesso no teste de resistência ou após o término da posse.",
+                "name": "Posse (Recarga 6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "contenção divina",
+            "acronym": "DC"
+        }
+    }
+]

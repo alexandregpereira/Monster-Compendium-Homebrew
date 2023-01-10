@@ -1,0 +1,476 @@
+[
+    {
+        "index": "skull-flier",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Crânio Voador",
+        "subtitle": "Construção média, desalinhada",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 16,
+        "hit_points": 24,
+        "hit_dice": "3d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 3,
+                "modifier": -4
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "petrificada"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    },
+                    {
+                        "dice": "the",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Arma corpo a corpo Ataque: +4 para atingir, alcance 1,5 m, uma criatura. Acerto: 5 (1d6 + 2) de dano perfurante, e o alvo deve fazer um teste de resistência de Constituição CD 11, recebendo 10 (3d6) de dano venenoso se falhar na resistência, ou metade do dano se obtiver sucesso. Se o dano do veneno reduzir o alvo a 0 pontos de vida, o alvo fica estável, mas envenenado por 1 hora, mesmo depois de recuperar os pontos de vida, e fica paralisado enquanto envenenado dessa forma.",
+                "name": "Sting"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Ira do Senhor da Tempestade",
+            "acronym": "SLW"
+        }
+    },
+    {
+        "index": "statue-of-talos",
+        "type": "ELEMENTAL",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 10.0,
+        "name": "Estátua de Talos",
+        "subtitle": "Elemental grande, mal caótico",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 17,
+        "hit_points": 147,
+        "hit_dice": "14d10+70",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks that aren't adamantine",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos que não são adamantinos"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "petrificada"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "terráqueo",
+        "special_abilities": [
+            {
+                "name": "Falsa Aparência",
+                "desc": "Enquanto a estátua permanece imóvel, ela é indistinguível de uma estátua inanimada."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "A estátua faz cinco ataques: um com sua cabeçada e quatro com suas lâminas de raio.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque corpo a corpo com arma: +8 para acertar, alcance 1,5 m, um alvo. Acerto: 11 (2d6 + 4) de dano perfurante.",
+                "name": "Cabeçada"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d4+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Arma Corpo a Corpo Ataque: +8 para atingir, alcance 1,5 m, um alvo. Acerto: 9 (2d4 + 4) de dano cortante.",
+                "name": "Lâminas de Relâmpago"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Ira do Senhor da Tempestade",
+            "acronym": "SLW"
+        }
+    },
+    {
+        "index": "tooth-n-claw",
+        "type": "FIEND",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Dente-N-Garra",
+        "subtitle": "Demônio médio, leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 15,
+        "hit_points": 45,
+        "hit_dice": "7d8+14",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 6,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Frio"
+            }
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "entende Infernal, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Audição e olfato apurados",
+                "desc": "Tooth-N-Claw tem vantagem em testes de Sabedoria (Percepção) que dependem da audição ou do olfato. "
+            },
+            {
+                "name": "Táticas de Pacote",
+                "desc": "Tooth-N-Claw tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um de seus aliados estiver a até 1,5 metro da criatura e o aliado não estiver incapacitado."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "COLD",
+                            "type": "COLD",
+                            "name": "Frio"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para atingir, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano perfurante mais 7 (2d6) de dano de frio.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "6d6",
+                        "damage": {
+                            "index": "COLD",
+                            "type": "COLD",
+                            "name": "Frio"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Tooth-N-Claw exala uma rajada de gelo em um cone de 4,5 metros. Cada criatura nessa área deve fazer um teste de resistência de Destreza CD 12, recebendo 21 (6d6) de dano de frio em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Respiração Congelante (Recarga 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Ira do Senhor da Tempestade",
+            "acronym": "SLW"
+        }
+    }
+]

@@ -1,0 +1,4442 @@
+[
+    {
+        "index": "awakened-zurkhwood",
+        "type": "PLANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Zurkhwood Desperto",
+        "subtitle": "Planta enorme, desalinhada",
+        "size": "Huge",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 59,
+        "hit_dice": "7d12+14",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fogo"
+            }
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Concussão"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "um idioma conhecido por seu criador",
+        "special_abilities": [
+            {
+                "name": "Falsa Aparência",
+                "desc": "Enquanto a árvore permanece imóvel, ela é indistinguível de um cogumelo zurkhwood normal. "
+            },
+            {
+                "name": "Mute",
+                "desc": "Se a zurkhwood despertada foi criada por um soberano myconid, ela não pode falar."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque corpo a corpo com arma: +6 para acertar, alcance 3 metros, um alvo. Acerto: 14 (3d6 + 4) de dano de concussão.",
+                "name": "Slam"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "bridesmaid-of-zuggtmoy",
+        "type": "PLANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.125,
+        "name": "Dama de Honra de Zuggtmoy",
+        "subtitle": "Planta média, caótica e má",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 13,
+        "hit_points": 22,
+        "hit_dice": "5d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 18,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "entende Abyssal, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Passo do Fungo",
+                "desc": "Uma vez em seu turno, a dama de honra pode usar 3 metros de seu movimento para pisar magicamente em um cogumelo vivo ou canteiro de fungo a até 1,5 metro e emergir de outro a até 18 metros do primeiro, aparecendo em um espaço desocupado a até 1,5 metro da segunda mancha de cogumelo ou fungo. Os cogumelos e manchas devem ser grandes ou maiores."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "A dama de honra ejeta esporos em uma criatura que ela possa ver a até 1,5 metro dela. O alvo deve ser bem sucedido em um teste de resistência de Constituição CD 10 ou será envenenado por 1 minuto. Enquanto envenenado desta forma, o alvo fica incapacitado. O alvo pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesmo em caso de sucesso.",
+                "name": "Esporos de Alucinação"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "A dama de honra libera esporos que explodem em uma nuvem que preenche uma esfera de 3 metros de raio centrada nela, e a nuvem permanece por 1 minuto. Qualquer criatura de carne e osso na nuvem quando ela aparecer, ou que entrar nela depois, deve fazer um teste de resistência de Constituição CD 10. Em um teste de resistência bem-sucedido, a criatura não pode ser infectada por esses esporos por 24 horas. Em uma falha no teste, a criatura é infectada com uma doença chamada esporos de Zuggtmoy e também ganha uma forma aleatória de loucura indefinida (determinada rolando na tabela Loucura de Zuggtmoy no apêndice D) que dura até que a criatura seja curada da doença. ou morre. Enquanto infectada desta forma, a criatura não pode ser infectada novamente, e deve repetir o teste de resistência no final de cada 24 horas, encerrando a infecção em caso de sucesso. Em caso de falha, o corpo da criatura infectada é lentamente dominado pelo crescimento de fungos e, após três dessas falhas de salvamento, a criatura morre e é reanimada como um servo de esporos se for um tipo de criatura que pode ser (consulte a entrada \"Myconids\" em o Manual dos Monstros).",
+                "name": "Esporos de Infestação (1/Dia)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "buppido",
+        "type": "HUMANOID",
+        "subtype": "derro",
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Buppido",
+        "subtitle": "Pequeno humanóide (derro), caótico e mau",
+        "size": "Small",
+        "alignment": "chaotic evil",
+        "armor_class": 13,
+        "hit_points": 13,
+        "hit_dice": "3d6+3",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Anão, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Magic Resistance",
+                "desc": "Buppido tem vantagem em testes de resistência contra feitiços e outros efeitos mágicos. "
+            },
+            {
+                "name": "Sensibilidade à luz do sol",
+                "desc": "Enquanto estiver sob a luz do sol, Buppido tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 2,
+                "description": "Arma corpo a corpo Ataque: +2 para atingir, alcance 1,5 m, um alvo. Acerto: 3 (1d6) de dano perfurante. Se o alvo for Médio ou menor, Buppido pode optar por não causar dano e derrubá-lo.",
+                "name": "Hooked Spear"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Arma de ataque à distância: +4 para acertar, alcance 80/320 pés, um alvo. Acerto: 6 (1d8 + 2) de dano perfurante.",
+                "name": "Besta leve"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "chamberlain-of-zuggtmoy",
+        "type": "PLANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Chamberlain de Zuggtmoy",
+        "subtitle": "Planta grande, caótica e maligna",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 13,
+        "hit_points": 45,
+        "hit_dice": "6d10+12",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Concussão"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Abissal, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Portal do Cogumelo",
+                "desc": "O camareiro conta como um cogumelo para o recurso Fungus Stride da dama de honra de Zuggtmoy. "
+            },
+            {
+                "name": "Poison Spores",
+                "desc": "Sempre que o camareiro leva dano, ele libera uma nuvem de esporos. Criaturas a até 1,5 metro do camareiro quando isso acontecer devem ser bem sucedidas em um teste de resistência de Constituição CD 12 ou serão envenenadas por 1 minuto. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, terminando o efeito em caso de sucesso."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O camareiro faz dois ataques de pancada.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+3",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 10 (2d6 + 3) de dano de concussão.",
+                "name": "Slam"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O camareiro libera esporos que explodem em uma nuvem que preenche uma esfera de 3 metros de raio centrada nela, e a nuvem permanece por 1 minuto. Qualquer criatura de carne e osso na nuvem quando ela aparecer, ou que entrar nela depois, deve fazer um teste de resistência de Constituição CD 12. Em um teste de resistência bem-sucedido, a criatura não pode ser infectada por esses esporos por 24 horas. Em uma falha no teste, a criatura é infectada com uma doença chamada esporos de Zuggtmoy e também ganha uma forma aleatória de loucura indefinida (determinada rolando na tabela Loucura de Zuggtmoy no apêndice D) que dura até que a criatura seja curada da doença. ou morre. Enquanto infectada desta forma, a criatura não pode ser infectada novamente, e deve repetir o teste de resistência no final de cada 24 horas, encerrando a infecção em caso de sucesso. Em caso de falha, o corpo da criatura infectada é lentamente dominado pelo crescimento de fungos e, após três dessas falhas de salvamento, a criatura morre e é reanimada como um servo de esporos se for um tipo de criatura que pode ser (consulte a entrada \"Myconids\" em o Manual dos Monstros).",
+                "name": "Esporos de Infestação (1/Dia)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "chuul-spore-servant",
+        "type": "PLANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Servo Chuul Spore",
+        "subtitle": "Planta grande, desalinhada",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 16,
+        "hit_points": 93,
+        "hit_dice": "11d10+33",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 2,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 1,
+                "modifier": -5
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão cega 30 pés (cego além deste raio)"
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O servo esporo faz dois ataques de pinça.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque com arma corpo a corpo: +6 para atingir, alcance 3 metros, um alvo. Acerto: 11 (2d6 + 4) de dano de concussão. O alvo é agarrado (CD de Fuga 14) se for uma criatura Grande ou menor e o servo esporo não tiver duas outras criaturas agarradas.",
+                "name": "Pinça"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "deepking-horgar-steelshadow-v",
+        "type": "HUMANOID",
+        "subtype": "dwarf",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Deepking Horgar Steelshadow V",
+        "subtitle": "Humanoide médio (anão), leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 20,
+        "hit_points": 52,
+        "hit_dice": "8d8+16",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 2
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Dracônico, Gigante, Anão",
+        "special_abilities": [
+            {
+                "name": "(Opcional) Loucura Indefinida",
+                "desc": ""
+            },
+            {
+                "name": "Resiliência Duergar",
+                "desc": "Horgar tem vantagem em testes de resistência contra venenos, feitiços e ilusões, bem como para resistir a ser enfeitiçado ou paralisado. "
+            },
+            {
+                "name": "Sensibilidade à luz do sol",
+                "desc": "Enquanto estiver sob a luz do sol, Horgar tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão. "
+            },
+            {
+                "name": "Manoplas de Poder de Ogro",
+                "desc": "Horgar empunha Manoplas de Poder de Ogro, dando a ele uma pontuação de Força de 19 (+4). "
+            },
+            {
+                "name": "Brave",
+                "desc": "Horgar tem vantagem em testes de resistência contra ficar amedrontado."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Por 1 minuto, Horgar magicamente aumenta de tamanho, junto com qualquer coisa que esteja vestindo ou carregando. Enquanto ampliado, Horgar é Grande, dobra seus dados de dano em ataques de arma baseados em Força (incluídos nos ataques) e faz testes de Força e testes de resistência de Força com vantagem. Se Horgar não tiver espaço para se tornar Grande, ele atinge o tamanho máximo possível no espaço disponível.",
+                "name": "Ampliar (Recarrega após um Descanso Curto ou Longo)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Horgar magicamente fica invisível até atacar, lançar um feitiço ou usar seu Ampliar, ou até que sua concentração seja quebrada, até 1 hora (como se estivesse se concentrando em um feitiço) . Qualquer equipamento que Horgar use ou carregue é invisível com ele.",
+                "name": "Invisibilidade (Recarrega após um Descanso Curto ou Longo)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Horgar faz dois ataques corpo a corpo.",
+                "name": "Ataque múltiplo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "concussão"
+                        }
+                    },
+                    {
+                        "dice": "1d10+6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "concussão"
+                        }
+                    },
+                    {
+                        "dice": "2d10+6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "concussão"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque com arma corpo a corpo: +8 para atingir, alcance 1,5 m, um alvo. Acerto: 10 (1d8 + 6) de dano de concussão ou 11 (1d10 + 6) de dano de concussão se usado com as duas mãos. Enquanto Horgar é ampliado, o dano aumenta para 15 (2d8 + 6) ou 17 (2d10 + 6) de dano de concussão, respectivamente.",
+                "name": "+2 Warhammer"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque com Arma à Distância: +2 para acertar, alcance 100/400 pés, um alvo. Acerto: 5 (1d10) de dano perfurante.",
+                "name": "Besta Pesada"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Por 1 minuto, Horgar pode proferir um comando especial ou aviso sempre que uma criatura não hostil que ele possa ver a até 9 metros de Horgar fizer uma jogada de ataque ou teste de resistência. A criatura pode adicionar um d4 à sua rolagem desde que possa ouvir e entender Horgar. Uma criatura pode se beneficiar de apenas um dado de Liderança por vez. Este efeito termina se Horgar estiver incapacitado.",
+                "name": "Liderança (Recarrega após um Descanso Curto ou Longo)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Horgar adiciona 2 à sua CA contra um ataque corpo a corpo que o atingiria. Para fazer isso, Horgar deve ver o atacante e estar empunhando uma arma branca."
+            }
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "droki",
+        "type": "HUMANOID",
+        "subtype": "derro",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Droki",
+        "subtitle": "Pequeno humanóide (derro), caótico e mau",
+        "size": "Small",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 31,
+        "hit_dice": "7d6+7",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Anão, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Equipamento Especial",
+                "desc": "Droki usa botas de velocidade. "
+            },
+            {
+                "name": "Insanidade",
+                "desc": "Droki tem vantagem em testes de resistência contra ser enfeitiçado ou amedrontado. "
+            },
+            {
+                "name": "Ataque furtivo (1/turno)",
+                "desc": "Droki causa 7 (2d6) de dano extra quando atinge um alvo com um ataque de arma e tem vantagem na jogada de ataque, ou quando o alvo está a 1,5 metro de um aliado de Droki que não está incapacitado e Droki não tem desvantagem na jogada de ataque. "
+            },
+            {
+                "name": "Resistência à Magia",
+                "desc": "O derro tem vantagem em testes de resistência contra magias e outros efeitos mágicos. "
+            },
+            {
+                "name": "Sensibilidade à luz do sol",
+                "desc": "Enquanto estiver sob a luz do sol, o derro tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração de Droki é o Carisma (CD de resistência de magia 13). Ele pode conjurar inatamente as seguintes magias, sem necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À Vontade",
+                        "spells": [
+                            {
+                                "index": "minor-illusion",
+                                "name": "Ilusão Menor",
+                                "school": "ILLUSION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Escuridão",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "fear",
+                                "name": "Medo",
+                                "school": "ILLUSION",
+                                "level": 3
+                            },
+                            {
+                                "index": "shatter",
+                                "name": "Quebrar",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Droki faz dois ataques com sua espada curta",
+                "name": "Ataque múltiplo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano perfurante. A espada é revestida com veneno de serpente que desaparece após o primeiro golpe. Um alvo submetido ao veneno deve fazer um teste de resistência de Constituição CD 11, recebendo 10 (3d6) de dano de veneno em uma falha na resistência, ou metade do dano em um sucesso.",
+                "name": "Espada curta"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Droki adiciona 3 à sua CA contra um ataque corpo a corpo que o atingiria. Para fazer isso, Droki deve ver o atacante e estar empunhando uma arma branca."
+            }
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "drow-spore-servant",
+        "type": "PLANT",
+        "subtype": null,
+        "group": "Drows",
+        "challenge_rating": 0.125,
+        "name": "Servo Drow Spore",
+        "subtitle": "Planta média, desalinhada",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 15,
+        "hit_points": 13,
+        "hit_dice": "3d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 2,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 1,
+                "modifier": -5
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "paralisado"
+            }
+        ],
+        "senses": [
+            "visão cega 30 pés (cego além deste raio)"
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada curta"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "duergar-darkhaft",
+        "type": "HUMANOID",
+        "subtype": "dwarf",
+        "group": "Duergars",
+        "challenge_rating": 2.0,
+        "name": "Duergar Darkhaft",
+        "subtitle": "Humanoide médio (anão), leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 16,
+        "hit_points": 26,
+        "hit_dice": "4d8+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 25,
+                    "value_formatted": "25 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Anão, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Resiliência Duergar",
+                "desc": "O duergar tem vantagem em testes de resistência contra venenos, feitiços e ilusões, bem como para resistir a ser enfeitiçado ou paralisado. "
+            },
+            {
+                "name": "Sensibilidade à luz do sol",
+                "desc": "Enquanto estiver sob a luz do sol, o duergar tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade de conjuração inata do darkhaft é Inteligência (resistência de feitiço CD 10), ele pode lançar inatamente os seguintes feitiços, sem a necessidade de componentes:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão do Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "disguise-self",
+                                "name": "Disfarçar-se",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Dormir",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Por 1 minuto, o duergar magicamente aumenta de tamanho, junto com qualquer coisa que esteja vestindo ou carregando. Enquanto ampliado, o duergar é Grande, dobra seus dados de dano em ataques de arma baseados em Força (incluídos nos ataques) e faz testes de Força e testes de resistência de Força com vantagem. Se o duergar não tiver espaço para se tornar Grande, ele atingirá o tamanho máximo possível no espaço disponível.",
+                "name": "Ampliar (Recarrega após um Descanso Curto ou Longo)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    },
+                    {
+                        "dice": "2d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque Corpo a Corpo com Arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d8 + 2) de dano perfurante ou 11 (2d8 + 2) de dano perfurante enquanto ampliado.",
+                "name": "Picareta de Guerra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    },
+                    {
+                        "dice": "2d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Arma corpo a corpo ou ataque à distância: +4 para atingir, alcance de 1,5 m ou alcance de 30/120 pés, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante ou 9 (2d6 + 2) de dano perfurante enquanto ampliado.",
+                "name": "Javelin"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O duergar se torna magicamente invisível até atacar, lançar um feitiço ou usar seu Ampliar, ou até que sua concentração seja quebrada, por até 1 hora (como se estivesse se concentrando em um feitiço ). Qualquer equipamento que o duergar use ou carregue fica invisível com ele.",
+                "name": "Invisibilidade (Recarrega após um Descanso Curto ou Longo)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "duergar-keeper-of-the-flame",
+        "type": "HUMANOID",
+        "subtype": "dwarf",
+        "group": "Duergars",
+        "challenge_rating": 2.0,
+        "name": "Duergar Guardião da Chama",
+        "subtitle": "Humanoide médio (anão), leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 16,
+        "hit_points": 26,
+        "hit_dice": "4d8+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 25,
+                    "value_formatted": "25 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Anão, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Resiliência Duergar",
+                "desc": "O duergar tem vantagem em testes de resistência contra venenos, feitiços e ilusões, bem como para resistir a ser enfeitiçado ou paralisado. "
+            },
+            {
+                "name": "Sensibilidade à luz do sol",
+                "desc": "Enquanto estiver sob a luz do sol, o duergar tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração do Guardião da Chama é Sabedoria (CD de resistência de magia 12). Ele pode conjurar inatamente as seguintes magias, sem necessidade de componentes:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À vontade",
+                        "spells": [
+                            {
+                                "index": "message",
+                                "name": "Mensagem",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "command",
+                                "name": "Comando",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "O Guardião da Chama é um conjurador de 3º nível. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 12, +4 para acertar com ataques de magia). O Guardião da Chama tem os seguintes feitiços de clérigo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Orientação",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Consertando",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "bane",
+                                "name": "Bane",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "inflict-wounds",
+                                "name": "Infligir Ferimentos",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield-of-faith",
+                                "name": "Escudo da Fé",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (2 espaços)",
+                        "spells": [
+                            {
+                                "index": "enhance-ability",
+                                "name": "Aprimorar Habilidade",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Arma Espiritual",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Por 1 minuto, o duergar magicamente aumenta de tamanho, junto com qualquer coisa que esteja vestindo ou carregando. Enquanto ampliado, o duergar é Grande, dobra seus dados de dano em ataques de arma baseados em Força (incluídos nos ataques) e faz testes de Força e testes de resistência de Força com vantagem. Se o duergar não tiver espaço para se tornar Grande, ele atingirá o tamanho máximo possível no espaço disponível.",
+                "name": "Ampliar (Recarrega após um Descanso Curto ou Longo)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    },
+                    {
+                        "dice": "2d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque Corpo a Corpo com Arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d8 + 2) de dano perfurante ou 11 (2d8 + 2) de dano perfurante enquanto ampliado.",
+                "name": "Picareta de Guerra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    },
+                    {
+                        "dice": "2d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Arma corpo a corpo ou ataque à distância: +4 para atingir, alcance de 1,5 m ou alcance de 30/120 pés, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante ou 9 (2d6 + 2) de dano perfurante enquanto ampliado.",
+                "name": "Javelin"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O duergar se torna magicamente invisível até atacar, lançar um feitiço ou usar seu Ampliar, ou até que sua concentração seja quebrada, por até 1 hora (como se estivesse se concentrando em um feitiço ). Qualquer equipamento que o duergar use ou carregue fica invisível com ele.",
+                "name": "Invisibilidade (Recarrega após um Descanso Curto ou Longo)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "duergar-spore-servant",
+        "type": "PLANT",
+        "subtype": null,
+        "group": "Duergars",
+        "challenge_rating": 0.5,
+        "name": "Servo Esporo Duergar",
+        "subtitle": "Planta média, desalinhada",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 16,
+        "hit_points": 26,
+        "hit_dice": "4d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 15,
+                    "value_formatted": "15 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 2,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 1,
+                "modifier": -5
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "paralisado"
+            }
+        ],
+        "senses": [
+            "visão cega 30 pés (cego além deste raio)"
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Arma Corpo a Corpo Ataque: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 6 (1d8 + 2) de dano perfurante.",
+                "name": "Picareta de Guerra"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "eldeth-feldrun",
+        "type": "HUMANOID",
+        "subtype": "dwarf",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Eldeth Feldrun",
+        "subtitle": "Humanoide médio (anão), desalinhado",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 16,
+        "hit_dice": "3d8+3",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 25,
+                    "value_formatted": "25 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-nature",
+                "modifier": 4,
+                "name": "Natureza"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Furtividade"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 5,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "qualquer idioma (geralmente Comum), Anão",
+        "special_abilities": [
+            {
+                "name": "Audição e Visão Aguçadas",
+                "desc": "Eldeth tem vantagem em testes de Sabedoria (Percepção) que dependem de audição ou visão."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Eldeth faz dois ataques corpo a corpo ou dois ataques à distância.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada curta"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma à distância: +4 para acertar, à distância de 150/600 pés, um alvo. Acerto: 6 (1d8 + 2) de dano perfurante.",
+                "name": "Arco longo"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "emerald-enclave-scout",
+        "type": "HUMANOID",
+        "subtype": "dwarf",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Escoteiro do Enclave Esmeralda",
+        "subtitle": "Humanoide médio (anão), leal e neutro",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 16,
+        "hit_points": 19,
+        "hit_dice": "3d8+6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 25,
+                    "value_formatted": "25 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-nature",
+                "modifier": 4,
+                "name": "Natureza"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Furtividade"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 5,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Anão",
+        "special_abilities": [
+            {
+                "name": "Resiliência Anã",
+                "desc": "O batedor tem vantagem em testes de resistência contra veneno. "
+            },
+            {
+                "name": "Visão e Audição Aguçadas",
+                "desc": "O batedor tem vantagem em testes de Sabedoria (Percepção) que dependem da audição ou visão."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O batedor faz dois ataques corpo a corpo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque Corpo a Corpo com Arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano perfurante.",
+                "name": "Picareta de Guerra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque com Arma à Distância: +3 para acertar, alcance 100/400 pés, um alvo. Acerto: 5 (1d10) de dano perfurante.",
+                "name": "Besta Pesada"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "grisha",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Grisha",
+        "subtitle": "Humanoide médio (humano), caótico e mau",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 18,
+        "hit_points": 33,
+        "hit_dice": "6d8+6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 2,
+                "name": "Religião"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Subcomum",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "Grisha é um conjurador de nível 6. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 12, +4 para acertar com ataques de magia). Ele tem os seguintes feitiços de clérigo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Orientação",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Ferimentos",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "divine-favor",
+                                "name": "Favor Divino",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "inflict-wounds",
+                                "name": "Infligir Ferimentos",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            },
+                            {
+                                "index": "protection-from-evil-and-good",
+                                "name": "Proteção Contra o Mal e o Bem",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield-of-faith",
+                                "name": "Escudo da Fé",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "continual-flame",
+                                "name": "Chama Contínua",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "hold-person",
+                                "name": "Reter Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "magic-weapon",
+                                "name": "Arma Mágica",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Arma Espiritual",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "bestow-curse",
+                                "name": "Concede Maldição",
+                                "school": "NECROMANCY",
+                                "level": 3
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dissipar Magia",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "spirit-guardians",
+                                "name": "Espíritos Guardiões",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Grisha faz dois ataques com seu mangual +1.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Concussão"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para atingir, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano de concussão",
+                "name": "+1 Mangual"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "hook-horror-spore-servant",
+        "type": "PLANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Gancho Horror Spore Servo",
+        "subtitle": "Planta média, desalinhada",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 15,
+        "hit_points": 75,
+        "hit_dice": "10d10+10",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 2,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 1,
+                "modifier": -5
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "paralisado"
+            }
+        ],
+        "senses": [
+            "visão cega 30 pés (cego além deste raio)"
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O servo esporo faz dois ataques de gancho.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Arma corpo a corpo Ataque: +6 para acertar, alcance 3 metros, um alvo. Acerto: 11 (2d6 + 4) de dano perfurante.",
+                "name": "Gancho"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "ixitxachitl",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Ixitxachitl",
+        "subtitle": "Aberração pequena, mal caótico",
+        "size": "Small",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 18,
+        "hit_dice": "4d6+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 0,
+                    "value_formatted": "0 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Abissal, Ixitxachitl",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 4 (1d6 + 1) de dano perfurante.",
+                "name": "Mordida"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Cauda Farpada",
+                "desc": "Quando uma criatura provoca um ataque de oportunidade do ixitxachitl, o ixitxachitl pode fazer o seguinte ataque em vez de usar sua mordida.\nAtaque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano perfurante."
+            }
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "ixitxachitl-cleric",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Clérigo Ixitxachitl",
+        "subtitle": "Aberração pequena, mal caótico",
+        "size": "Small",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 18,
+        "hit_dice": "4d6+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 0,
+                    "value_formatted": "0 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Abissal, Ixitxachitl",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "O ixitxachitl é um conjurador de 5º nível que usa Sabedoria como sua habilidade de conjuração (resistência de magia CD 11, +3 para acertar com ataques de magia). O ixitxachitl tem os seguintes feitiços de clérigo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Orientação",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Enfeitiçar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "create-or-destroy-water",
+                                "name": "Criar ou Destruir Água",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 vagas)",
+                        "spells": [
+                            {
+                                "index": "hold-person",
+                                "name": "Segurar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "silence",
+                                "name": "Silêncio",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (2 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "tongues",
+                                "name": "Línguas",
+                                "school": "DIVINATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 4 (1d6 + 1) de dano perfurante.",
+                "name": "Mordida"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Cauda Farpada",
+                "desc": "Quando uma criatura provoca um ataque de oportunidade do ixitxachitl, o ixitxachitl pode fazer o seguinte ataque em vez de usar sua mordida.\nAtaque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano perfurante."
+            }
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "lords'-alliance-guard",
+        "type": "HUMANOID",
+        "subtype": "dwarf",
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Guarda da Aliança Dos Lordes",
+        "subtitle": "Humanoide médio (anão), caótico e bom",
+        "size": "Medium",
+        "alignment": "chaotic good",
+        "armor_class": 16,
+        "hit_points": 11,
+        "hit_dice": "2d8+2",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Resiliência Anã",
+                "desc": "O guarda tem vantagem em testes de resistência contra veneno."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 3 metros, um alvo. Acerto: 7 (1d10 + 2) de dano cortante.",
+                "name": "Alabarda"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "lords'-alliance-spy",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Espião da Aliança Dos Lordes",
+        "subtitle": "Humanoide médio (humano), neutro",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 13,
+        "hit_points": 27,
+        "hit_dice": "6d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 5,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 4,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-investigation",
+                "modifier": 5,
+                "name": "Investigação"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 6,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-sleight-of-hand",
+                "modifier": 4,
+                "name": "Prestidigitação"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Anão",
+        "special_abilities": [
+            {
+                "name": "Ação Astuta",
+                "desc": "Em cada um de seus turnos, o espião pode usar uma ação bônus para executar a ação Correr, Desengajar ou Esconder-se. "
+            },
+            {
+                "name": "Ataque Furtivo (1/Turno)",
+                "desc": "O espião causa 7 (2d6) de dano extra quando atinge um alvo com um ataque de arma e tem vantagem na jogada de ataque, ou quando o alvo está a 1,5 metro de um aliado de o espião que não está incapacitado e o espião não tem desvantagem na jogada de ataque."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O espião faz dois ataques corpo a corpo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada curta"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma à distância: +4 para acertar, alcance 30/120 pés, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Besta de mão"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "narrak",
+        "type": "HUMANOID",
+        "subtype": "derro",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Narra",
+        "subtitle": "Pequeno humanóide (derro), caótico e mau",
+        "size": "Small",
+        "alignment": "chaotic evil",
+        "armor_class": 12,
+        "hit_points": 40,
+        "hit_dice": "9d6+9",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 4,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Anão, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Insanity",
+                "desc": "Narrak tem vantagem em testes de resistência contra ser enfeitiçado ou amedrontado. "
+            },
+            {
+                "name": "Resistência à Magia",
+                "desc": "Narrak tem vantagem em testes de resistência contra feitiços e outros efeitos mágicos. "
+            },
+            {
+                "name": "Sensibilidade à luz do sol",
+                "desc": "Enquanto estiver sob a luz do sol, Narrak tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Narrak é um conjurador de nível 5. Sua habilidade de conjuração é Carisma (CD de salvamento 13, +5 para acertar com ataques de magia) Narrak tem dois slots de magia de 2º nível, que ele recupera após terminar um descanso curto ou longo, e conhece as seguintes magias de bruxo:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade )",
+                        "spells": [
+                            {
+                                "index": "eldritch-blast",
+                                "name": "Explosão Eldritch",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "poison-spray",
+                                "name": "Spray de Veneno",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (2 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Enfeitiçar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "hold-person",
+                                "name": "Reter Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "ray-of-enfeeblement",
+                                "name": "Raio do Enfraquecimento",
+                                "school": "NECROMANCY",
+                                "level": 2
+                            },
+                            {
+                                "index": "spider-climb",
+                                "name": "Escalada da Aranha",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Narrak lança armadura de mago em si mesmo",
+                "name": "Armadura das Sombras (Recarrega após um Descanso Curto ou Longo)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada curta"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Enquanto ele está em uma penumbra ou escuridão, Narrak pode se tornar invisível. Ele permanece assim até que se mova ou execute uma ação ou reação.",
+                "name": "Um com Sombras"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "prince-derendil",
+        "type": "HUMANOID",
+        "subtype": "quaggoth",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Príncipe Derendil",
+        "subtitle": "Humanoide médio (quaggoth), neutro caótico",
+        "size": "Medium",
+        "alignment": "chaotic neutral",
+        "armor_class": 13,
+        "hit_points": 45,
+        "hit_dice": "6d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 5,
+                "name": "Atletismo"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Incomum",
+        "special_abilities": [
+            {
+                "name": "Fúria Ferida",
+                "desc": "Embora tenha 10 pontos de vida ou menos, o Príncipe Derendil tem vantagem nas jogadas de ataque. Além disso, causa 7 (2d6) de dano extra a qualquer alvo que atingir com um ataque corpo a corpo."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Prince Derendil faz dois ataques de garra.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano cortante.",
+                "name": "Garra"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "the-pudding-king",
+        "type": "HUMANOID",
+        "subtype": "gnome shapechanger",
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "O Rei do Pudim",
+        "subtitle": "Pequeno humanóide (gnomo metamorfo), caótico e mau",
+        "size": "Small",
+        "alignment": "chaotic evil",
+        "armor_class": 13,
+        "hit_points": 49,
+        "hit_dice": "9d6+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 17,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 6
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 4,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Furtividade"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 2,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Abissal, Gnômico, Terrano, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Camuflagem de Pedra",
+                "desc": "O Rei Pudim tem vantagem em testes de Destreza (Furtividade) feitos para se esconder em terreno rochoso. "
+            },
+            {
+                "name": "Astúcia Gnomo",
+                "desc": "O Rei Pudim tem vantagem em testes de resistência de Inteligência, Sabedoria e Carisma contra magia. "
+            },
+            {
+                "name": "Insanidade",
+                "desc": "O Rei Pudim tem vantagem em testes de resistência contra ser enfeitiçado ou amedrontado."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração do Rei Pudim é Inteligência (CD de resistência de magia 12). Ele pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À Vontade",
+                        "spells": [
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "blur",
+                                "name": "Borrão",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "disguise-self",
+                                "name": "Disfarçar-se",
+                                "school": "ILLUSION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "O Rei do Pudim é um conjurador de nível 9. Sua habilidade de conjuração é Carisma (resistência de magia CD 14, +6 para acertar com ataques de magia). O Rei do Pudim conhece os seguintes feitiços de feiticeiro:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "acid-splash",
+                                "name": "Respingo Ácido",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "poison-spray",
+                                "name": "Spray de Veneno",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitação",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "false-life",
+                                "name": "Vida Falsa",
+                                "school": "NECROMANCY",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Armadura de Mago",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Escudo",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "misty-step",
+                                "name": "Misty Step",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "gaseous-form",
+                                "name": "Forma Gasosa",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "stinking-cloud",
+                                "name": "Nuvem Fedorenta",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "confusion",
+                                "name": "Confusão",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5º nível (1 slot)",
+                        "spells": [
+                            {
+                                "index": "cloudkill",
+                                "name": "Cloudkill",
+                                "school": "CONJURATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Arma Corpo a Corpo Ataque: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 4 (1d8) de dano perfurante.",
+                "name": "Picareta de Guerra"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O Rei do Pudim se transforma magicamente em uma gosma, ou de volta à sua verdadeira forma. Ele volta à sua forma verdadeira se morrer. Qualquer equipamento que ele esteja usando ou carregando é absorvido pela nova forma. Na forma de lodo, o Rei do Pudim mantém seu alinhamento, pontos de vida, Dados de Vida e valores de Inteligência, Sabedoria e Carisma, bem como esta ação. Suas estatísticas e capacidades são substituídas pelas da nova forma.",
+                "name": "Mudar de forma"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O Rei Pudim cria uma mancha de gosma verde (consulte \"Perigos nas masmorras\" no capítulo 5 do Guia do Mestre). O lodo aparece em uma seção da parede, teto ou chão a até 9 metros do Pudim Rei.",
+                "name": "Criar gosma verde (recarrega após um longo descanso)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "troglodyte-champion-of-laogzed",
+        "type": "HUMANOID",
+        "subtype": "troglodyte",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Troglodita Campeão de Laogzed",
+        "subtitle": "Humanoide médio (troglodita), caótico e mau",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 14,
+        "hit_points": 59,
+        "hit_dice": "7d8+28",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 6,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 3,
+                "name": "Intimidação"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 3,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Troglodita",
+        "special_abilities": [
+            {
+                "name": "Pele de Camaleão",
+                "desc": "O troglodita tem vantagem em testes de Destreza (Furtividade) feitos para se esconder. "
+            },
+            {
+                "name": "Fedor",
+                "desc": "Qualquer criatura que não seja um troglodita que comece seu turno a até 1,5 metro do troglodita deve ser bem sucedida em um teste de resistência de Constituição CD 14 ou será envenenada até o início do próximo turno da criatura. Em um teste de resistência bem-sucedido, a criatura fica imune ao fedor de todos os trogloditas por 1 hora. "
+            },
+            {
+                "name": "Sensibilidade à luz do sol",
+                "desc": "Enquanto estiver sob a luz do sol, o troglodita tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O troglodita faz três ataques: um com sua mordida e dois com suas garras ou com sua clava grande.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque corpo a corpo com arma: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d4 + 4) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque corpo a corpo com arma: +6 para atingir, alcance 1,5 m, um alvo. Acerto: 6 (1d4 + 4) de dano cortante.",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque com arma corpo a corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 8 (1d8 + 4) de dano de concussão.",
+                "name": "Greatclub"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O troglodita cospe ácido em uma linha de 4,5 metros de comprimento e 1,5 metro de largura. Cada criatura nessa linha deve fazer um teste de resistência de Destreza CD 14, recebendo 10 (3d6) de dano de ácido em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Spray de Ácido (Recarga 6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "vampiric-ixitxachitl",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Vampiro Ixitxachitl",
+        "subtitle": "Aberração média, caótica e maligna",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 16,
+        "hit_points": 44,
+        "hit_dice": "8d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 0,
+                    "value_formatted": "0 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Abissal, Ixitxachitl",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 6 (1d8 + 2) de dano perfurante. O alvo deve ter sucesso em um teste de resistência de Constituição CD 11 ou seu máximo de pontos de vida é reduzido em uma quantidade igual ao dano recebido, e o ixitxachitl recupera pontos de vida iguais a essa quantidade. A redução dura até que o alvo termine um descanso longo. O alvo morre se seu máximo de pontos de vida for reduzido a 0.",
+                "name": "Mordida Vampírica"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Cauda Farpada",
+                "desc": "Quando uma criatura provoca um ataque de oportunidade do ixitxachitl, o ixitxachitl pode fazer o seguinte ataque em vez de usar sua mordida.\nAtaque corpo a corpo com arma: +6 para atingir, alcance 1,5 m, um alvo. Acerto: 9 (1d10 + 4) de dano perfurante."
+            }
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "vampiric-ixitxachitl-cleric",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Vampiro Ixitxachitl Clérigo",
+        "subtitle": "Aberração média, caótica e maligna",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 16,
+        "hit_points": 44,
+        "hit_dice": "8d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 0,
+                    "value_formatted": "0 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Abissal, Ixitxachitl",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "O ixitxachitl é um conjurador de 5º nível que usa Sabedoria como sua habilidade de conjuração (CD de salvamento de magia 11, +3 para acertar com ataques de magia). O ixitxachitl tem os seguintes feitiços de clérigo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Orientação",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Enfeitiçar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "create-or-destroy-water",
+                                "name": "Criar ou Destruir Água",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 vagas)",
+                        "spells": [
+                            {
+                                "index": "hold-person",
+                                "name": "Segurar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "silence",
+                                "name": "Silêncio",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (2 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "tongues",
+                                "name": "Línguas",
+                                "school": "DIVINATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 6 (1d8 + 2) de dano perfurante. O alvo deve ter sucesso em um teste de resistência de Constituição CD 11 ou seu máximo de pontos de vida é reduzido em uma quantidade igual ao dano recebido, e o ixitxachitl recupera pontos de vida iguais a essa quantidade. A redução dura até que o alvo termine um descanso longo. O alvo morre se seu máximo de pontos de vida for reduzido a 0.",
+                "name": "Mordida Vampírica"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Cauda Farpada",
+                "desc": "Quando uma criatura provoca um ataque de oportunidade do ixitxachitl, o ixitxachitl pode fazer o seguinte ataque em vez de usar sua mordida.\nAtaque corpo a corpo com arma: +6 para atingir, alcance 1,5 m, um alvo. Acerto: 9 (1d10 + 4) de dano perfurante."
+            }
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "veteran-of-the-gauntlet",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Veterano do Gauntlet",
+        "subtitle": "Humanoide médio (humano), leal e bom",
+        "size": "Medium",
+        "alignment": "lawful good",
+        "armor_class": 17,
+        "hit_points": 58,
+        "hit_dice": "9d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 5,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Anão",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O veterano faz dois ataques de espada longa. Se ele tiver uma espada curta sacada, também pode fazer um ataque de espada curta.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    },
+                    {
+                        "dice": "1d10+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano cortante ou 8 (1d10 + 3) de dano cortante se usado com as duas mãos.",
+                "name": "Espada longa"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano perfurante.",
+                "name": "Espada curta"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque com Arma à Distância: +3 para acertar, alcance 100/400 pés, um alvo. Acerto: 6 (1d10 + 1) de dano perfurante.",
+                "name": "Besta Pesada"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "yestabrod",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Yestabrod",
+        "subtitle": "Grande monstruosidade, caótico e mau",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 75,
+        "hit_dice": "10d10+20",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Abissal, telepatia 60 pés.",
+        "special_abilities": [
+            {
+                "name": "Resistência Lendária (1/dia)",
+                "desc": "Se Yestabrod falhar em um teste de resistência, ele pode optar por ter sucesso."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d4+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Concussão"
+                        }
+                    },
+                    {
+                        "dice": "3d4",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 8 (3d4 + 1) de dano de concussão mais 7 (3d4) de dano de veneno.",
+                "name": "Slam"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Yestabrod libera esporos em um cone de 9 metros. Cada criatura naquela área deve ter sucesso em um teste de resistência de Destreza CD 12 ou sofrerá 1d6 de dano de ácido no início de cada um dos turnos de Yestabrod. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
+                "name": "Esporos Cáusticos (1/Dia)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Yestabrod libera esporos que explodem em uma nuvem que preenche uma esfera de 3 metros de raio centrada nela, e a nuvem permanece por 1 minuto. Qualquer criatura de carne e osso na nuvem quando ela aparecer, ou que entrar nela depois, deve fazer um teste de resistência de Constituição CD 12. Em um teste de resistência bem-sucedido, a criatura não pode ser infectada por esses esporos por 24 horas. Em uma falha no teste, a criatura é infectada com uma doença chamada esporos de Zuggtmoy e também ganha uma forma aleatória de loucura indefinida (determinada rolando na tabela Loucura de Zuggtmoy no apêndice D) que dura até que a criatura seja curada da doença. ou morre. Enquanto infectada desta forma, a criatura não pode ser infectada novamente, e deve repetir o teste de resistência no final de cada 24 horas, encerrando a infecção em caso de sucesso. Em caso de falha, o corpo da criatura infectada é lentamente dominado pelo crescimento de fungos e, após três dessas falhas de salvamento, a criatura morre e é reanimada como um servo de esporos se for um tipo de criatura que pode ser (consulte a entrada \"Myconids\" em o Manual dos Monstros).",
+                "name": "Esporos de Infestação (1/Dia)"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Acid"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Gore, miudezas e ácido irrompem de um cadáver a até 6 metros de Yestabrod. As criaturas a até 3 metros do cadáver devem ser bem-sucedidas em um teste de resistência de Destreza CD 12 ou sofrerão 7 (2d6) de dano de ácido. ",
+                "name": "Corpse Burst"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Yestabrod absorve a putrefação de um cadáver a até 1,5 metro dele, recuperando 1d8 + 2 pontos de vida",
+                "name": "Absorção Suja"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    },
+    {
+        "index": "zhentarim-thug",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Bandido Zhentarim",
+        "subtitle": "Humanoide médio (humano), neutro",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 11,
+        "hit_points": 32,
+        "hit_dice": "5d8+10",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-intimidation",
+                "modifier": 2,
+                "name": "Intimidação"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum",
+        "special_abilities": [
+            {
+                "name": "Táticas de Pacote",
+                "desc": "O bandido tem vantagem em uma jogada de ataque contra uma criatura se pelo menos um dos aliados do bandido estiver a até 1,5 metro da criatura e o aliado não estiver incapacitado."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O bandido faz dois ataques corpo a corpo",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano de concussão.",
+                "name": "Maça"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque com Arma à Distância: +2 para acertar, alcance 100/400 pés, um alvo. Acerto: 5 (1d10) de dano perfurante.",
+                "name": "Besta Pesada"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Fora do Abismo",
+            "acronym": "OotA"
+        }
+    }
+]

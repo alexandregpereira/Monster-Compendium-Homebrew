@@ -1,0 +1,2227 @@
+[
+    {
+        "index": "clockwork-behir",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 11.0,
+        "name": "Behir Mecânico",
+        "subtitle": "Construto enorme, mal neutro",
+        "size": "Huge",
+        "alignment": "neutral evil",
+        "armor_class": 17,
+        "hit_points": 168,
+        "hit_dice": "16d12+64",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 23,
+                "modifier": 6
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 7,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 6,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 7,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "petrificada"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 90 pés."
+        ],
+        "languages": "Dracônico",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O behir faz dois ataques: um com sua mordida e outro para constringir.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d10+6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 10,
+                "description": "Ataque corpo a corpo com arma: +10 para acertar, alcance 3 metros, um alvo. Acerto: 22 (3d10 + 6) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 10,
+                "description": "Ataque corpo a corpo com arma: +10 para acertar, alcance 1,5 m, uma criatura Grande ou menor. Acerto: 17 (2d10 + 6) de dano de concussão mais 17 (2d10 + 6) de dano de corte. O alvo é agarrado (CD de escape 16) se o behir ainda não estiver constringindo uma criatura, e o alvo é impedido até que esse agarrão termine.",
+                "name": "Constringir"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "12d10",
+                        "damage": {
+                            "index": "LIGHTNING",
+                            "type": "LIGHTNING",
+                            "name": "Relâmpago"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O behir exala uma linha de relâmpagos com 6 metros de comprimento e 1,5 metro de largura. Cada criatura nessa linha deve fazer um teste de resistência de Destreza CD 16, recebendo 66 (12d10) de dano elétrico em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Respiração Relâmpago (Recarga 5-6)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "6d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O behir faz um ataque de mordida contra um alvo Médio ou menor que está agarrando. Se o ataque acertar, o alvo também é engolido e o agarrão termina. Enquanto engolido, o alvo fica cego e impedido, tem cobertura total contra ataques e outros efeitos fora do behir e recebe 21 (6d6) de dano de ácido no início de cada um dos turnos do behir. Um behir pode engolir apenas uma criatura por vez.\nSe o behir sofrer 30 de dano ou mais em um único turno da criatura engolida, o behir deve ter sucesso em um teste de resistência de Constituição CD 14 no final desse turno ou regurgitar a criatura, que cai caída em um espaço a até 3 metros do alvo. behir. Se o behir morrer, uma criatura engolida não é mais contida por ele e pode escapar do cadáver usando 4,5 metros de movimento, saindo caída.",
+                "name": "Engolir"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "dagdra-deepforge",
+        "type": "HUMANOID",
+        "subtype": "dwarf",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Dagdra Deepforge",
+        "subtitle": "Humanoide médio (anão), desalinhado",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 15,
+        "hit_points": 27,
+        "hit_dice": "5d8+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 25,
+                    "value_formatted": "25 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-medicine",
+                "modifier": 7,
+                "name": "Medicina"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 3,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 5,
+                "name": "Religião"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "quaisquer dois idiomas, anão",
+        "special_abilities": [
+            {
+                "name": "Eminência Divina",
+                "desc": "Como uma ação bônus, Dagdra pode gastar um espaço de magia para fazer com que seus ataques de arma corpo a corpo causem magicamente 10 (3d6) de dano radiante extra a um alvo em um acerto. Este benefício dura até o final do turno. Se Dagdra gastar um espaço de magia de 2º nível ou superior, o dano extra aumenta em 1d6 para cada nível acima do 1º."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Dagdra é um conjurador de 5º nível. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 13, +5 para acertar com ataques de magia). Dagdra tem os seguintes feitiços de clérigo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Ferimentos",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "guiding-bolt",
+                                "name": "Parafuso Guia",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Santuário",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Restauração Inferior",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Arma Espiritual",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (2 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "spirit-guardians",
+                                "name": "Espíritos Guardiões",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque corpo a corpo com arma: +2 para atingir, alcance 1,5 m, um alvo. Acerto: 3 (1d6) de dano de concussão.",
+                "name": "Maça"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Como uma ação, Dagdra desenha um pergaminho de magia de sua mochila de documentação. O pergaminho contém um feitiço de até 3º nível à escolha de Dagdra. Apenas Dagdra pode usar o pergaminho, que desaparece após 1 minuto.",
+                "name": "Serviço de Pergaminho (1/Dia)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "devil-dog",
+        "type": "HUMANOID",
+        "subtype": "tiefling",
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Cão do Diabo",
+        "subtitle": "Humanoide médio (tiefling), caótico e mau",
+        "size": "Medium",
+        "alignment": "chaotic evil",
+        "armor_class": 10,
+        "hit_points": 9,
+        "hit_dice": "2d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-medicine",
+                "modifier": 4,
+                "name": "Medicina"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 2,
+                "name": "Religião"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fogo"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "qualquer idioma (geralmente Comum), Infernal",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "Devil Dog é um conjurador de 1º nível. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 12, +4 para acertar com ataques de magia). Devil Dog tem os seguintes feitiços de clérigo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (à vontade)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Light",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "bless",
+                                "name": "Bless",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Feridas",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Santuário",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque corpo a corpo com arma: +2 para acertar, alcance 1,5 m, um alvo. Acerto: 2 (1d4) de dano de concussão.",
+                "name": "Porrete"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "gildha-duhn",
+        "type": "HUMANOID",
+        "subtype": "half-orc",
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Gilda Duhn",
+        "subtitle": "Humanoide médio (meio-orc), sem alinhamento",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 10,
+        "hit_points": 9,
+        "hit_dice": "2d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-medicine",
+                "modifier": 4,
+                "name": "Medicina"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 2,
+                "name": "Religião"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "qualquer idioma (geralmente Comum), Orc",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "Gildha é uma conjuradora de 1º nível. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 12, +4 para acertar com ataques de magia). Gildha preparou os seguintes feitiços de clérigo:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "bless",
+                                "name": "Bless",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Feridas",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Santuário",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque corpo a corpo com arma: +2 para acertar, alcance 1,5 m, um alvo. Acerto: 2 (1d4) de dano de concussão.",
+                "name": "Porrete"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "grunka",
+        "type": "HUMANOID",
+        "subtype": "goblinoid",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Grunka",
+        "subtitle": "Humanoide médio (goblinoide), leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 18,
+        "hit_points": 11,
+        "hit_dice": "2d8+2",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Goblin",
+        "special_abilities": [
+            {
+                "name": "Vantagem Marcial",
+                "desc": "Uma vez por turno, Grunka pode causar 7 (2d6) de dano extra a uma criatura que atingir com um ataque de arma se essa criatura estiver a 1,5 metro de um aliado de Grunka que não esteja incapacitado."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+1",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    },
+                    {
+                        "dice": "1d10+1",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d8 + 1) de dano cortante ou 6 (1d10 + 1) de dano cortante se usado com as duas mãos.",
+                "name": "Espada longa"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque com arma à distância: +3 para acertar, alcance 150/600 pés, um alvo. Acerto: 5 (1d8 + 1) de dano perfurante.",
+                "name": "Arco longo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Grunka borrifa ácido em um cone de 3 metros. Cada criatura na área deve fazer um teste de resistência de Destreza CD 10, recebendo 7 (2d6) de dano de ácido se falhar na resistência, ou metade do dano se obtiver sucesso.\nA pistola de pulverização possui um tanque que pode ser preenchido com dez frascos padrão de ácido misturado com água, permitindo que seja usado cinco vezes.",
+                "name": "Acid Spray Gun (Recarga 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "jelayne",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Jelayne",
+        "subtitle": "Morto-vivo médio, leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 13,
+        "hit_points": 13,
+        "hit_dice": "2d8+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "concussão"
+            }
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada curta"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma à distância: +4 para acertar, alcance 80/320 pés, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Arco curto"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "mechachimera",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 6.0,
+        "name": "Mechaquimera",
+        "subtitle": "Construção grande, mal caótico",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 14,
+        "hit_points": 114,
+        "hit_dice": "12d10+48",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 8,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "entende Draconic, mas não pode falar",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "A quimera faz três ataques: um com sua mordida, um com seus chifres e um com suas garras. Quando seu sopro de fogo está disponível, ele pode usar o sopro no lugar de sua mordida ou chifres.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. Acerto: 11 (2d6 + 4) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d12+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. Acerto: 10 (1d12 + 4) de dano de concussão.",
+                "name": "Chifres"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. Acerto: 11 (2d6 + 4) de dano cortante.",
+                "name": "Garras"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "7d8",
+                        "damage": {
+                            "index": "FIRE",
+                            "type": "FIRE",
+                            "name": "Fogo"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "A cabeça do dragão exala fogo em um cone de 4,5 metros. Cada criatura nessa área deve fazer um teste de resistência de Destreza CD 15, recebendo 31 (7d8) de dano de fogo em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Sopro de Fogo (Recarga 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "replica-duodrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Réplica Duodrone",
+        "subtitle": "Construto médio, leal neutro",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 15,
+        "hit_points": 11,
+        "hit_dice": "2d8+2",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Modron, pode entender Comum, mas fala apenas respostas pré-programadas",
+        "special_abilities": [
+            {
+                "name": "Mente Axiomática",
+                "desc": "O duodrone não pode ser compelido a agir de maneira contrária à sua natureza ou às suas instruções. "
+            },
+            {
+                "name": "Desmontável",
+                "desc": "Se a réplica duodrone morrer, seu corpo cairá em uma pilha de peças (engrenagens, placas, parafusos e fios), deixando para trás suas armas e tudo mais que carregava."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O duodrone faz dois ataques de punho ou dois ataques de dardo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque com arma corpo a corpo: +2 para acertar, alcance 1,5 m, um alvo. Acerto: 2 (1d4) de dano de concussão.",
+                "name": "Punho"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo ou com arma à distância: +3 para atingir, alcance de 1,5 m ou alcance de 30/120 pés, um alvo. Acerto: 4 (1d6 + 1) de dano perfurante.",
+                "name": "Javelin"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "replica-monodrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.125,
+        "name": "Réplica Monodrone",
+        "subtitle": "Construto médio, leal neutro",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 15,
+        "hit_points": 5,
+        "hit_dice": "1d8+1",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Modron, pode entender Comum, mas fala apenas respostas pré-programadas",
+        "special_abilities": [
+            {
+                "name": "Mente Axiomática",
+                "desc": "O monodrone não pode ser compelido a agir de maneira contrária à sua natureza ou às suas instruções. "
+            },
+            {
+                "name": "Desmontável",
+                "desc": "Se a réplica do monodrone morrer, seu corpo cairá em uma pilha de peças (engrenagens, placas, parafusos e fios), deixando para trás suas armas e tudo mais que carregava."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 3 (1d4 + 1) de dano perfurante.",
+                "name": "Adaga"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque corpo a corpo ou com arma à distância: +2 para atingir, alcance de 1,5 m ou alcance de 30/120 pés, um alvo. Acerto: 3 (1d6) de dano perfurante.",
+                "name": "Javelin"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "replica-pentadrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Réplica Pentadrone",
+        "subtitle": "Construção grande, neutra leal",
+        "size": "Large",
+        "alignment": "lawful neutral",
+        "armor_class": 16,
+        "hit_points": 32,
+        "hit_dice": "5d10+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Modron, pode entender Comum, mas fala apenas respostas pré-programadas",
+        "special_abilities": [
+            {
+                "name": "Mente Axiomática",
+                "desc": "O pentadrone não pode ser compelido a agir de maneira contrária à sua natureza ou às suas instruções. "
+            },
+            {
+                "name": "Desmontável",
+                "desc": "Se a réplica do pentadrone morrer, seu corpo cairá em uma pilha de peças (engrenagens, placas, parafusos e fios), deixando para trás suas armas e tudo mais que carregava."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O pentadrone faz cinco ataques de braço.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Arma corpo a corpo Ataque: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano de concussão.",
+                "name": "Braço"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O pentadrone exala um cone de gás de 9 metros. Cada criatura naquela área deve ser bem sucedida em um teste de resistência de Constituição CD 11 ou ficará paralisada por 1 minuto. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
+                "name": "Paralysis Gas (Recarga 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "replica-quadrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Réplica Quadrone",
+        "subtitle": "Construto médio, leal neutro",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 16,
+        "hit_points": 22,
+        "hit_dice": "4d8+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Modron, pode entender Comum, mas fala apenas respostas pré-programadas",
+        "special_abilities": [
+            {
+                "name": "Mente Axiomática",
+                "desc": "O quadrone não pode ser compelido a agir de maneira contrária à sua natureza ou às suas instruções. "
+            },
+            {
+                "name": "Desmontável",
+                "desc": "Se a réplica do quadrone morrer, seu corpo cairá em uma pilha de peças (engrenagens, placas, parafusos e fios), deixando para trás suas armas e qualquer outra coisa que esteja carregando."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O quadrone faz dois ataques de punho ou quatro ataques de arco curto.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque com arma corpo a corpo: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 3 (1d4 + 1) de dano de concussão.",
+                "name": "Punho"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma à distância: +4 para acertar, alcance 80/320 pés, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Arco curto"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "replica-tridrone",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Réplica Tridron",
+        "subtitle": "Construto médio, leal neutro",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 15,
+        "hit_points": 16,
+        "hit_dice": "3d8+3",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 9,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Modron, pode entender Comum, mas fala apenas respostas pré-programadas",
+        "special_abilities": [
+            {
+                "name": "Mente Axiomática",
+                "desc": "O tridrone não pode ser compelido a agir de maneira contrária à sua natureza ou às suas instruções. "
+            },
+            {
+                "name": "Desmontável",
+                "desc": "Se a réplica do tridrone morrer, seu corpo cairá em uma pilha de peças (engrenagens, placas, parafusos e fios), deixando para trás suas armas e tudo mais que carregava."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O tridrone faz três ataques de punho ou três ataques de dardo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque com arma corpo a corpo: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 3 (1d4 + 1) de dano de concussão.",
+                "name": "Punho"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo ou com arma à distância: +3 para atingir, alcance de 1,5 m ou alcance de 30/120 pés, um alvo. Acerto: 4 (1d6 + 1) de dano perfurante.",
+                "name": "Javelin"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "stomping-foot",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.0,
+        "name": "Batendo o pé",
+        "subtitle": "Mortos-vivos minúsculos, mal neutro",
+        "size": "Tiny",
+        "alignment": "neutral evil",
+        "armor_class": 12,
+        "hit_points": 2,
+        "hit_dice": "1d4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 4,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão cega 30 pés (cego além deste raio)"
+        ],
+        "languages": "entende comum, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Imunidade a Turn",
+                "desc": "O pé é imune a efeitos que expulsam mortos-vivos."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para atingir, alcance 1,5 m, um alvo. Acerto: 3 (1d4 + 1) de dano de concussão.",
+                "name": "Stomp"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "two-dry-cloaks",
+        "type": "HUMANOID",
+        "subtype": "tabaxi",
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Dois Mantos Secos",
+        "subtitle": "Humanoide médio (tabaxi), desalinhado",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 12,
+        "hit_points": 27,
+        "hit_dice": "6d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 5,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 4,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-investigation",
+                "modifier": 5,
+                "name": "Investigação"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 6,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-sleight-of-hand",
+                "modifier": 4,
+                "name": "Prestidigitação"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "quaisquer dois idiomas",
+        "special_abilities": [
+            {
+                "name": "Ação Astuciosa",
+                "desc": "Em cada um de seus turnos, Two Dry Cloaks pode usar uma ação bônus para realizar a ação Correr, Desengajar ou Esconder. "
+            },
+            {
+                "name": "Ataque furtivo (1/turno)",
+                "desc": "Two Dry Cloaks causa 7 (2d6) de dano extra quando atinge um alvo com um ataque de arma e tem vantagem na jogada de ataque, ou quando o alvo está a 1,5 metro de um aliado de Two Dry Cloaks que não está incapacitado e Two Dry Cloaks não tem desvantagem na jogada de ataque."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Two Dry Cloaks faz dois ataques corpo a corpo.",
+                "name": "Ataque múltiplo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada curta"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma à distância: +4 para acertar, alcance 30/120 pés, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Besta de mão"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    },
+    {
+        "index": "undead-cockatrice",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Cocatrice Morto-vivo",
+        "subtitle": "Pequenos mortos-vivos, desalinhados",
+        "size": "Small",
+        "alignment": "unaligned",
+        "armor_class": 11,
+        "hit_points": 27,
+        "hit_dice": "6d6+6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 2,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, uma criatura. Acerto: 3 (1d4 + 1) de dano perfurante, e o alvo deve ter sucesso em um teste de resistência de Constituição CD 11 contra ser petrificado magicamente. Em uma falha na resistência, a criatura começa a se transformar em pedra e é contida. Ele deve repetir o teste de resistência no final de seu próximo turno. Em um sucesso, o efeito termina. Em caso de falha, a criatura fica petrificada por 24 horas.",
+                "name": "Mordida"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Orrery do Andarilho",
+            "acronym": "OoW"
+        }
+    }
+]

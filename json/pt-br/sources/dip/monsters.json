@@ -1,0 +1,831 @@
+[
+    {
+        "index": "anchorite-of-talos",
+        "type": "HUMANOID",
+        "subtype": "half-orc shapechanger",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Anacoreta de Talos",
+        "subtitle": "Humanoide médio (meio-orc metamorfo), neutro e mau",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 13,
+        "hit_points": 58,
+        "hit_dice": "9d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-nature",
+                "modifier": 1,
+                "name": "Natureza"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 3,
+                "name": "Furtividade"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 4,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Orc",
+        "special_abilities": [
+            {
+                "name": "Metamorfo",
+                "desc": "O anacoreta pode usar sua ação para se metamorfosear em um javali ou voltar à sua forma verdadeira, que é humanoide. Suas estatísticas são as mesmas em cada formulário. Qualquer equipamento que esteja usando ou carregando não é transformado. Ele volta à sua forma verdadeira se morrer."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração do anacoreta é Sabedoria (CD de resistência de magia 12). Ele pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "3/dia cada",
+                        "spells": [
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "augury",
+                                "name": "Augúrio",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "bless",
+                                "name": "Abençoe",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "revivify",
+                                "name": "Revivificar",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com Arma Corpo a Corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d4 + 3) de dano cortante.",
+                "name": "Manopla com Garras (Apenas Forma Humanoide)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano cortante.",
+                "name": "Presa (somente na forma de Javali)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Dragão do Pico da Pináculo de Gelo",
+            "acronym": "DIP"
+        }
+    },
+    {
+        "index": "don-jon-raskin",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Don-Jon Raskin",
+        "subtitle": "Humanoide médio (humano), neutro",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 10,
+        "hit_points": 44,
+        "hit_dice": "8d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 2
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 4,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 4,
+                "name": "Persuasão"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Anão",
+        "special_abilities": [
+            {
+                "name": "Bravo",
+                "desc": "Don-Jon tem vantagem em testes de resistência contra ficar amedrontado. "
+            },
+            {
+                "name": "Ainda não está morto (recarrega após um descanso longo)",
+                "desc": "Se o dano reduzir Don-Jon a 0 pontos de vida, ele cai para 1 ponto de vida e ganha vantagem nas jogadas de ataque até o final de seu próximo turno."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Don-Jon faz três ataques corpo a corpo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Arma corpo a corpo ou ataque à distância: +2 para atingir, alcance 1,5 m ou alcance 20/60 pés, um alvo. Acerto: 2 (1d4) de dano perfurante.",
+                "name": "Adaga"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque com Arma à Distância: +2 para acertar, alcance 30/120 pés, um alvo. Acerto: 2 (1d4) de dano de concussão.",
+                "name": "Estilingue"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Dragão do Pico da Pináculo de Gelo",
+            "acronym": "DIP"
+        }
+    },
+    {
+        "index": "falcon-the-hunter",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Falcão o Caçador",
+        "subtitle": "Humanoide médio (humano), neutro e bom",
+        "size": "Medium",
+        "alignment": "neutral good",
+        "armor_class": 14,
+        "hit_points": 112,
+        "hit_dice": "15d8+45",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 4,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 7,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 5,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum",
+        "special_abilities": [
+            {
+                "name": "Archer",
+                "desc": "Um arco longo ou arco curto causa um dado extra de seu dano quando Falcon acerta com ele (incluído em seu ataque de arco longo). "
+            },
+            {
+                "name": "Sharpshooter",
+                "desc": "Os ataques de armas à distância do Falcon ignoram meia cobertura e cobertura de três quartos."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Falcon faz três ataques corpo a corpo ou dois ataques à distância.",
+                "name": "Ataque múltiplo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    },
+                    {
+                        "dice": "1d10+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d8 + 2) de dano cortante ou 7 (1d10 + 2) de dano cortante se usado com as duas mãos.",
+                "name": "Espada longa"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma à distância: +4 para acertar, alcance 150/600 pés, um alvo. Acerto: 11 (2d8 + 2) de dano perfurante.",
+                "name": "Arco longo"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Dragão do Pico da Pináculo de Gelo",
+            "acronym": "DIP"
+        }
+    },
+    {
+        "index": "gorthok-the-thunder-boar",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 6.0,
+        "name": "Gorthok, o Javali Trovão",
+        "subtitle": "Monstruosidade enorme, mal caótico",
+        "size": "Huge",
+        "alignment": "chaotic evil",
+        "armor_class": 15,
+        "hit_points": 73,
+        "hit_dice": "7d12+28",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Relâmpago"
+            },
+            {
+                "index": "thunder",
+                "type": "THUNDER",
+                "name": "Trovão"
+            }
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Implacável (recarrega após um descanso curto ou longo)",
+                "desc": "Se Gorthok receber 27 de dano ou menos que o reduziria a 0 pontos de vida, ele será reduzido a 1 ponto de vida."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Gorthok faz dois ataques corpo a corpo: um com suas presas de raio e outro com seus cascos de trovão.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+5",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "LIGHTNING",
+                            "type": "LIGHTNING",
+                            "name": "Relâmpago"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque com Arma Corpo a Corpo: +8 para acertar, alcance 3 metros, um alvo. Acerto: 12 (2d6 + 5) de dano cortante mais 7 (2d6) de dano elétrico.",
+                "name": "Presas de Relâmpago"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+5",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Concussão"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "THUNDER",
+                            "type": "THUNDER",
+                            "name": "Trovão"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque Corpo a Corpo com Arma: +8 para acertar, alcance 3 metros, um alvo. Acerto: 12 (2d6 + 5) de dano de concussão mais 7 (2d6) de dano de trovão.",
+                "name": "Cascos do Trovão"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d8",
+                        "damage": {
+                            "index": "LIGHTNING",
+                            "type": "LIGHTNING",
+                            "name": "Relâmpago"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Gorthok dispara um raio em uma criatura que ele pode ver a até 36 metros dele. O alvo deve fazer um teste de resistência de Destreza CD 15, recebendo 18 (4d8) de dano elétrico em caso de falha, ou metade do dano em caso de sucesso.",
+                "name": "Relâmpago (Recarga 6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Dragão do Pico da Pináculo de Gelo",
+            "acronym": "DIP"
+        }
+    },
+    {
+        "index": "rock-gnome-recluse",
+        "type": "HUMANOID",
+        "subtype": "gnome",
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Gnomo da Rocha Recluso",
+        "subtitle": "Pequeno humanóide (gnomo), caótico neutro",
+        "size": "Small",
+        "alignment": "chaotic neutral",
+        "armor_class": 10,
+        "hit_points": 7,
+        "hit_dice": "2d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 25,
+                    "value_formatted": "25 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 4,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 4,
+                "name": "História"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Gnômico",
+        "special_abilities": [
+            {
+                "name": "Astúcia do Gnomo",
+                "desc": "O gnomo tem vantagem nos testes de resistência de Inteligência, Sabedoria e Carisma contra magia."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "O gnomo é um conjurador de 2º nível. Sua habilidade de conjuração é Inteligência (resistência de magia CD 12, +4 para acertar com ataques de magia). Ele tem os seguintes feitiços de mago preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitação",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Armadura de Mago",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Escudo",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O gnomo cria três dardos mágicos. Cada dardo atinge uma criatura escolhida pelo gnomo a até 36 metros dele e causa 3 (1d4 + 1) de dano de força.",
+                "name": "Míssil Mágico (Gasta um Espaço de Feitiço de 1º Nível)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8",
+                        "damage": {
+                            "index": "COLD",
+                            "type": "COLD",
+                            "name": "Frio"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque Mágico à Distância: +4 para acertar, alcance 18 m, uma criatura. Acerto: 4 (1d8) de dano de frio e a velocidade do alvo é reduzida em 3 metros até o início do próximo turno do gnomo.",
+                "name": "Raio de Gelo"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Dragão do Pico da Pináculo de Gelo",
+            "acronym": "DIP"
+        }
+    }
+]

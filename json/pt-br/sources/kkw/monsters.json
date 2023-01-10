@@ -1,0 +1,430 @@
+[
+    {
+        "index": "goblin-gang-member",
+        "type": "HUMANOID",
+        "subtype": "goblinoid",
+        "group": null,
+        "challenge_rating": 0.25,
+        "name": "Membro da Gangue Goblin",
+        "subtitle": "Pequeno humanóide (goblinoide), neutro e mau",
+        "size": "Small",
+        "alignment": "neutral evil",
+        "armor_class": 14,
+        "hit_points": 10,
+        "hit_dice": "3d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 8,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Goblin",
+        "special_abilities": [
+            {
+                "name": "Fuga Ágil",
+                "desc": "O goblin pode realizar a ação Desengajar ou Esconder-se como uma ação bônus em cada um de seus turnos."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para atingir, alcance 1,5 m, um alvo. Acerto: 5 (1d4 + 3) de dano perfurante.",
+                "name": "Adaga"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Arma de ataque à distância: +5 para acertar, alcance 80/320 pés, um alvo. Acerto: 7 (1d8 + 3) de dano perfurante.",
+                "name": "Besta leve"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Caminho de Krenko",
+            "acronym": "KKW"
+        }
+    },
+    {
+        "index": "krenko",
+        "type": "HUMANOID",
+        "subtype": "goblinoid",
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Krenko",
+        "subtitle": "Pequeno humanóide (goblinoide), neutro e mau",
+        "size": "Small",
+        "alignment": "neutral evil",
+        "armor_class": 17,
+        "hit_points": 21,
+        "hit_dice": "6d6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Furtividade"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 4,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 4,
+                "name": "Persuasão"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Goblin",
+        "special_abilities": [
+            {
+                "name": "Nimble Escape",
+                "desc": "Krenko pode realizar a ação Desengajar ou Esconder como uma ação bônus em cada um de seus turnos."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Krenko faz dois ataques com sua cimitarra.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano cortante mais 2 (1d4) de dano venenoso. .",
+                "name": "Cimitarra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Arma de ataque à distância: +4 para acertar, alcance 80/320 pés, um alvo. Acerto: 6 (1d8 + 2) de dano perfurante.",
+                "name": "Besta leve"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Redirecionar Ataque",
+                "desc": "Quando uma criatura que Krenko pode ver o atinge com um ataque, Krenko escolhe outro goblin a até 1,5 metro dele. Os dois goblins trocam de lugar e o goblin escolhido se torna o alvo."
+            }
+        ],
+        "source": {
+            "name": "Caminho de Krenko",
+            "acronym": "KKW"
+        }
+    },
+    {
+        "index": "loading-rig",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Plataforma de Carregamento",
+        "subtitle": "Construção grande, desalinhada",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 18,
+        "hit_points": 39,
+        "hit_dice": "6d10+6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 25,
+                    "value_formatted": "25 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "WISDOM",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "CHARISMA",
+                "value": 1,
+                "modifier": -5
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "deafened",
+                "type": "DEAFENED",
+                "name": "Surdo"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "petrificada"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão cega 60 pés (cego além deste raio)"
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Suscetibilidade Antimagia",
+                "desc": "O equipamento fica incapacitado enquanto estiver na área de um campo antimagia. Se for alvo de dissipar magia, o equipamento deve ter sucesso em um teste de resistência de Constituição contra a CD de resistência de magia do conjurador ou ficará inconsciente por 1 minuto. "
+            },
+            {
+                "name": "Instável",
+                "desc": "Se o equipamento sofrer dano, ele deve passar em um teste de resistência de Constituição CD 10 ou ficará incapacitado com velocidade 0 até que uma criatura o ative com um teste de Inteligência (Arcano) CD 10 bem-sucedido feito como uma ação."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "A armadura faz dois ataques corpo a corpo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque corpo a corpo com arma: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d6 + 4) de dano de concussão.",
+                "name": "Slam"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Caminho de Krenko",
+            "acronym": "KKW"
+        }
+    }
+]

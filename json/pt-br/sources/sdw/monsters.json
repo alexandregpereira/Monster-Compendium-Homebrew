@@ -1,0 +1,561 @@
+[
+    {
+        "index": "giant-shark-skeleton",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 5.0,
+        "name": "Esqueleto de Tubarão Gigante",
+        "subtitle": "Enormes mortos-vivos, desalinhados",
+        "size": "Huge",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 126,
+        "hit_dice": "11d12+55",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 23,
+                "modifier": 6
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 21,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "concussão"
+            }
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão cega 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Frenesi de Sangue",
+                "desc": "O esqueleto de tubarão gigante tem vantagem nas jogadas de ataque corpo a corpo contra qualquer criatura que não tenha todos os seus pontos de vida."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d10+6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 9,
+                "description": "Ataque corpo a corpo com arma: +9 para acertar, alcance 1,5 m, um alvo. Acerto: 22 (3d10 + 6) de dano perfurante.",
+                "name": "Mordida"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Acordar do Dragão Adormecido",
+            "acronym": "SDW"
+        }
+    },
+    {
+        "index": "lhammaruntosz",
+        "type": "DRAGON",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 16.0,
+        "name": "Lhammaruntosz",
+        "subtitle": "Dragão enorme, leal e bom",
+        "size": "Huge",
+        "alignment": "lawful good",
+        "armor_class": 19,
+        "hit_points": 212,
+        "hit_dice": "17d12+102",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 80,
+                    "value_formatted": "80 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 25,
+                "modifier": 7
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 23,
+                "modifier": 6
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 19,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 11
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 9
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-insight",
+                "modifier": 7,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 12,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Relâmpago"
+            }
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão cega 60 pés",
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Comum, Dracônico",
+        "special_abilities": [
+            {
+                "name": "Anfíbio",
+                "desc": "Lhammaruntosz pode respirar ar e água. "
+            },
+            {
+                "name": "Resistência Lendária (3/dia)",
+                "desc": "Se Lhammaruntosz falhar em um teste de resistência, ela pode optar por ter sucesso. "
+            },
+            {
+                "name": "Regeneração",
+                "desc": "Lhammaruntosz recupera 5 pontos de vida no início de seu turno."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade de conjuração de Lhammaruntosz é Carisma (resistência de feitiço CD 17). Ela pode conjurar inatamente as seguintes magias, sem a necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "create-food-and-water",
+                                "name": "Criar Comida e Água",
+                                "school": "CONJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detectar Pensamentos",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "fog-cloud",
+                                "name": "Nuvem de Névoa",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "speak-with-animals",
+                                "name": "Fale Com os Animais",
+                                "school": "DIVINATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "Lhammaruntosz é um conjurador de 8º nível. Sua habilidade de conjuração é Carisma (resistência de magia CD 17; +9 para acertar com ataques de magia). Ela tem os seguintes feitiços de feiticeiro preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Consertando",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Enfeitiçar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "expeditious-retreat",
+                                "name": "Retiro Rápido",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Dormir",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Escuridão",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibilidade",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "suggestion",
+                                "name": "Sugestão",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "protection-from-energy",
+                                "name": "Proteção Contra Energia",
+                                "school": "ABJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (2 espaços)",
+                        "spells": [
+                            {
+                                "index": "dimension-door",
+                                "name": "Porta Dimensional",
+                                "school": "CONJURATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "stoneskin",
+                                "name": "Pele de Pedra",
+                                "school": "ABJURATION",
+                                "level": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Lhammaruntosz pode usar sua Frightful Presence. Ela então faz três ataques: um com sua mordida e dois com suas garras.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+7",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Ataque corpo a corpo com arma: +12 para acertar, alcance 3 metros, um alvo. Acerto: 18 (2d10 + 7) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+7",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Ataque com arma corpo a corpo: +12 para atingir, alcance 1,5 m, um alvo. Acerto: 14 (2d6 + 7) de dano cortante.",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+7",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Arma corpo a corpo Ataque: +12 para acertar, alcance 15 pés, um alvo. Acerto: 16 (2d8 + 7) de dano de concussão.",
+                "name": "Cauda"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Cada criatura à escolha de Lhammaruntosz que esteja a até 36 metros dela e ciente dela deve ser bem sucedida em um teste de resistência de Sabedoria CD 17 ou ficará amedrontada por 1 minuto. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso. Se o teste de resistência de uma criatura for bem-sucedido ou o efeito terminar, a criatura fica imune à Presença Aterradora de Lhammaruntosz pelas próximas 24 horas.",
+                "name": "Presença Aterradora"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Lhammaruntosz usa um dos seguintes sopros.",
+                "name": "Sopros (Recarga 5-6)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "12d10",
+                        "damage": {
+                            "index": "LIGHTNING",
+                            "type": "LIGHTNING",
+                            "name": "Relâmpago"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Lhammaruntosz exala relâmpagos em uma linha de 90 pés com 5 pés de largura. Cada criatura nessa linha deve fazer um teste de resistência de Destreza CD 19, recebendo 66 (12d10) de dano elétrico em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Respiração Relâmpago"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Lhammaruntosz exala energia de repulsão em um cone de 9 metros. Cada criatura naquela área deve ser bem sucedida em um teste de resistência de Força CD 19. Em uma falha na resistência, a criatura é empurrada 18 metros para longe do dragão.",
+                "name": "Respiração de Repulsão"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Lhammaruntosz magicamente se metamorfoseia em um humanóide ou besta que tem uma classificação de desafio não maior que a dela, ou de volta à sua forma verdadeira. Ela volta à sua forma verdadeira se morrer. Qualquer equipamento que ela esteja usando ou carregando é absorvido ou suportado pela nova forma (a escolha de Lhammaruntosz).\nEm uma nova forma, Lhammaruntosz mantém seu alinhamento, pontos de vida, Dados de Vida, habilidade de falar, proficiências, Resistência Lendária, ações de covil e valores de Inteligência, Sabedoria e Carisma, bem como esta ação. Suas estatísticas e capacidades são substituídas pelas da nova forma, exceto quaisquer características de classe ou ações lendárias dessa forma.",
+                "name": "Mudar de Forma"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Lhammaruntosz faz um teste de Sabedoria (Percepção). ",
+                "name": "Detectar"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Lhammaruntosz faz um ataque de cauda. ",
+                "name": "Ataque de Cauda"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+7",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Lhammaruntosz bate suas asas. Cada criatura a até 3 metros de Lhammaruntosz deve ser bem sucedida em um teste de resistência de Destreza CD 20 ou sofrerá 14 (2d6 + 7) de dano de concussão e será derrubada. Lhammaruntosz pode então voar até metade de sua velocidade de vôo.",
+                "name": "Ataque de Asa (Custa 2 Ações)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Acordar do Dragão Adormecido",
+            "acronym": "SDW"
+        }
+    }
+]

@@ -1,0 +1,921 @@
+[
+    {
+        "index": "brain-in-a-jar",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 6.0,
+        "name": "Cérebro em Uma Jarra",
+        "subtitle": "Morto-vivo médio, sem alinhamento",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 11,
+        "hit_points": 58,
+        "hit_dice": "9d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 0,
+                    "value_formatted": "0 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrótico"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Detectar Sentimento",
+                "desc": "O cérebro em uma jarra pode sentir a presença e localização de qualquer criatura dentro de 300 pés dele que tenha uma Inteligência de 3 ou superior, independentemente de interpor barreiras, a menos que a criatura esteja protegida por um feitiço de esvaziamento da mente. "
+            },
+            {
+                "name": "Resistência à Magia",
+                "desc": "O cérebro em uma jarra tem vantagem em testes de resistência contra magias e outros efeitos mágicos."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "O cérebro na habilidade inata de conjuração de uma jarra é Inteligência (CD de resistência de magia 15). Ele pode conjurar inatamente as seguintes magias, sem necessidade de componentes:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À Vontade",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detectar Pensamentos",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "zone-of-truth",
+                                "name": "Zona da Verdade",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3/dia cada",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Charm Person",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "command",
+                                "name": "Comando",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "hold-person",
+                                "name": "Reter Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "compulsion",
+                                "name": "Compulsão",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            },
+                            {
+                                "index": "hold-monster",
+                                "name": "Segure o Monstro",
+                                "school": "ENCHANTMENT",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+4",
+                        "damage": {
+                            "index": "PSYCHIC",
+                            "type": "PSYCHIC",
+                            "name": "psíquico"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O cérebro em uma jarra emite magicamente energia psíquica em um cone de 60 pés. Cada criatura nessa área deve ser bem sucedida em um teste de resistência de Inteligência CD 15 ou sofrerá 13 (2d8 + 4) de dano psíquico e ficará atordoada por 1 minuto. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.",
+                "name": "Mind Blast (Recarga 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Laboratório Perdido de Kwalish",
+            "acronym": "LLK"
+        }
+    },
+    {
+        "index": "clockwork-kraken",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 10.0,
+        "name": "Kraken Mecânico",
+        "subtitle": "Construção grande, desalinhada",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 17,
+        "hit_points": 142,
+        "hit_dice": "15d10+60",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 1,
+                "modifier": -5
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fogo"
+            },
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "petrificada"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "entende as línguas de seu criador, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Resistência Mágica",
+                "desc": "O kraken mecânico tem vantagem em testes de resistência contra feitiços e outros efeitos mágicos. "
+            },
+            {
+                "name": "Tentáculos independentes",
+                "desc": "O kraken mecânico tem oito tentáculos, cada um dos quais é tratado como uma criatura Média, move-se independentemente no turno do constructo e tem um deslocamento de voo de 12 metros. Os sentidos do kraken mecânico operam através de seus tentáculos, bem como de seu corpo principal. Cada tentáculo pode ser atacado independentemente, com o dano causado aos tentáculos aplicado ao total de pontos de vida do kraken mecânico. Um tentáculo é destruído se sofrer mais de 20 de dano.\nReduzir o constructo a três ou menos tentáculos reduz seus ataques de acordo. Um kraken mecânico pode regenerar quaisquer tentáculos destruídos no final de um descanso longo."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O kraken mecânico faz quatro ataques de golpe com tentáculos.",
+                "name": "Ataque múltiplo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+5",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 9,
+                "description": "Ataque corpo a corpo com arma: +9 para acertar, alcance 1,5 m, um alvo. 12 (2d6 + 5) de dano de concussão.",
+                "name": "Tentacle Slam"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Laboratório Perdido de Kwalish",
+            "acronym": "LLK"
+        }
+    },
+    {
+        "index": "garret-levistusson",
+        "type": "HUMANOID",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Garrett Levitusson",
+        "subtitle": "Humanoide médio, neutro caótico",
+        "size": "Medium",
+        "alignment": "chaotic neutral",
+        "armor_class": 14,
+        "hit_points": 44,
+        "hit_dice": "8d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 17,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 7,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-investigation",
+                "modifier": 4,
+                "name": "Investigação"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 5,
+                "name": "Desempenho"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasão"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Abissal, Comum, Infernal, Cant de Ladrão",
+        "special_abilities": [
+            {
+                "name": "Equipamento Especial",
+                "desc": "Garret usa um Anel de Calor (incluído em suas estatísticas) e empunha uma espada longa Gambler's Blade. "
+            },
+            {
+                "name": "Inspiração de Bardo (3/dia)",
+                "desc": "Como uma ação bônus, Garret pode dar a uma criatura escolhida (que não seja ele) um dado de inspiração d6. A criatura escolhida deve estar a até 18 metros de Garret e ser capaz de ouvi-lo. Uma vez nos próximos 10 minutos, a criatura pode rolar o dado e adicionar o número rolado a um teste de habilidade, jogada de ataque ou teste de resistência que fizer. A criatura pode usar o dado de inspiração após a rolagem ser feita, mas antes que o Mestre diga se foi bem-sucedida ou falhou. Uma vez que o dado de inspiração é lançado, ele é perdido. Uma criatura pode ter apenas um dado de inspiração por vez. "
+            },
+            {
+                "name": "Ação Astuta",
+                "desc": "Em cada um de seus turnos, Garret pode usar uma ação bônus para executar a ação Correr, Desengajar ou Esconder-se. "
+            },
+            {
+                "name": "Ataque furtivo (1/turno)",
+                "desc": "Garret causa 7 (2d6) de dano extra quando atinge um alvo com um ataque de arma e tem vantagem na jogada de ataque, ou quando o alvo está a 1,5 metro de um aliado de Garret que não está incapacitado e Garret não tem desvantagem na jogada de ataque."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Garret é um conjurador de 2º nível. Sua habilidade de conjuração é Carisma (resistência de magia CD 13, +5 para acertar com ataques de magia). Ele tem os seguintes feitiços de bardo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "vicious-mockery",
+                                "name": "Zombaria Viciosa",
+                                "school": "ENCHANTMENT",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Enfeitiçar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "disguise-self",
+                                "name": "Disfarçar-se",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "identify",
+                                "name": "Identificar",
+                                "school": "DIVINATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada curta"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Laboratório Perdido de Kwalish",
+            "acronym": "LLK"
+        }
+    },
+    {
+        "index": "mary-greymalkin",
+        "type": "HUMANOID",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Maria Greymalkin",
+        "subtitle": "Humanoide médio, neutro",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 12,
+        "hit_points": 45,
+        "hit_dice": "7d8+14",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 4,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-medicine",
+                "modifier": 4,
+                "name": "Medicina"
+            },
+            {
+                "index": "skill-nature",
+                "modifier": 4,
+                "name": "Natureza"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 4,
+                "name": "Religião"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Abissal, Celestial, Comum, Élfico, Infernal, Silvestre",
+        "special_abilities": [
+            {
+                "name": "Equipamento Especial",
+                "desc": "Mary usa braçadeiras de defesa e um anel de proteção, e carrega um baralho de várias coisas"
+            },
+            {
+                "name": "Presença Feérica (Recarrega após um Descanso Curto)",
+                "desc": "Mary pode fazer com que cada criatura a até 3 metros dela tenha sucesso em um teste de resistência de Sabedoria CD 12 ou fique enfeitiçada ou amedrontada por ela (à escolha de Mary) até o final de seu próximo turno . "
+            },
+            {
+                "name": "Fey Ancestry",
+                "desc": "Mary tem vantagem em testes de resistência contra ser enfeitiçada, e a magia não pode colocá-la para dormir."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Mary é uma conjuradora de 5º nível. Sua habilidade de conjuração é Carisma (resistência de magia CD 12, +4 para acertar com ataques de magia). Ela recupera seus espaços de magia gastos quando termina um descanso curto ou longo. Ela conhece as seguintes magias de bruxo:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "chill-touch",
+                                "name": "Toque de Resfriamento",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "eldritch-blast",
+                                "name": "Explosão Eldritch",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Escuridão",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "hypnotic-pattern",
+                                "name": "Padrão Hipnótico",
+                                "school": "ILLUSION",
+                                "level": 3
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Passo Nebuloso",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "unseen-servant",
+                                "name": "Servo Invisível",
+                                "school": "CONJURATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque corpo a corpo com arma: +2 para acertar, alcance 1,5 m, um alvo. 3 (1d6) de dano de concussão.",
+                "name": "Cajado"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Laboratório Perdido de Kwalish",
+            "acronym": "LLK"
+        }
+    },
+    {
+        "index": "ooze-folk",
+        "type": "OOZE",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Ooze-Folk",
+        "subtitle": "Ooze médio, desalinhado",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 10,
+        "hit_points": 19,
+        "hit_dice": "2d8+10",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "WISDOM",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 1,
+                "modifier": -5
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "deafened",
+                "type": "DEAFENED",
+                "name": "Surdo"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "prone",
+                "type": "PRONE",
+                "name": "Propenso"
+            }
+        ],
+        "senses": [
+            "visão cega 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Transparente",
+                "desc": "Mesmo quando um povo limo está à vista, é necessário um teste de Sabedoria CD 12 (Percepção) para detectar um povo limo que não se moveu nem atacou. Uma criatura que tenta entrar no espaço do povo limo sem saber do povo limo é surpreendida pelo povo limo. "
+            },
+            {
+                "name": "Ossos Frágeis",
+                "desc": "Para cada 5 de dano sofrido, a velocidade de caminhada do povo limo é reduzida em 1,5 metro."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O povo limo desfere um ataque de espada longa de vidro e um ataque de pseudópode.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 4,
+                "description": "Arma corpo a corpo Ataque: +4 para atingir, alcance 1,5 m, uma criatura. 6 (1d8 + 2) de dano cortante. Se um 1 for rolado em uma jogada de ataque com uma espada longa de vidro, ela se estilhaça e não pode mais ser usada.",
+                "name": "Espada longa de vidro"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, uma criatura. 5 (1d6 + 2) de dano ácido.",
+                "name": "Pseudópode"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Laboratório Perdido de Kwalish",
+            "acronym": "LLK"
+        }
+    }
+]

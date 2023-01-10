@@ -1,0 +1,2060 @@
+[
+    {
+        "index": "barbatos",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 6.0,
+        "name": "Barbatos",
+        "subtitle": "Humanoide médio (humano), neutro e mau",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 15,
+        "hit_points": 78,
+        "hit_dice": "12d8+24",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-animal-handling",
+                "modifier": 5,
+                "name": "Manejo de animais"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 3,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum",
+        "special_abilities": [
+            {
+                "name": "Rust Monster Cloak",
+                "desc": "Qualquer arma não mágica feita de metal que atinja Barbatos é corroída. Depois de causar dano, a arma sofre uma penalidade permanente e cumulativa de -1 nas jogadas de dano. Se a penalidade cair para -5, a arma é destruída. A munição não mágica feita de metal que atinge Barbatos é destruída após causar dano. "
+            },
+            {
+                "name": "Heart of the Troll",
+                "desc": "Barbatos recupera 10 pontos de vida no início de seu turno. Se Barbatos receber dano de ácido ou fogo, essa característica não funcionará no início do próximo turno de Barbatos. Barbatos morre apenas se começar seu turno com 0 pontos de vida e não se regenerar."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Barbatos é um conjurador de nível 6. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 13, +5 para acertar com ataques de magia). Ele tem os seguintes feitiços de ranger preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                        ]
+                    },
+                    {
+                        "group": "2º nível (2 espaços)",
+                        "spells": [
+                            {
+                                "index": "locate-animals-or-plants",
+                                "name": "Localizar Animais ou Plantas",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Barbatos faz dois ataques de espada curta de osso.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Arma corpo a corpo Ataque: +6 para acertar, alcance 1,5 m, um alvo. 6 (1d6 + 3) de dano perfurante.",
+                "name": "Bone Shortsword"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Arma de ataque à distância: +6 para acertar, alcance 80/320 pés, um alvo. 7 (1d8 + 3) de dano perfurante, e o alvo deve ser bem sucedido em um teste de resistência de Constituição CD 13 ou será envenenado por 1 hora. Se o teste de resistência falhar por 5 ou mais, o alvo também fica inconsciente. O alvo recupera a consciência se sofrer dano ou se outra criatura realizar uma ação para sacudi-lo.",
+                "name": "Besta leve"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Barbatos corrói um objeto de metal ferroso não-mágico que ele pode ver a até 1,5 metro de si mesmo. Se o objeto não estiver sendo vestido ou carregado, o toque destrói um cubo de 30 centímetros dele. Se o objeto estiver sendo usado ou carregado por uma criatura, a criatura pode fazer um teste de resistência de Destreza CD 12 para evitar o toque de Barbatos.\nSe o objeto tocado for uma armadura de metal ou um escudo de metal sendo usado ou carregado, ele recebe uma penalidade permanente e cumulativa de 1 na CA que oferece. Armadura reduzida a uma CA de 10 ou um escudo que cai para um bônus de +0 é destruído. Se o objeto tocado for uma arma de metal empunhada, ele enferruja conforme descrito no traço Manto do Monstro da Ferrugem de Barbatos.",
+                "name": "Cloak Sweep"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    },
+    {
+        "index": "lynx-creatlach",
+        "type": "UNDEAD",
+        "subtype": "tiefling",
+        "group": null,
+        "challenge_rating": 5.0,
+        "name": "Esqueleto de Lince",
+        "subtitle": "Morto-vivo médio (tiefling), leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 13,
+        "hit_points": 136,
+        "hit_dice": "16d8+64",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 18,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 6
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrótico"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            },
+            {
+                "index": "stunned",
+                "type": "STUNNED",
+                "name": "Atordoado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Infernal",
+        "special_abilities": [
+            {
+                "name": "Equipamento especial",
+                "desc": "O olho de cristal do Lynx é uma bola de cristal magicamente encolhida da visão verdadeira. Um de seus dentes é um anel remodelado de escudo mental, enquanto outro foi criado para colocá-la sob um feitiço permanente de aura mágica de Nystul, escondendo a magia desses itens e escondendo sua verdadeira natureza de magia ou características que podem detectar mortos-vivos. "
+            },
+            {
+                "name": "Aversão ao Fogo",
+                "desc": "Se Lynx sofrer dano de fogo, ela terá desvantagem nas jogadas de ataque e testes de habilidade até o final de seu próximo turno. "
+            },
+            {
+                "name": "Forma Imutável",
+                "desc": "Lynx é imune a qualquer feitiço ou efeito que altere sua forma. "
+            },
+            {
+                "name": "Absorção de Raios",
+                "desc": "Sempre que Lynx é submetida a dano de raio, ela não sofre dano e, em vez disso, recupera um número de pontos de vida igual ao dano de raio causado. "
+            },
+            {
+                "name": "Resistência à Magia",
+                "desc": "Lynx tem vantagem em testes de resistência contra feitiços e outros efeitos mágicos. "
+            },
+            {
+                "name": "Regeneração",
+                "desc": "Lynx recupera 10 pontos de vida no início de seu turno. Se ela receber dano de fogo ou radiante, essa característica não funcionará no início de seu próximo turno. O corpo de Lynx é destruído apenas se ela começar seu turno com 0 pontos de vida e não se regenerar. "
+            },
+            {
+                "name": "Turn Immunity",
+                "desc": "Lynx é imune a efeitos que expulsam mortos-vivos."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Lynx faz dois ataques de espada curta.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque com arma corpo a corpo: +7 para acertar, alcance 1,5 m, um alvo. 7 (1d6 + 4) de dano perfurante.",
+                "name": "Espada curta"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    },
+    {
+        "index": "moghadam",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 12.0,
+        "name": "Moghadam",
+        "subtitle": "Humanoide médio (humano), neutro e mau",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 14,
+        "hit_points": 104,
+        "hit_dice": "19d8+19",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 8
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 8,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 7,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-medicine",
+                "modifier": 7,
+                "name": "Medicina"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Abissal, Comum, Anão, Infernal, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Equipamento especial",
+                "desc": "Moghadam empunha Ruinblade (consulte o apêndice C). "
+            },
+            {
+                "name": "Mente Artificial",
+                "desc": "Moghadam pode manifestar uma mente artificial como uma imagem espectral flutuante do crânio de jóias de um demilich. Moghadam pode se comunicar telepaticamente com essa mente, enviá-la a até 90 metros de distância dele e ver e ouvir através dela. "
+            },
+            {
+                "name": "Infoportation (1/Day)",
+                "desc": "Moghadam pode se teletransportar para um espaço desocupado ao lado de sua mente artificial."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Moghadam é um conjurador de nível 18. Sua habilidade de conjuração é Inteligência (resistência de magia CD 16, +8 para acertar com ataques de magia). Ele tem os seguintes feitiços de artífice preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Cantrips (à vontade)",
+                        "spells": [
+                            {
+                                "index": "dancing-lights",
+                                "name": "Dancing Lights",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "message",
+                                "name": "Mensagem",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Aperto Chocante",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 vagas)",
+                        "spells": [
+                            {
+                                "index": "comprehend-languages",
+                                "name": "Compreender Idiomas",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Feridas",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "grease",
+                                "name": "Graxa",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "identify",
+                                "name": "Identificar",
+                                "school": "DIVINATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detectar Pensamentos",
+                                "school": "DIVINATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibilidade",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "heat-metal",
+                                "name": "Aquecer Metal",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "hypnotic-pattern",
+                                "name": "Padrão Hipnótico",
+                                "school": "ILLUSION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "fabricate",
+                                "name": "Fabricar",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "stone-shape",
+                                "name": "Forma de Pedra",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "stoneskin",
+                                "name": "Pele de Pedra",
+                                "school": "ABJURATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5º nível (1 espaço)",
+                        "spells": [
+                            {
+                                "index": "creation",
+                                "name": "Criação",
+                                "school": "ILLUSION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Arma corpo a corpo Ataque: +6 para atingir, alcance 1,5 m, um alvo. 9 (2d6 + 2) de dano cortante.",
+                "name": "Ruinblade"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Enquanto empunha Ruinblade, Moghadam pode lançar o feitiço Blight (CD 15).",
+                "name": "Blight (1/Day)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Enquanto empunha Ruinblade, Moghadam pode lançar o feitiço desintegrar contra qualquer objeto não mágico ou criação de força mágica.",
+                "name": "Desintegrar (1/7 Dias)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d8+4",
+                        "damage": {
+                            "index": "PSYCHIC",
+                            "type": "PSYCHIC",
+                            "name": "psíquico"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Moghadam sobrecarrega os pensamentos de uma criatura a até 1,5 metro de si mesmo ou de sua mente artificial. O alvo deve ter sucesso em um teste de resistência de Inteligência CD 16 ou sofrerá 22 (4d8 + 4) de dano psíquico, e a próxima jogada de ataque feita contra o alvo antes do final do próximo turno de Moghadam tem vantagem.",
+                "name": "Sobrecarga de Informação (Recarga 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    },
+    {
+        "index": "neo-otyugh",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 7.0,
+        "name": "Neo-Otyugh",
+        "subtitle": "Aberração enorme, neutro",
+        "size": "Huge",
+        "alignment": "neutral",
+        "armor_class": 16,
+        "hit_points": 150,
+        "hit_dice": "12d12+72",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 22,
+                "modifier": 6
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 6,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 9
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Muito ruim",
+        "special_abilities": [
+            {
+                "name": "Telepatia Limitada",
+                "desc": "O otyugh pode transmitir magicamente mensagens e imagens simples para qualquer criatura a até 36 metros dele que possa entender um idioma. Esta forma de telepatia não permite que a criatura receptora responda telepaticamente."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração do neo-otyugh é Inteligência (CD de resistência de magia 12). Ele pode conjurar inatamente as seguintes magias, sem necessidade de componentes:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À Vontade",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detectar Pensamentos",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "command",
+                                "name": "Comando",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "hold-person",
+                                "name": "Reter Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O neo-otyugh faz três ataques: um com sua mordida e dois com seus tentáculos.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque corpo a corpo com arma: +8 para acertar, alcance 3 metros, um alvo. 16 (2d10 + 5) de dano perfurante. Se o alvo for uma criatura, ele deve ser bem sucedido em um teste de resistência de Constituição CD 17 contra a doença ou ficará envenenado até que a doença seja curada. A cada 24 horas, o alvo deve repetir o teste de resistência, reduzindo seu máximo de pontos de vida em 5 (1d10) em caso de falha. A doença é curada com um sucesso. O alvo morre se a doença reduzir seu máximo de pontos de vida a 0. Essa redução no máximo de pontos de vida do alvo dura até que a doença seja curada.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 8,
+                "description": "Arma corpo a corpo Ataque: +8 para acertar, alcance 4,5 metros, um alvo. 10 (1d10 + 5) de dano de concussão. Se o alvo for Grande ou menor, ele é agarrado (CD de fuga 16) e contido até o fim do agarrão. O neo-otyugh tem dois tentáculos, cada um dos quais pode agarrar um alvo.",
+                "name": "Tentáculo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6+5",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    },
+                    {
+                        "dice": "the",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O neo-otyugh golpeia as criaturas agarradas por ele umas contra as outras ou contra uma superfície sólida. Cada criatura deve ter sucesso em um teste de resistência de Constituição CD 16 ou sofrerá 15 (3d6 + 5) de dano de concussão e ficará atordoada até o final do próximo turno do neo-otyugh. Em um teste de resistência bem-sucedido, o alvo sofre metade do dano de concussão e não fica atordoado.",
+                "name": "Tentacle Slam"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    },
+    {
+        "index": "sir-ursas",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 5.0,
+        "name": "Sir Ursas",
+        "subtitle": "Humanoide médio (humano), leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 20,
+        "hit_points": 112,
+        "hit_dice": "15d8+45",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 6
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 10,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 5,
+                "name": "Intimidação"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fogo"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Infernal",
+        "special_abilities": [
+            {
+                "name": "Equipamento Especial",
+                "desc": "Sir Ursas usa um anel de escudo mental e uma armadura de resistência ao fogo. "
+            },
+            {
+                "name": "Brave",
+                "desc": "Sir Ursas tem vantagem em testes de resistência contra ficar amedrontado. "
+            },
+            {
+                "name": "Brute",
+                "desc": "Uma arma branca causa um dado extra de seu dano quando Sir Ursas acerta com ela (incluída em seu ataque)."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Sir Ursas faz três ataques corpo a corpo ou dois ataques à distância.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. 11 (2d6 + 4) de dano cortante.",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    },
+                    {
+                        "dice": "2d8+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: rw +7 para acertar, alcance 1,5 m e alcance 6/18 m, um alvo. 11 (2d6 + 4) de dano perfurante ou 13 (2d8 + 4) de dano perfurante se usado com as duas mãos para fazer um ataque corpo a corpo.",
+                "name": "Lança"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d4+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. 9 (2d4 + 4) de dano de concussão e, se o alvo for uma criatura Média ou menor, ele deve passar em um teste de resistência de Força CD 15 ou será derrubado.",
+                "name": "Shield Bash"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Parry",
+                "desc": "Sir Ursas adiciona 3 à sua CA contra um ataque corpo a corpo que o atingiria. Para fazer isso, ele deve ver o atacante e estar empunhando uma arma branca."
+            }
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    },
+    {
+        "index": "the-demogorgon",
+        "type": "GIANT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 8.0,
+        "name": "O Demogorgon",
+        "subtitle": "Gigante grande, neutro caótico",
+        "size": "Large",
+        "alignment": "chaotic neutral",
+        "armor_class": 15,
+        "hit_points": 123,
+        "hit_dice": "13d12+39",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 21,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 8,
+                "modifier": -1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Gigante, Orc",
+        "special_abilities": [
+            {
+                "name": "Duas Cabeças",
+                "desc": "O ettin tem vantagem em testes de Sabedoria (Percepção) e em testes de resistência contra ficar cego, enfeitiçado, surdo, amedrontado, atordoado e inconsciente. "
+            },
+            {
+                "name": "Desperto",
+                "desc": "Quando uma das cabeças do ettin está dormindo, a outra cabeça está acordada."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O ettin faz dois ataques: um com seu machado de guerra e outro com sua estrela da manhã.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+5",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque com arma corpo a corpo: +8 para atingir, alcance 1,5 m, um alvo. 14 (2d8 + 5) de dano cortante.",
+                "name": "Battleaxe"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+5",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque corpo a corpo com arma: +8 para acertar, alcance 1,5 m, um alvo. 14 (2d8 + 5) de dano perfurante.",
+                "name": "Morningstar"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "10d8",
+                        "damage": {
+                            "index": "FIRE",
+                            "type": "FIRE",
+                            "name": "Fogo"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "A cabeça direita do ettin exala fogo em um cone de 9 metros. Cada criatura nessa área deve fazer um teste de resistência de Destreza CD 14, recebendo 45 (10d8) de dano de fogo em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Sopro de Fogo (Recarga 5-6)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "10d8",
+                        "damage": {
+                            "index": "COLD",
+                            "type": "COLD",
+                            "name": "Frio"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "A cabeça esquerda do ettin exala uma explosão gelada em um cone de 9 metros. Cada criatura naquela área deve fazer um teste de resistência de Constituição CD 14, recebendo 45 (10d8) de dano de frio em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Respiração Fria (Recarga 5-6)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O ettin volta seu olhar mágico para uma criatura que ele possa ver a até 36 metros dele. Esse alvo deve fazer um teste de resistência de Sabedoria CD 14. A menos que o alvo esteja incapacitado, ele pode desviar seus olhos para evitar o olhar e automaticamente ter sucesso no teste. Se o alvo fizer isso, ele não poderá ver o ettin até o início do próximo turno do ettin. Se o alvo olhar para o ettin nesse meio tempo, ele deve fazer o salvamento imediatamente.\nSe o alvo falhar no teste, ele sofre um dos seguintes efeitos à escolha do ettin ou aleatoriamente:",
+                "name": "Olhar"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O alvo fica atordoado até o início do próximo turno do ettin ou até que o ettin não esteja mais na linha de visão.",
+                "name": "Olhar Sedutor"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O alvo é enfeitiçado pelo ettin até o início do próximo turno do ettin. O ettin escolhe como o alvo enfeitiçado usa suas ações, reações e movimentos.",
+                "name": "Olhar Hipnótico"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O alvo sofre o efeito do feitiço confusão sem fazer um teste de resistência. O efeito dura até o início do próximo turno do ettin. O ettin não precisa se concentrar no feitiço.",
+                "name": "Olhar de Insanidade"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    },
+    {
+        "index": "thessalar",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 12.0,
+        "name": "Tessário",
+        "subtitle": "Humanoide médio (humano), neutro e mau",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 14,
+        "hit_points": 104,
+        "hit_dice": "7d10+14",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 8
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-animal-handling",
+                "modifier": 7,
+                "name": "Manejo de animais"
+            },
+            {
+                "index": "skill-arcana",
+                "modifier": 8,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 7,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-medicine",
+                "modifier": 7,
+                "name": "Medicina"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "envenenado"
+            }
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Dracônico, Élfico, Primordial",
+        "special_abilities": [
+            {
+                "name": "Equipamento Especial",
+                "desc": "Thessalar empunha uma adaga +1 revestida com veneno de tessaltoxina (consulte o apêndice C). "
+            },
+            {
+                "name": "Homúnculo Alquímico",
+                "desc": "Thessalar é acompanhado por seu homúnculo thessalars. Se o feitiço de reparação for lançado nele, o homúnculo recupera 2d6 pontos de vida. "
+            },
+            {
+                "name": "Healing Toxicity",
+                "desc": "Qualquer item mágico que restaura pontos de vida e pode ser aplicado a uma arma perfurante ou cortante (uma poção, uma pomada e assim por diante) causa um acerto com essa arma para causar dano extra a Thessalar igual à quantidade o item normalmente curaria. "
+            },
+            {
+                "name": "Restauração Maior (1/dia)",
+                "desc": "Thessalar pode conjurar restauração maior se tiver acesso a suprimentos alquímicos."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Thessalar é um conjurador de nível 18. Sua habilidade de conjuração é Inteligência (resistência de magia CD 16, +8 para acertar com ataques de magia). Ele tem os seguintes feitiços de artífice preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Consertando",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "message",
+                                "name": "Mensagem",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Aperto Chocante",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "alarm",
+                                "name": "Alarme",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Feridas",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "identify",
+                                "name": "Identificar",
+                                "school": "DIVINATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibilidade",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "web",
+                                "name": "Web",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "haste",
+                                "name": "Pressa",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "stinking-cloud",
+                                "name": "Nuvem Fedorenta",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Blight",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5º nível (1 slot)",
+                        "spells": [
+                            {
+                                "index": "cloudkill",
+                                "name": "Cloudkill",
+                                "school": "CONJURATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: rw +5 para acertar, alcance 1,5 m ou alcance 20/60 pés, um alvo. 3 (1d4 + 1) de dano perfurante, e o alvo deve ser bem sucedido em um teste de resistência de Constituição CD 15. Em uma falha no teste de resistência, o alvo é afetado como se fosse pela magia metamorfose, transformando-se em uma besta aleatória ou em uma criatura que viu nas últimas 24 horas (conforme escolhido pelo Mestre). Este efeito dura até que o alvo termine um descanso longo.",
+                "name": "Adaga"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    },
+    {
+        "index": "thessalheart-construct",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 0.0,
+        "name": "Construção Thessalheart",
+        "subtitle": "Construção minúscula, neutra",
+        "size": "Tiny",
+        "alignment": "neutral",
+        "armor_class": 15,
+        "hit_points": 7,
+        "hit_dice": "2d4+2",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 4,
+                "modifier": -3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60"
+        ],
+        "languages": "entende as línguas de seu criador, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Ligação Telepática",
+                "desc": "Enquanto o constructo está no mesmo plano de existência que seu mestre, ele pode transmitir magicamente o que sente ao seu mestre, e os dois podem se comunicar telepaticamente."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. 1 de dano cortante e o alvo deve passar em um teste de resistência de Constituição CD 10 ou será envenenado por 1 minuto. Se o teste de resistência falhar por 5 ou mais, o alvo é envenenado por 5 (1d10) minutos e fica inconsciente enquanto envenenado desta forma.",
+                "name": "Garras"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    },
+    {
+        "index": "thessalkraken",
+        "type": "MONSTROSITY",
+        "subtype": "titan",
+        "group": null,
+        "challenge_rating": 14.0,
+        "name": "Thessalkraken",
+        "subtitle": "Monstruosidade gigantesca (titã), caótico e mau",
+        "size": "Gargantuan",
+        "alignment": "chaotic evil",
+        "armor_class": 16,
+        "hit_points": 207,
+        "hit_dice": "18d12+90",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 24,
+                "modifier": 7
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 17,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 12
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 10
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 9
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            },
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "paralisado"
+            }
+        ],
+        "senses": [
+            "visão verdadeira 120 pés."
+        ],
+        "languages": "entende Abissal, Celestial, Infernal e Primordial, mas não pode falar, telepatia 120 pés.",
+        "special_abilities": [
+            {
+                "name": "Anfíbio",
+                "desc": "O thessalkraken pode respirar ar e água. "
+            },
+            {
+                "name": "Liberdade de Movimento",
+                "desc": "O thessalkraken ignora terreno difícil, e efeitos mágicos não podem reduzir sua velocidade ou impedi-lo. Ele pode gastar 1,5 metro de movimento para escapar de restrições não mágicas ou de ser agarrado."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O thessalkraken faz um ataque de mordida e dois ataques de tentáculo. Ele pode substituir cada ataque de tentáculo com um uso de Fling.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d8+7",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "6d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Ataque corpo a corpo com arma: +12 para atingir, alcance 1,5 m, um alvo. 20 (3d8 + 7) de dano perfurante mais 5 (1d10) de dano de ácido. Se o alvo for uma criatura Média ou menor agarrada pelo thessalkraken, essa criatura é engolida e o agarrão termina. Enquanto engolida, a criatura fica cega e contida, tem cobertura total contra ataques e outros efeitos fora do thessalkraken e recebe 21 (6d6) de dano de ácido no início de cada turno do thessalkraken.\nSe o thessalkraken sofrer 35 de dano ou mais em um único turno de uma criatura dentro dele, ele deve ser bem sucedido em um teste de resistência de Constituição CD 23 no final desse turno ou regurgitar todas as criaturas engolidas, que caem caídas em um espaço a 3 metros de distância. o thessalkraken. Se o thessalkraken morrer, uma criatura engolida não é mais contida por ele e pode escapar do cadáver usando 3 metros de movimento, saindo caída.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6+7",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Arma corpo a corpo Ataque: +12 para acertar, alcance 20 pés, um alvo. 17 (3d6 + 7) de dano cortante e o alvo é agarrado (CD de fuga 16). Até que este agarrão termine, o alvo está contido. O thessalkraken tem dez tentáculos, cada um dos quais pode agarrar um alvo.",
+                "name": "Tentáculo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Um objeto médio ou menor segurado ou uma criatura agarrada pelo thessalkraken é arremessado a até 12 metros em uma direção aleatória e derrubado. Se um alvo arremessado atingir uma superfície sólida, o alvo sofre 3 (1d6) de dano de concussão para cada 3 metros que foi arremessado. Se o alvo for arremessado em outra criatura, essa criatura deve passar em um teste de resistência de Destreza CD 16 ou sofrerá o mesmo dano e cairá no chão.",
+                "name": "Arremessar"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d10",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O thessalkraken cospe uma gota de ácido em um ponto que pode ver a até 18 metros dele. Cada criatura a até 3 metros desse ponto deve fazer um teste de resistência de Destreza CD 18, sofrendo 22 (4d10) de dano de ácido em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Saliva Ácida (Recarga 5-6)"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O thessalkraken faz um ataque de tentáculo. ",
+                "name": "Ataque de tentáculo"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O thessalkraken usa Fling. ",
+                "name": "Fling"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d10",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Poison"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Enquanto está submerso, o thessalkraken expele uma nuvem de tinta em um raio de 18 metros. A nuvem se espalha pelos cantos e essa área é fortemente obscurecida para outras criaturas além do thessalkraken. Cada criatura que não seja o thessalkraken que terminar seu turno lá deve ser bem-sucedida em um teste de resistência de Constituição CD 18, recebendo 16 (3d10) de dano venenoso em uma falha na resistência, ou metade desse dano em uma bem-sucedida. Uma forte corrente dispersa a nuvem, que de outra forma desaparece no final do próximo turno do thessalkraken.",
+                "name": "Nuvem de Tinta (Custa 3 Ações)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    },
+    {
+        "index": "two-headed-owlbear",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Urso Coruja de Duas Cabeças",
+        "subtitle": "Grande monstruosidade, desalinhada",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 13,
+        "hit_points": 59,
+        "hit_dice": "7d10+21",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão escura 60"
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Duas Cabeças",
+                "desc": "O urso-coruja de duas cabeças tem vantagem nos testes de Sabedoria (Percepção) e nos testes de resistência contra ficar cego, enfeitiçado, surdo, amedrontado, atordoado e inconsciente. "
+            },
+            {
+                "name": "Desperto",
+                "desc": "Quando uma das cabeças do urso-coruja está adormecida, a outra está acordada."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O urso-coruja de duas cabeças faz três ataques: dois com seus bicos e um com suas garras.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10+5",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque com arma corpo a corpo: +7 para acertar, alcance 1,5 m, um alvo. 10 (1d10 + 5) de dano perfurante.",
+                "name": "Bico"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+5",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. 14 (2d8 + 5) de dano cortante.",
+                "name": "Garras"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Reconstrução da Máquina Infernal",
+            "acronym": "IMR"
+        }
+    }
+]

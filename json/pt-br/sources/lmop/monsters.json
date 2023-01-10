@@ -1,0 +1,1400 @@
+[
+    {
+        "index": "ash-zombie",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": "Zumbis",
+        "challenge_rating": 0.25,
+        "name": "Zumbi Das Cinzas",
+        "subtitle": "Morto-vivo médio, mal neutro",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 8,
+        "hit_points": 22,
+        "hit_dice": "3d8+9",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 0
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "entende todas as línguas que falou em vida, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Morto-vivo Fortitude",
+                "desc": "Se o dano reduzir o zumbi a 0 pontos de vida, ele deve fazer um teste de resistência de Constituição com CD 5+o dano sofrido, a menos que o dano seja radiante ou de um acerto crítico. Em caso de sucesso, o zumbi cai para 1 ponto de vida. "
+            },
+            {
+                "name": "Ash Puff",
+                "desc": "Na primeira vez que o zumbi sofrer dano, qualquer criatura viva a até 1,5 metro do zumbi deve ter sucesso em um teste de resistência de Constituição CD 10 ou ganhará desvantagem nas jogadas de ataque, testes de resistência e testes de habilidade por 1 minuto. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito com um teste de resistência bem-sucedido."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 4 (1d6 + 1) de dano de concussão.",
+                "name": "Slam"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Minas Perdidas de Phandelver",
+            "acronym": "LMoP"
+        }
+    },
+    {
+        "index": "evil-mage",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Mago Maligno",
+        "subtitle": "Humanoide médio (humano), leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 12,
+        "hit_points": 22,
+        "hit_dice": "5d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 5,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 5,
+                "name": "História"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Dracônico, Anão, Élfico",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "O mago é um conjurador de 4º nível que usa Inteligência como sua habilidade de conjuração (CD de salvamento de magia 13; +5 para acertar com ataques de magia). O mago conhece as seguintes magias da lista de magias do mago:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Aperto Chocante",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Enfeitiçar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Míssil Mágico",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 vagas)",
+                        "spells": [
+                            {
+                                "index": "hold-person",
+                                "name": "Segurar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Passo Nebuloso",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8-1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 1,
+                "description": "Ataque corpo a corpo com arma: +1 para acertar, alcance 1,5 m, um alvo. Acerto: 3 (1d8 - 1) de dano de concussão.",
+                "name": "Cajado"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Minas Perdidas de Phandelver",
+            "acronym": "LMoP"
+        }
+    },
+    {
+        "index": "gundren-rockseeker",
+        "type": "HUMANOID",
+        "subtype": "any race",
+        "group": null,
+        "challenge_rating": 0.0,
+        "name": "Gundren Rockseeker",
+        "subtitle": "Humanoide médio (qualquer raça), sem alinhamento",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 10,
+        "hit_points": 4,
+        "hit_dice": "1d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "qualquer idioma (geralmente Comum)",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque corpo a corpo com arma: +2 para acertar, alcance 1,5 m, um alvo. Acerto: 2 (1d4) de dano de concussão.",
+                "name": "Porrete"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Minas Perdidas de Phandelver",
+            "acronym": "LMoP"
+        }
+    },
+    {
+        "index": "mormesk-the-wraith",
+        "type": "UNDEAD",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Mormesk, o Espectro",
+        "subtitle": "Morto-vivo médio, mal neutro",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 13,
+        "hit_points": 45,
+        "hit_dice": "6d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 0,
+                    "value_formatted": "0 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            },
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Frio"
+            },
+            {
+                "index": "fire",
+                "type": "FIRE",
+                "name": "Fogo"
+            },
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Relâmpago"
+            },
+            {
+                "index": "thunder",
+                "type": "THUNDER",
+                "name": "Trovão"
+            },
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks that aren't silvered",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos que não são prateados"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "necrotic",
+                "type": "NECROTIC",
+                "name": "Necrótico"
+            },
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "grappled",
+                "type": "GRAPPLED",
+                "name": "Agarrado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "petrificada"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            },
+            {
+                "index": "prone",
+                "type": "PRONE",
+                "name": "Propenso"
+            },
+            {
+                "index": "restrained",
+                "type": "RESTRAINED",
+                "name": "Restringido"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Infernal",
+        "special_abilities": [
+            {
+                "name": "Movimento Incorpóreo",
+                "desc": "A aparição pode se mover através de um objeto ou outra criatura, mas não pode parar por aí. "
+            },
+            {
+                "name": "Sensibilidade à luz do sol",
+                "desc": "Enquanto estiver sob a luz do sol, a aparição tem desvantagem nas jogadas de ataque e nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d8+3",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrótico"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 1,5 m, uma criatura. Acerto: 16 (3d8 + 3) de dano necrótico, e o alvo deve ter sucesso em um teste de resistência de Constituição CD 13 ou seu máximo de pontos de vida será reduzido em uma quantidade igual ao dano recebido. Se este ataque reduzir o máximo de pontos de vida do alvo a 0, o alvo morre. Essa redução no máximo de pontos de vida do alvo dura até que o alvo termine um descanso longo.",
+                "name": "Dreno de vida"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Minas Perdidas de Phandelver",
+            "acronym": "LMoP"
+        }
+    },
+    {
+        "index": "nezznar-the-black-spider",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Nezznar, a Aranha Negra",
+        "subtitle": "Humanoide médio (elfo), neutro e mau",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 11,
+        "hit_points": 27,
+        "hit_dice": "6d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 5,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 3,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Élfico, Subterrâneo",
+        "special_abilities": [
+            {
+                "name": "Equipamento especial",
+                "desc": "Nezznar tem um cajado de aranha. "
+            },
+            {
+                "name": "Fey Ancestry",
+                "desc": "Nezznar tem vantagem em testes de resistência contra ser enfeitiçado, e a magia não pode colocá-lo para dormir. "
+            },
+            {
+                "name": "Sensibilidade à Luz do Sol",
+                "desc": "Nezznar tem desvantagem nas jogadas de ataque quando ele ou seu alvo está sob a luz do sol."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Nezznar pode conjurar inatamente os seguintes feitiços, sem a necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "dancing-lights",
+                                "name": "Dancing Lights",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Escuridão",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "Nezznar é um conjurador de 4º nível que usa Inteligência como sua habilidade de conjuração (CD de resistência de magia 13; +5 para acertar com ataques de magia). Nezznar tem os seguintes feitiços preparados a partir da lista de feitiços do mago:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Raio de Gelo",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Aperto Chocante",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 espaços)",
+                        "spells": [
+                            {
+                                "index": "mage-armor",
+                                "name": "Armadura de Mago",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Míssil Mágico",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Escudo",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibilidade",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "suggestion",
+                                "name": "Sugestão",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6-1",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Concussão"
+                        }
+                    },
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
+                "attack_bonus": 1,
+                "description": "Ataque com Arma Corpo a Corpo: +1 para atingir, alcance 1,5 m, um alvo. Acerto: 2 (1d6 - 1) de dano de concussão mais 3 (1d6) de dano de veneno.",
+                "name": "Cajado de Aranha"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Minas Perdidas de Phandelver",
+            "acronym": "LMoP"
+        }
+    },
+    {
+        "index": "nundro-rockseeker",
+        "type": "HUMANOID",
+        "subtype": "any race",
+        "group": null,
+        "challenge_rating": 0.0,
+        "name": "Nundro Rockseeker",
+        "subtitle": "Humanoide médio (qualquer raça), sem alinhamento",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 10,
+        "hit_points": 4,
+        "hit_dice": "1d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "qualquer idioma (geralmente Comum)",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque corpo a corpo com arma: +2 para acertar, alcance 1,5 m, um alvo. Acerto: 2 (1d4) de dano de concussão.",
+                "name": "Porrete"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Minas Perdidas de Phandelver",
+            "acronym": "LMoP"
+        }
+    },
+    {
+        "index": "redbrand-ruffian",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 0.5,
+        "name": "Rufião Marca Vermelha",
+        "subtitle": "Humanoide médio (humano), neutro e mau",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 14,
+        "hit_points": 16,
+        "hit_dice": "3d8+3",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 9,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-intimidation",
+                "modifier": 2,
+                "name": "Intimidação"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O rufião faz dois ataques corpo a corpo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para atingir, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada curta"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Minas Perdidas de Phandelver",
+            "acronym": "LMoP"
+        }
+    },
+    {
+        "index": "sildar-hallwinter",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Sildar Hallwinter",
+        "subtitle": "Humanoide médio (humano), neutro e bom",
+        "size": "Medium",
+        "alignment": "neutral good",
+        "armor_class": 16,
+        "hit_points": 27,
+        "hit_dice": "5d8+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 3
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Sildar faz dois ataques corpo a corpo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+1",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d8 + 1) de dano cortante.",
+                "name": "Espada longa"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 2,
+                "description": "Ataque com Arma à Distância: +2 para acertar, alcance 100/400 pés, um alvo. Acerto: 5 (1d10) de dano perfurante.",
+                "name": "Besta Pesada"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Aparar",
+                "desc": "Quando um atacante atinge Sildar com um ataque corpo a corpo e Sildar pode ver o atacante, ele pode rolar 1d6 e adicionar o número rolado à sua CA contra o ataque desencadeador, desde que ele esteja empunhando uma arma corpo a corpo."
+            }
+        ],
+        "source": {
+            "name": "Minas Perdidas de Phandelver",
+            "acronym": "LMoP"
+        }
+    },
+    {
+        "index": "venomfang",
+        "type": "DRAGON",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 8.0,
+        "name": "Armadilha de Veneno",
+        "subtitle": "Dragão grande, leal e mau",
+        "size": "Large",
+        "alignment": "lawful evil",
+        "armor_class": 18,
+        "hit_points": 136,
+        "hit_dice": "16d10+48",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 80,
+                    "value_formatted": "80 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 15,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 6
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 5,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 7,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 4,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "envenenado"
+            }
+        ],
+        "senses": [
+            "visão cega 30 pés",
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Comum, Dracônico",
+        "special_abilities": [
+            {
+                "name": "Anfíbio",
+                "desc": "Venomfang pode respirar ar e água."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Venomfang faz três ataques: um com sua mordida e dois com suas garras.",
+                "name": "Ataque múltiplo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque com arma corpo a corpo: +7 para acertar, alcance 3 metros, um alvo. Acerto: 15 (2d10 + 4) de dano perfurante mais 7 (2d6) de dano venenoso.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. Acerto: 11 (2d6 + 4) de dano cortante.",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "12d6",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Venomfang exala gás venenoso em um cone de 30 pés. Cada criatura nessa área deve fazer um teste de resistência de Constituição CD 14, recebendo 42 (12d6) de dano de veneno em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Poison Breath (Recarga 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Minas Perdidas de Phandelver",
+            "acronym": "LMoP"
+        }
+    }
+]

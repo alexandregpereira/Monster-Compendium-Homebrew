@@ -1,0 +1,144 @@
+[
+    {
+        "index": "juvenile-mimic",
+        "type": "MONSTROSITY",
+        "subtype": "shapechanger",
+        "group": null,
+        "challenge_rating": 0.0,
+        "name": "Mímico Juvenil",
+        "subtitle": "Monstruosidade minúscula (metamorfo), desalinhado",
+        "size": "Tiny",
+        "alignment": "unaligned",
+        "armor_class": 11,
+        "hit_points": 7,
+        "hit_dice": "2d4+2",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 10,
+                    "value_formatted": "10 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 1,
+                "modifier": -5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 3,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "prone",
+                "type": "PRONE",
+                "name": "Propenso"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Subterrâneo, telepatia 120 pés.",
+        "special_abilities": [
+            {
+                "name": "Falsa Aparência (Apenas Forma de Objeto)",
+                "desc": "Enquanto a imitação permanece imóvel, ela é indistinguível de um objeto comum. "
+            },
+            {
+                "name": "Escalada de Aranha",
+                "desc": "O mímico pode escalar superfícies difíceis, inclusive de cabeça para baixo em tetos, sem precisar fazer um teste de habilidade."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d4",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": 3,
+                "description": "Ataque corpo a corpo com arma: +3 para acertar, alcance 1,5 m, um alvo. 1 dano perfurante mais 2 (1d4) de dano ácido.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O mímico se transforma em um objeto ou volta para sua verdadeira forma amorfa. Suas estatísticas são as mesmas em cada formulário. Qualquer equipamento que esteja usando ou carregando não é transformado. Ele volta à sua forma verdadeira se morrer.",
+                "name": "Mudança de Forma"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Caldeirão de Tudo de Tasha",
+            "acronym": "TCE"
+        }
+    }
+]

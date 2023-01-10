@@ -1,0 +1,367 @@
+[
+    {
+        "index": "demogorgon",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": "Lordes Demônios",
+        "challenge_rating": 4.0,
+        "name": "Demogorgon",
+        "subtitle": "Monstruosidade média, sem alinhamento",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 15,
+        "hit_points": 60,
+        "hit_dice": "8d8+24",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 3,
+                "modifier": -4
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão cega 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Olfato Aguçado",
+                "desc": "O demogorgon tem vantagem em testes de Sabedoria (Percepção) que dependem do olfato. "
+            },
+            {
+                "name": "Blood Frenzy",
+                "desc": "O demogorgon tem vantagem nas jogadas de ataque corpo a corpo contra qualquer criatura que não tenha todos os seus pontos de vida. "
+            },
+            {
+                "name": "Regeneração",
+                "desc": "O demogorgon recupera 10 pontos de vida no início de seu turno. Se o demogorgon receber dano de ácido ou fogo, essa característica não funcionará no início do próximo turno do demogorgon. O demogorgon morre apenas se começar seu turno com 0 pontos de vida e não se regenerar."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O demogorgon faz três ataques: um com sua mordida e dois com suas garras.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d8+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 12 (2d8 + 3) de dano cortante.",
+                "name": "Garra"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Caça à Tessálida",
+            "acronym": "HftT"
+        }
+    },
+    {
+        "index": "thessalhydra",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Tessalidra",
+        "subtitle": "Monstruosidade enorme, desalinhada",
+        "size": "Huge",
+        "alignment": "unaligned",
+        "armor_class": 14,
+        "hit_points": 69,
+        "hit_dice": "6d12+30",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 5,
+                "modifier": -3
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 7,
+                "modifier": -2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "deafened",
+                "type": "DEAFENED",
+                "name": "Surdo"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "stunned",
+                "type": "STUNNED",
+                "name": "Atordoado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "",
+        "special_abilities": [
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "A thessalhydra faz um ataque de boca e uma rajada de mordidas.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfurante"
+                        }
+                    },
+                    {
+                        "dice": "4d4",
+                        "damage": {
+                            "index": "POISON",
+                            "type": "POISON",
+                            "name": "Veneno"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque Corpo a Corpo com Arma: +7 para acertar, alcance 3 metros, um alvo. Acerto: 7 (1d6 + 4) de dano perfurante mais 10 (4d4) de dano venenoso.",
+                "name": "Rajada de Mordidas"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d10",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque corpo a corpo com arma: +7 para acertar, alcance 1,5 m, um alvo. Acerto: 9 (1d10 + 4) de dano perfurante mais 5 (1d10) de dano de ácido.",
+                "name": "Maw"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d12+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 7,
+                "description": "Ataque com Arma Corpo a Corpo: +7 para acertar, alcance 3 metros, um alvo. Acerto: 10 (1d12 + 4) de dano cortante e o alvo é agarrado. Como uma ação, o alvo pode escapar do agarrão obtendo sucesso em um teste de Força CD 14 (Atletismo) ou Destreza (Acrobacia) (à sua escolha). Até que esta luta termine, a tessalidra não pode usar sua pinça de cauda.",
+                "name": "Pinça de Cauda"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d8",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "A tessálida cospe uma gota de ácido em um ponto que pode ver a até 9 metros dela. Cada criatura a até 3 metros desse ponto deve fazer um teste de resistência de Destreza CD 15, recebendo 18 (4d8) de dano de ácido em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Saliva Ácida (Recarga 5-6)"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "A tessálida faz um teste de Sabedoria (Percepção) com vantagem. ",
+                "name": "Detectar"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "A tessálida faz um ataque de pinça de cauda.",
+                "name": "Golpe de Cauda"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Caça à Tessálida",
+            "acronym": "HftT"
+        }
+    }
+]

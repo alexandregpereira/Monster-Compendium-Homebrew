@@ -1,0 +1,1182 @@
+[
+    {
+        "index": "amble",
+        "type": "HUMANOID",
+        "subtype": "tortle",
+        "group": null,
+        "challenge_rating": 10.0,
+        "name": "Amble",
+        "subtitle": "Humanoide médio (torta), leal e bom",
+        "size": "Medium",
+        "alignment": "lawful good",
+        "armor_class": 18,
+        "hit_points": 90,
+        "hit_dice": "12d8+36",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 6
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 8
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 6
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-animal-handling",
+                "modifier": 8,
+                "name": "Manejo de animais"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 8,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-medicine",
+                "modifier": 8,
+                "name": "Medicina"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 8,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 8,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Aquan, Comum, Druídica",
+        "special_abilities": [
+            {
+                "name": "Hearth of Moonlight and Shadow",
+                "desc": "No início de um descanso curto ou longo, Amble pode tocar um ponto no espaço, e uma esfera mágica invisível de 9 metros de raio aparece, centrada naquele ponto. A cobertura total bloqueia a esfera.\nEnquanto dentro da esfera, Amble e seus aliados ganham +5 de bônus nos testes de Destreza (Furtividade) e Sabedoria (Percepção), e qualquer luz de chamas abertas na esfera não é visível fora dela.\nA esfera desaparece no final do descanso ou quando Amble deixa a esfera. "
+            },
+            {
+                "name": "Prenda a respiração",
+                "desc": "Amble pode prender a respiração por até 1 hora por vez. "
+            },
+            {
+                "name": "Bálsamo da Corte do Verão (12d6)",
+                "desc": "(Como uma Ação Bônus) Amble pode escolher uma criatura que possa ver a até 36 metros deles e gastar até 6d6 de sua parada de dados. Role os dados gastos e some-os. O alvo recupera um número de pontos de vida igual ao total. O alvo também ganha 1 ponto de vida temporário por dado gasto. Amble recupera todos os dados gastos quando termina um descanso longo. "
+            },
+            {
+                "name": "Caminhos Ocultos (4/Dia)",
+                "desc": "(Como uma Ação Bônus) Amble pode se teletransportar até 60 pés para um espaço desocupado que eles possam ver."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Amble é um conjurador de nível 12. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 16, +8 para acertar com ataques de magia). Amble tem os seguintes feitiços de druida preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Orientação",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Consertando",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shillelagh",
+                                "name": "Shillelagh",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Ferimentos",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "entangle",
+                                "name": "Enredar",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "speak-with-animals",
+                                "name": "Fale Com os Animais",
+                                "school": "DIVINATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "darkvision",
+                                "name": "Darkvision",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "hold-person",
+                                "name": "Reter Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Restauração Menor",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "moonbeam",
+                                "name": "Raio de Lua",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "conjure-animals",
+                                "name": "Conjurar Animais",
+                                "school": "CONJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dissipar Magia",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "water-breathing",
+                                "name": "Respiração Aquática",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "freedom-of-movement",
+                                "name": "Liberdade de Movimento",
+                                "school": "ABJURATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5º nível (2 slots)",
+                        "spells": [
+                            {
+                                "index": "greater-restoration",
+                                "name": "Restauração Maior",
+                                "school": "ABJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "mass-cure-wounds",
+                                "name": "Curar Ferimentos em Massa",
+                                "school": "CONJURATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6º nível (1 espaço)",
+                        "spells": [
+                            {
+                                "index": "conjure-fey",
+                                "name": "Conjure Fey",
+                                "school": "CONJURATION",
+                                "level": 6
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Amble transforma-se magicamente em uma besta com nível de desafio de 1 ou menos, e pode permanecer nesta forma por até 6 horas. O equipamento de Amble se funde com sua nova forma. Amble reverte à sua verdadeira forma se eles morrerem ou ficarem inconscientes. Amble pode voltar à sua forma verdadeira usando uma ação bônus em seu turno.\nAs estatísticas do jogo de Amble são substituídas pelas estatísticas da besta, mas eles mantêm seu alinhamento, personalidade e pontuações de Inteligência, Sabedoria e Carisma. Amble também retém todas as suas habilidades e proficiências em testes de resistência, além de ganhar as da criatura. Se a criatura tiver a mesma proficiência de Amble e o bônus em seu bloco de estatísticas for maior, use o bônus da criatura em vez do de Amble.\nQuando Amble se transforma, eles assumem os pontos de vida e dados de vida da besta. Quando Amble volta à sua forma normal, eles retornam ao número de pontos de vida que tinham antes de se transformarem. No entanto, se Amble reverter como resultado de cair para 0 pontos de vida, qualquer excesso de dano será transferido para sua forma normal.\nAmble não pode lançar feitiços, e sua capacidade de falar ou realizar qualquer ação que exija mãos é limitada às capacidades de sua forma de besta. A transformação não quebra a concentração de Amble em um feitiço que eles já lançaram, ou os impede de realizar ações que fazem parte de um feitiço.",
+                "name": "Change Shape (2/Day)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque corpo a corpo com arma: +6 para atingir, alcance 1,5 m, um alvo. 4 (1d4 + 2) de dano cortante.",
+                "name": "Garras"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    },
+                    {
+                        "dice": "1d8+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque corpo a corpo com arma: +6 para acertar (+8 para acertar com shillelagh), alcance 1,5 m, um alvo. 5 (1d6 + 2) de dano de concussão ou 8 (1d8 + 4) de dano de concussão com shillelagh.",
+                "name": "Porrete"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Nascente de Locathah",
+            "acronym": "LR"
+        }
+    },
+    {
+        "index": "gar-shatterkeel",
+        "type": "HUMANOID",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 15.0,
+        "name": "Gar Shatterkeel",
+        "subtitle": "Humanoide médio, neutro e mau",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 17,
+        "hit_points": 144,
+        "hit_dice": "17d8+68",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-nature",
+                "modifier": 11,
+                "name": "Natureza"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 10,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 10,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "cold",
+                "type": "COLD",
+                "name": "Frio"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Aquan, Comum",
+        "special_abilities": [
+            {
+                "name": "Anfíbio",
+                "desc": "Gar pode respirar ar e água. "
+            },
+            {
+                "name": "Resistência Lendária (3/dia)",
+                "desc": "Se Gar falhar em um teste de resistência, ele pode optar por ter sucesso. "
+            },
+            {
+                "name": "Water Walk",
+                "desc": "Gar pode ficar de pé e se mover em superfícies líquidas como se fossem terreno sólido. "
+            },
+            {
+                "name": "Watery Fall",
+                "desc": "Quando Gar cai para 0 pontos de vida, seu corpo desmorona em uma poça de água escura que se dispersa rapidamente. Exceto por Wave e sua garra, tudo o que ele usava ou carregava é deixado para trás."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Gar é um conjurador de nível 13. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 18, +10 para acertar com ataques de magia). Ele tem os seguintes feitiços de druida preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "mending",
+                                "name": "Consertos",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "resistance",
+                                "name": "Resistência",
+                                "school": "ABJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "create-or-destroy-water",
+                                "name": "Criar ou Destruir Água",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "charm-person",
+                                "name": "Enfeitiçar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Feridas",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "darkvision",
+                                "name": "Darkvision",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "hold-person",
+                                "name": "Reter Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "pass-without-trace",
+                                "name": "Passe Sem Deixar Vestígios",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "protection-from-poison",
+                                "name": "Proteção Contra Venenos",
+                                "school": "ABJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "conjure-animals",
+                                "name": "Conjurar Animais",
+                                "school": "CONJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dissipar Magia",
+                                "school": "ABJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "dominate-beast",
+                                "name": "Dominar Besta",
+                                "school": "ENCHANTMENT",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5º nível (2 espaços)",
+                        "spells": [
+                            {
+                                "index": "tree-stride",
+                                "name": "Passo da Árvore",
+                                "school": "CONJURATION",
+                                "level": 5
+                            }
+                        ]
+                    },
+                    {
+                        "group": "6º nível (1 slot)",
+                        "spells": [
+                            {
+                                "index": "heal",
+                                "name": "Cura",
+                                "school": "EVOCATION",
+                                "level": 6
+                            }
+                        ]
+                    },
+                    {
+                        "group": "7º nível (1 slot)",
+                        "spells": [
+                            {
+                                "index": "plane-shift",
+                                "name": "Mudança de Plano",
+                                "school": "CONJURATION",
+                                "level": 7
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Gar faz dois ataques corpo a corpo, um com sua garra e outro com Wave.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+3",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque corpo a corpo com arma: +8 para acertar, alcance 1,5 m, um alvo. 10 (2d6 + 3) de dano de concussão e o alvo é agarrado (CD de fuga 16). Até o agarrão terminar, Gar não pode atacar outras criaturas com sua garra.",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "1d8+6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Piercing"
+                        }
+                    },
+                    {
+                        "dice": "extra",
+                        "damage": {
+                            "index": "NECROTIC",
+                            "type": "NECROTIC",
+                            "name": "Necrotic"
+                        }
+                    }
+                ],
+                "attack_bonus": 11,
+                "description": "Ataque corpo a corpo com arma: rw +11 para acertar, alcance 1,5 m ou alcance 20/60 pés, um alvo. 9 (1d6 + 6) de dano perfurante ou 10 (1d8 + 6) de dano perfurante quando usado com as duas mãos. Se Gar obtiver um acerto crítico com esta arma, o alvo sofre dano necrótico extra igual à metade de seu máximo de pontos de vida.",
+                "name": "Onda"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O poder ondula em uma esfera de 60 pés de raio a partir de um ponto dentro do alcance (150 pés) conforme a vontade de Umberlee afeta tudo em seu abraço aquático. Cada criatura naquela área deve ser bem sucedida em um teste de resistência de Constituição CD 18. Se falhar, a criatura não pode usar reações, sua velocidade é reduzida pela metade e não pode fazer mais de um ataque em seu turno. Além disso, a criatura pode usar uma ação ou uma ação bônus em seu turno, mas não ambas. Esses efeitos duram 1 minuto. A criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma com um teste de resistência bem-sucedido. Isso afeta apenas alvos que estão submersos ou flutuando na água. Gar Shatterkeel e qualquer morto-vivo que o sirva são imunes a este efeito.",
+                "name": "Umberlee's Wake (Recarga 5-6)"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Gar se move até sua velocidade sem provocar ataques de oportunidade. ",
+                "name": "Move"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Gar faz um ataque com sua garra. ",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Gar faz um ataque com Onda com vantagem.",
+                "name": "Onda (Custa 2 Ações)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Nascente de Locathah",
+            "acronym": "LR"
+        }
+    },
+    {
+        "index": "shoalar-quanderil",
+        "type": "HUMANOID",
+        "subtype": "water genasi",
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Shoalar Quanderil",
+        "subtitle": "Humanoide médio (genasi da água), leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 11,
+        "hit_points": 75,
+        "hit_dice": "10d8+30",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 18,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 5,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-deception",
+                "modifier": 7,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 3,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 7,
+                "name": "Persuasão"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            },
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Relâmpago"
+            },
+            {
+                "index": "thunder",
+                "type": "THUNDER",
+                "name": "Trovão"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Aquan, Comum",
+        "special_abilities": [
+            {
+                "name": "Anfíbio",
+                "desc": "Shoalar pode respirar ar e água."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração de Shoalar é Constituição (resistência de magia CD 14, +6 para acertar com ataques de magia). Ele pode conjurar inatamente os seguintes feitiços:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "create-or-destroy-water",
+                                "name": "Criar ou Destruir Água",
+                                "school": "TRANSMUTATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "Shoalar é um conjurador de 7º nível. Sua habilidade de conjuração é Carisma (resistência de magia CD 15, +7 para acertar com ataques de magia). Ele conhece os seguintes feitiços de feiticeiro:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "acid-splash",
+                                "name": "Acid Splash",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "chill-touch",
+                                "name": "Toque Frio",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitação",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "ray-of-frost",
+                                "name": "Raio de Gelo",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "disguise-self",
+                                "name": "Disfarçar-se",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Armadura de Mago",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield",
+                                "name": "Escudo",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 vagas)",
+                        "spells": [
+                            {
+                                "index": "hold-person",
+                                "name": "Segurar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Passo Nebuloso",
+                                "school": "CONJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (2 espaços)",
+                        "spells": [
+                            {
+                                "index": "lightning-bolt",
+                                "name": "Relâmpago",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (1 slot)",
+                        "spells": [
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+1",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: rw +4 para acertar, alcance 1,5 m ou alcance de 20/60 pés, um alvo. 3 (1d4 + 1) de dano perfurante.",
+                "name": "Adaga"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Nascente de Locathah",
+            "acronym": "LR"
+        }
+    },
+    {
+        "index": "young-kraken",
+        "type": "MONSTROSITY",
+        "subtype": "titan",
+        "group": null,
+        "challenge_rating": 14.0,
+        "name": "Jovem Kraken",
+        "subtitle": "Enorme monstruosidade (titã), caótico e mau",
+        "size": "Huge",
+        "alignment": "chaotic evil",
+        "armor_class": 16,
+        "hit_points": 207,
+        "hit_dice": "18d12+90",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                },
+                {
+                    "type": "SWIM",
+                    "measurement_unit": "FEET",
+                    "value": 50,
+                    "value_formatted": "50 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 24,
+                "modifier": 7
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 19,
+                "modifier": 4
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 17,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 12
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 10
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 9
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "lightning",
+                "type": "LIGHTNING",
+                "name": "Relâmpago"
+            },
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "paralisado"
+            }
+        ],
+        "senses": [
+            "visão verdadeira 120 pés."
+        ],
+        "languages": "Abissal, Celestial, Infernal, Primordial, telepatia 60 pés, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Anfíbio",
+                "desc": "O kraken respira ar e água."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O kraken faz dois ataques de tentáculo, cada um dos quais pode ser substituído por um uso de Arremessar.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d8+7",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Ataque corpo a corpo com arma: +12 para atingir, alcance 1,5 m, um alvo. 20 (3d8 + 7) de dano perfurante.\nSe o alvo for uma criatura Média ou menor agarrada pelo kraken, essa criatura é engolida e o agarrão termina. Enquanto engolida, a criatura fica cega e contida, tem cobertura total contra ataques e outros efeitos fora do kraken e recebe 21 (6d6) de dano de ácido no início de cada turno do kraken. Uma criatura Média ou duas criaturas menores podem ser engolidas ao mesmo tempo.\nSe o kraken sofrer 35 de dano ou mais em um único turno de uma criatura dentro dele, o kraken deve ter sucesso em um teste de resistência de Constituição CD 23 no final desse turno ou regurgitar todas as criaturas engolidas, que caem caídas em espaços dentro de 3 metros de distância. o Kraken. Se o kraken morrer, uma criatura engolida não é mais contida por ele e pode escapar do cadáver usando 3 metros de movimento, saindo caída.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6+7",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 12,
+                "description": "Arma corpo a corpo Ataque: +12 para acertar, alcance 20 pés, um alvo. 17 (3d6 + 7) de dano de concussão e o alvo é agarrado (CD de fuga 20). Até o agarrão terminar, o alvo está impedido. O kraken tem dez tentáculos, cada um dos quais pode agarrar um alvo.",
+                "name": "Tentáculo"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Um objeto médio ou menor segurado ou uma criatura agarrada pelo kraken é arremessado a até 12 metros em uma direção aleatória e derrubado. Se um alvo arremessado atingir uma superfície sólida, o alvo sofre 3 (1d6) de dano de concussão para cada 3 metros que foi arremessado. Se o alvo for arremessado em outra criatura, essa criatura deve passar em um teste de resistência de Destreza CD 13 ou sofrerá o mesmo dano e cairá no chão.",
+                "name": "Arremessar"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d10",
+                        "damage": {
+                            "index": "LIGHTNING",
+                            "type": "LIGHTNING",
+                            "name": "Relâmpago"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O kraken cria magicamente um raio, que pode atingir um alvo que o kraken possa ver a até 30 metros dele. O alvo deve fazer um teste de resistência de Destreza CD 18, recebendo 22 (4d10) de dano elétrico em caso de falha, ou metade do dano em caso de sucesso.",
+                "name": "Relâmpago"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Nascente de Locathah",
+            "acronym": "LR"
+        }
+    }
+]

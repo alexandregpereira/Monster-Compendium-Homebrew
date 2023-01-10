@@ -1,0 +1,4590 @@
+[
+    {
+        "index": "ancient-deep-crow",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 15.0,
+        "name": "Antigo Corvo Profundo",
+        "subtitle": "Monstruosidade enorme, desalinhada",
+        "size": "Huge",
+        "alignment": "unaligned",
+        "armor_class": 18,
+        "hit_points": 187,
+        "hit_dice": "15d12+90",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 80,
+                    "value_formatted": "80 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 23,
+                "modifier": 6
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 23,
+                "modifier": 6
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 19,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 11
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 7,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 13,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão cega 60 pés",
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Corvo Profundo",
+        "special_abilities": [
+            {
+                "name": "Resistência Mágica",
+                "desc": "O antigo corvo profundo tem vantagem em testes de resistência contra feitiços e outros efeitos mágicos. "
+            },
+            {
+                "name": "Furtividade nas Sombras",
+                "desc": "Enquanto estiver na penumbra ou na escuridão, o antigo corvo profundo pode realizar a ação Esconder-se como uma ação bônus."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O antigo corvo profundo faz três ataques: um com suas mandíbulas e dois com suas garras.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 11,
+                "description": "Ataque corpo a corpo com arma: +11 para acertar, alcance 3 metros, um alvo. Acerto: 17 (2d10 + 6) de dano perfurante e o alvo é agarrado (CD de fuga 19). Até que este agarrão termine, o alvo está contido, e o antigo corvo profundo não pode usar suas mandíbulas em outro alvo.",
+                "name": "Mandíbulas"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+6",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 11,
+                "description": "Ataque corpo a corpo com arma: +11 para acertar, alcance 1,5 m, um alvo. Acerto: 13 (2d6 + 6) de dano cortante.",
+                "name": "Garra"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "3d6",
+                        "damage": {
+                            "index": "PSYCHIC",
+                            "type": "PSYCHIC",
+                            "name": "psíquico"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O antigo corvo profundo solta um grasnido ensurdecedor. Cada criatura a até 18 metros do corvo e capaz de ouvi-lo deve fazer um teste de resistência de Constituição CD 17. Em caso de falha, uma criatura sofre 10 (3d6) de dano psíquico.",
+                "name": "Shadow Caw"
+            }
+        ],
+        "legendary_actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O corvo profundo faz um teste de Sabedoria (Percepção). ",
+                "name": "Detectar"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O antigo corvo profundo usa Shadow Caw. ",
+                "name": "Shadow Caw (custa 2 ações)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+6",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Bludgeoning"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O antigo corvo profundo bate suas asas. Cada criatura a até 3 metros do corvo profundo deve ser bem sucedida em um teste de resistência de Destreza CD 19 ou sofrerá 13 (2d6 + 6) de dano de concussão e cairá no chão. O antigo corvo profundo pode então voar até metade de sua velocidade de vôo.",
+                "name": "Ataque de Asa (Custa 2 Ações)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "auspicia-dran",
+        "type": "HUMANOID",
+        "subtype": "half-elf",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Os Auspícios de Dran",
+        "subtitle": "Humanoide médio (meio-elfo), neutro e bom",
+        "size": "Medium",
+        "alignment": "neutral good",
+        "armor_class": 15,
+        "hit_points": 52,
+        "hit_dice": "8d8+16",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 5,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "comum, élfico",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade de conjuração inata de Auspicia é a Inteligência. Ela pode conjurar inatamente as seguintes magias, sem necessidade de componentes:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À Vontade",
+                        "spells": [
+                            {
+                                "index": "detect-thoughts",
+                                "name": "Detectar Pensamentos",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "augury",
+                                "name": "Augúrio",
+                                "school": "DIVINATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Auspicia faz dois ataques.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    },
+                    {
+                        "dice": "1d10+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque corpo a corpo com arma: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano cortante ou 8 (1d10 + 3) de dano cortante se usado com as duas mãos.",
+                "name": "Espada longa"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Arma de ataque à distância: +4 para acertar, alcance 80/320 pés, um alvo. Acerto: 6 (1d8 + 2) de dano perfurante.",
+                "name": "Besta leve"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "brahma-lutier",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Brahma Luthier",
+        "subtitle": "Humanóide médio (elfo), neutro",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 12,
+        "hit_points": 33,
+        "hit_dice": "6d8+6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 5,
+                "name": "Desempenho"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasão"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "comum, élfico",
+        "special_abilities": [
+            {
+                "name": "Fey Ancestry",
+                "desc": "Brahma tem vantagem em testes de resistência contra ser enfeitiçado, e a magia não pode colocá-la para dormir. "
+            },
+            {
+                "name": "Provocar (2/Dia)",
+                "desc": "Brahma pode usar uma ação bônus para atingir uma criatura que ela possa ver a até 9 metros dela. Se o alvo puder ouvir Brahma, ele deve ter sucesso em um teste de resistência de Carisma CD 13 ou terá desvantagem em testes de habilidade, jogadas de ataque e testes de resistência até o início do próximo turno de Brahma."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Brahma é um conjurador de nível 4. Sua habilidade de conjuração é Carisma (resistência de magia CD 13, +5 para acertar com ataques de magia). Ela tem os seguintes feitiços de bardo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "message",
+                                "name": "Mensagem",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "vicious-mockery",
+                                "name": "Zombaria Viciosa",
+                                "school": "ENCHANTMENT",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "charm-person",
+                                "name": "Enfeitiçar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "heroism",
+                                "name": "Heroísmo",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "illusory-script",
+                                "name": "Escrita Ilusória",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Dormir",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "unseen-servant",
+                                "name": "Servo Invisível",
+                                "school": "CONJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibilidade",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano cortante.",
+                "name": "Alaúde de guerra"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Brahma tem como alvo uma criatura que pode vê-la ou ouvi-la, que deve ser bem-sucedida em um teste de resistência de Sabedoria CD 13 ou será enfeitiçada por ela por 1 minuto. O alvo pode repetir o salvamento no final de cada um de seus turnos, terminando o efeito sobre si mesmo em caso de sucesso. Tem desvantagem nesses testes se ser enfeitiçado por Brahma é algo que o alvo deseja aberta ou secretamente. Por 1 hora após o término do efeito do feitiço, o alvo tem desvantagem em testes de Inteligência, Sabedoria ou Carisma feitos como parte de uma competição com Brahma.",
+                "name": "Song of Domination (3/Day)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "chaos-quadrapod",
+        "type": "ABERRATION",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Caos Quadrpode",
+        "subtitle": "Aberração grande, mal caótico",
+        "size": "Large",
+        "alignment": "chaotic evil",
+        "armor_class": 14,
+        "hit_points": 52,
+        "hit_dice": "7d10+14",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "CLIMB",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 4,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 5,
+                "name": "Acrobacia"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão cega 120 pés (cego além deste raio)"
+        ],
+        "languages": "",
+        "special_abilities": [
+            {
+                "name": "Resistência Mágica",
+                "desc": "O quadrápode do caos tem vantagem em testes de resistência contra feitiços e outros efeitos mágicos."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O quadrápode do caos faz até dois ataques de tentáculo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque com arma corpo a corpo: +6 para atingir, alcance 4,5 metros, um alvo. Acerto: 11 (2d6 + 4) de dano de concussão. Se o alvo for uma criatura, ela é agarrada (CD de fuga 14). Até que este agarrão termine, o alvo está contido. O quaternário do caos pode agarrar não mais do que dois alvos por vez.",
+                "name": "Tentáculo"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O quaternário do caos dispara um nó de luz etérea turva que explode em um ponto que ele pode ver a até 18 metros dele. Cada criatura em uma esfera de 6 metros de raio centrada naquele ponto deve ser bem sucedida em um teste de resistência de Carisma CD 14 ou ficará atordoada até o final de seu próximo turno.",
+                "name": "Nuvem do Caos (Recarrega após um Descanso Curto ou Longo)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "clockwork-dragon",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 1.0,
+        "name": "Dragão Mecânico",
+        "subtitle": "Construção média, neutra",
+        "size": "Medium",
+        "alignment": "neutral",
+        "armor_class": 16,
+        "hit_points": 22,
+        "hit_dice": "4d8+4",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 60,
+                    "value_formatted": "60 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 2,
+                "name": "Acrobacia"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "blinded",
+                "type": "BLINDED",
+                "name": "Cego"
+            },
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "deafened",
+                "type": "DEAFENED",
+                "name": "Surdo"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "petrificada"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão cega 60 pés",
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Dracônico",
+        "special_abilities": [
+            {
+                "name": "Falsa Aparência",
+                "desc": "Enquanto o dragão mecânico permanece imóvel, é indistinguível de uma estátua de metal."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d10+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d10 + 2) de dano perfurante.",
+                "name": "Mordida"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "4d6",
+                        "damage": {
+                            "index": "FIRE",
+                            "type": "FIRE",
+                            "name": "Fogo"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O dragão mecânico exala fogo em um cone de 4,5 metros. Cada criatura nessa área deve fazer um teste de resistência de Destreza CD 11, recebendo 14 (4d6) de dano de fogo em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Sopro de Fogo (Recarga 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "deep-crow",
+        "type": "MONSTROSITY",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 9.0,
+        "name": "Corvo Profundo",
+        "subtitle": "Grande monstruosidade, desalinhada",
+        "size": "Large",
+        "alignment": "unaligned",
+        "armor_class": 17,
+        "hit_points": 133,
+        "hit_dice": "14d10+56",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "FLY",
+                    "measurement_unit": "FEET",
+                    "value": 80,
+                    "value_formatted": "80 ft."
+                },
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 20,
+                    "value_formatted": "20 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "WISDOM",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 8
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 6
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 6,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 11,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão cega 30 pés",
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Corvo Profundo",
+        "special_abilities": [
+            {
+                "name": "Resistência Mágica",
+                "desc": "O corvo profundo tem vantagem em testes de resistência contra feitiços e outros efeitos mágicos. "
+            },
+            {
+                "name": "Furtividade nas Sombras",
+                "desc": "Enquanto estiver na penumbra ou na escuridão, o corvo das profundezas pode realizar a ação Esconder-se como uma ação bônus. "
+            },
+            {
+                "name": "Sensibilidade à luz do sol",
+                "desc": "Enquanto estiver sob a luz do sol, o corvo das profundezas tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O corvo profundo faz três ataques: um com suas mandíbulas e dois com suas garras.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d10+5",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 9,
+                "description": "Ataque corpo a corpo com arma: +9 para acertar, alcance 3 metros, um alvo. Acerto: 16 (2d10 + 5) de dano perfurante e o alvo é agarrado (CD de fuga 17). Até que este agarrão termine, o alvo está contido e o corvo profundo não pode usar suas mandíbulas em outro alvo.",
+                "name": "Mandíbulas"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+5",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 9,
+                "description": "Ataque corpo a corpo com arma: +9 para acertar, alcance 1,5 m, um alvo. Acerto: 12 (2d6 + 5) de dano cortante.",
+                "name": "Garra"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "donaar-blit'zen",
+        "type": "HUMANOID",
+        "subtype": "dragonborn",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Doador Blit'zen",
+        "subtitle": "Humanoide médio (dragonborn), caótico e bom",
+        "size": "Medium",
+        "alignment": "chaotic good",
+        "armor_class": 18,
+        "hit_points": 45,
+        "hit_dice": "7d8+14",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 16,
+                "modifier": 3
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 2
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-history",
+                "modifier": 2,
+                "name": "História"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 2,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 5,
+                "name": "Intimidação"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasão"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "acid",
+                "type": "ACID",
+                "name": "Ácido"
+            }
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Dracônico, Orc",
+        "special_abilities": [
+            {
+                "name": "Desafio do Campeão (Recarrega após um Descanso Curto ou Longo)",
+                "desc": "Como uma ação bônus, Donaar faz com que cada criatura de sua escolha que ele possa ver a até 9 metros dele faça um teste de resistência de Sabedoria CD 13. Em caso de falha, uma criatura não pode se mover voluntariamente a mais de 9 metros de distância de Donaar. Este efeito termina na criatura se Donaar estiver incapacitado ou morrer, ou se a criatura for movida a mais de 9 metros dele."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Donaar é um conjurador de nível 5. Sua habilidade de conjuração é Carisma (resistência de magia CD 13, +5 para acertar com ataques de magia). Ele tem as seguintes magias de paladino preparadas:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1º nível (4 espaços)",
+                        "spells": [
+                            {
+                                "index": "command",
+                                "name": "Comando",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Feridas",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (2 slots)",
+                        "spells": [
+                            {
+                                "index": "aid",
+                                "name": "Auxílio",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "branding-smite",
+                                "name": "Branding Smite",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Restauração Menor",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "warding-bond",
+                                "name": "Vínculo de Proteção",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "zone-of-truth",
+                                "name": "Zona da Verdade",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Donaar faz dois ataques com sua espada grande ou seu chicote.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para atingir, alcance 1,5 m, um alvo. Acerto: 10 (2d6 + 3) de dano cortante. Sempre que Donaar obtiver 1 ou 2 em um dado de dano, ele pode rolar novamente o dado e deve usar o novo resultado.",
+                "name": "Espada grande"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+3",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo: +5 para acertar, alcance 3 metros, um alvo. Acerto: 5 (1d4 + 3) de dano cortante.",
+                "name": "Chicote"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "Donaar regurgita ácido em uma linha de 30 pés com 5 pés de largura. Cada criatura nessa linha deve fazer um teste de resistência de Destreza CD 12, recebendo 7 (2d6) de dano de ácido em uma falha na resistência, ou metade do dano em uma bem-sucedida.",
+                "name": "Vômito ácido"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "flabbergast",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Espantado",
+        "subtitle": "Humanoide médio (humano), leal e neutro",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 12,
+        "hit_points": 40,
+        "hit_dice": "9d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 5
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 5,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 3,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 5,
+                "name": "História"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Dracônico, Élfico, Gnômico",
+        "special_abilities": [
+        ],
+        "spellcasting": [
+            {
+                "desc": "Flabbergast é um conjurador de nível 9. Sua habilidade de conjuração é Inteligência (resistência de magia CD 13, +5 para acertar com ataques de magia). Ele tem os seguintes feitiços de mago preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitação",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Armadura de Mago",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "suggestion",
+                                "name": "Sugestão",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "lightning-bolt",
+                                "name": "Relâmpago",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "greater-invisibility",
+                                "name": "Invisibilidade Maior",
+                                "school": "ILLUSION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5º nível (1 espaço)",
+                        "spells": [
+                            {
+                                "index": "cone-of-cold",
+                                "name": "Cone de Frio",
+                                "school": "EVOCATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo ou à distância: +4 para atingir, alcance de 1,5 m ou alcance de 20/60 pés, um alvo. Acerto: 4 (1d4 + 2) de dano perfurante.",
+                "name": "Adaga"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "jim-darkmagic",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 5.0,
+        "name": "Jim Darkmagic",
+        "subtitle": "Humanoide médio (humano), neutro caótico",
+        "size": "Medium",
+        "alignment": "chaotic neutral",
+        "armor_class": 12,
+        "hit_points": 40,
+        "hit_dice": "9d8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 5,
+                "name": "Acrobacia"
+            },
+            {
+                "index": "skill-animal-handling",
+                "modifier": 4,
+                "name": "Manejo de animais"
+            },
+            {
+                "index": "skill-arcana",
+                "modifier": 7,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 7,
+                "name": "História"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 5,
+                "name": "Desempenho"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum",
+        "special_abilities": [
+            {
+                "name": "Equipamento Especial",
+                "desc": "Jim carrega uma varinha mágica. Transporte benigno (recarrega após Jim lançar um feitiço de conjuração de 1º nível ou superior). Como uma ação bônus, Jim se teletransporta até 9 metros para um espaço que ele possa ver. O espaço deve estar desocupado ou ocupado por uma criatura pequena ou média voluntária. Se for o último, Jim e a criatura voluntária se teletransportam, trocando de lugar."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Jim é um conjurador de nível 9. Sua habilidade de conjuração é Inteligência (resistência de magia CD 15, +7 para acertar com ataques de magia). Ele tem os seguintes feitiços de mago preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "fire-bolt",
+                                "name": "Fire Bolt",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "minor-illusion",
+                                "name": "Ilusão Menor",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitação",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "disguise-self",
+                                "name": "Disfarçar-se",
+                                "school": "ILLUSION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Armadura de Mago",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "invisibility",
+                                "name": "Invisibilidade",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "fireball",
+                                "name": "Fireball",
+                                "school": "EVOCATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "conjure-minor-elementals",
+                                "name": "Conjurar Elementais Menores",
+                                "school": "CONJURATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "polymorph",
+                                "name": "Polimorfo",
+                                "school": "TRANSMUTATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5º nível (1 espaço)",
+                        "spells": [
+                            {
+                                "index": "mislead",
+                                "name": "Enganar",
+                                "school": "ILLUSION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma corpo a corpo ou à distância: +5 para atingir, alcance de 1,5 m ou alcance de 20/60 pés, um alvo. Acerto: 4 (1d4 + 2) de dano perfurante.",
+                "name": "Adaga"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Jim conjura um objeto inanimado, não maior que 3 pés de lado e não mais que 10 libras, em sua mão ou no chão em um espaço desocupado que ele possa ver a até 3 metros dele. O objeto é visivelmente mágico, irradiando luz fraca a 1,5 metro. Ele desaparece se sofrer algum dano, após 1 hora ou quando Jim usar esse recurso novamente.",
+                "name": "Conjuração Menor"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "k'thriss-drow'b",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "K'thriss Drow'b",
+        "subtitle": "Humanóide médio (elfo), neutro caótico",
+        "size": "Medium",
+        "alignment": "chaotic neutral",
+        "armor_class": 14,
+        "hit_points": 44,
+        "hit_dice": "8d8+8",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 18,
+                "modifier": 4
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 0
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 3
+            },
+            {
+                "index": "saving-throw-con",
+                "type": "CONSTITUTION",
+                "modifier": 2
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 3
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 3
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 7
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 4,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 2,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-investigation",
+                "modifier": 4,
+                "name": "Investigação"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 2,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 4,
+                "name": "Religião"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 120 pés."
+        ],
+        "languages": "Celestial, Comum, Élfico, Subterrâneo; pode ler toda a escrita",
+        "special_abilities": [
+            {
+                "name": "Equipamento Especial",
+                "desc": "K'thriss veste um manto de estrelas (considerado em suas estatísticas). O manto permite que ele lance os seguintes feitiços: 6/dia: míssil mágico (7 mísseis)"
+            },
+            {
+                "name": "Mente Desperta",
+                "desc": "K'thriss pode falar telepaticamente com qualquer criatura que ele possa ver a até 9 metros dele, desde que a criatura possa entender pelo menos um idioma. "
+            },
+            {
+                "name": "Fey Ancestry",
+                "desc": "K'thriss tem vantagem em testes de resistência contra ser enfeitiçado, e a magia não pode colocá-lo para dormir. Sensibilidade à luz solar. Enquanto estiver sob a luz do sol, K'thriss tem desvantagem nas jogadas de ataque, bem como nos testes de Sabedoria (Percepção) que dependem da visão."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração de K'thriss é Carisma (CD de resistência de magia 14). Ele pode conjurar inatamente os seguintes feitiços, sem a necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "At Will",
+                        "spells": [
+                            {
+                                "index": "dancing-lights",
+                                "name": "Dancing Lights",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "disguise-self",
+                                "name": "Disfarçar-se",
+                                "school": "ILLUSION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "darkness",
+                                "name": "Escuridão",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "faerie-fire",
+                                "name": "Fogo Das Fadas",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "K'thriss é um conjurador de 5º nível. Sua habilidade de conjuração é Carisma (resistência de magia CD 14, +6 para acertar com ataques de magia). Ele recupera seus espaços de feitiços gastos quando termina um descanso curto ou longo e conhece os seguintes feitiços de bruxo:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "chill-touch",
+                                "name": "Chill Touch",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "eldritch-blast",
+                                "name": "Explosão Eldritch",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Consertando",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "prestidigitation",
+                                "name": "Prestidigitação",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "vicious-mockery",
+                                "name": "Zombaria Viciosa",
+                                "school": "ENCHANTMENT",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (2 espaços)",
+                        "spells": [
+                            {
+                                "index": "fly",
+                                "name": "Voar",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "misty-step",
+                                "name": "Passo Nebuloso",
+                                "school": "CONJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "sending",
+                                "name": "Enviando",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "shatter",
+                                "name": "Quebrar",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Corte"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "K'thriss faz dois ataques com sua foice. Foice. Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 4 (1d4 + 2) de dano cortante.",
+                "name": "Multiataque"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "keg-robot",
+        "type": "CONSTRUCT",
+        "subtype": null,
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Barril de Robô",
+        "subtitle": "Construção média, desalinhada",
+        "size": "Medium",
+        "alignment": "unaligned",
+        "armor_class": 14,
+        "hit_points": 39,
+        "hit_dice": "6d8+12",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 6,
+                "modifier": -2
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 5,
+                "modifier": -3
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-perception",
+                "modifier": 1,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+            {
+                "index": "bludgeoning",
+                "type": "BLUDGEONING",
+                "name": "Espancamento*"
+            },
+            {
+                "index": "piercing",
+                "type": "PIERCING",
+                "name": "Perfuração*"
+            },
+            {
+                "index": "slashing",
+                "type": "SLASHING",
+                "name": "Corte*"
+            },
+            {
+                "index": "from nonmagical attacks",
+                "type": "OTHER",
+                "name": "*de ataques não mágicos"
+            }
+        ],
+        "damage_immunities": [
+            {
+                "index": "poison",
+                "type": "POISON",
+                "name": "Veneno"
+            },
+            {
+                "index": "psychic",
+                "type": "PSYCHIC",
+                "name": "Psíquico"
+            }
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            },
+            {
+                "index": "exhaustion",
+                "type": "EXHAUSTION",
+                "name": "Exaustão"
+            },
+            {
+                "index": "frightened",
+                "type": "FRIGHTENED",
+                "name": "Assustado"
+            },
+            {
+                "index": "paralyzed",
+                "type": "PARALYZED",
+                "name": "Paralisado"
+            },
+            {
+                "index": "petrified",
+                "type": "PETRIFIED",
+                "name": "petrificada"
+            },
+            {
+                "index": "poisoned",
+                "type": "POISONED",
+                "name": "Envenenado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "entende comum, mas não pode falar",
+        "special_abilities": [
+            {
+                "name": "Armazenamento personalizável",
+                "desc": "Um robô de barril pode conter até três tipos de carga líquida, totalizando 12 galões dentro de seu corpo oco em forma de barril. Um robô de barril cheio pode fazer um ataque de líquido por galão antes que o líquido seja recarregado. Encher um robô de barril leva 2 rodadas por galão. Diferentes cargas úteis podem alterar os ataques do robô barril daqueles apresentados aqui."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Arma corpo a corpo Ataque: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d8 + 3) de dano de concussão.",
+                "name": "Punho"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "ACID",
+                            "type": "ACID",
+                            "name": "Ácido"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma à distância: +5 para acertar, alcance 20/40 pés, um alvo. Acerto: 7 (1d8 + 3) de dano de ácido.",
+                "name": "Esguicho de ácido"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "O barril-robô cospe uma cerveja anormalmente potente em um cone de 15 pés ou em uma linha de 30 pés com 5 pés de largura. Cada criatura na área deve ser bem sucedida em um teste de resistência de Constituição CD 13 ou será envenenada. Enquanto envenenada desta forma, uma criatura tem sua velocidade reduzida pela metade pela exposição à poção potente. Uma criatura afetada pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma em caso de sucesso.\nAlém disso, o chuveiro de cerveja extingue qualquer incêndio ou chama aberta em sua área.",
+                "name": "Beer Shower"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "FIRE",
+                            "type": "FIRE",
+                            "name": "Fogo"
+                        }
+                    }
+                ],
+                "attack_bonus": null,
+                "description": "O robô barril pulveriza óleo quente em um cone de 15 pés ou em uma linha de 30 pés com 5 pés de largura. Cada criatura na área deve fazer um teste de resistência de Destreza CD 13. Se falhar na resistência, uma criatura sofre 7 (1d8 + 3) de dano de fogo e cai no chão. Em um teste de resistência bem-sucedido, uma criatura sofre metade do dano e não cai.\nQualquer criatura afetada pelo spray de óleo quente que sofra dano de fogo antes que o óleo seque (após 1 minuto) recebe 3 (1d6) de dano de fogo adicional e o óleo queima.\nSe o óleo que permanecer na área do spray for aceso, ele queima por 1d4 rodadas e causa 3 (1d6) de dano de fogo a qualquer criatura que entrar na área pela primeira vez em um turno ou terminar seu turno lá.",
+                "name": "Spray de óleo quente (recarga 5-6)"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "môrgæn",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 4.0,
+        "name": "Morgn",
+        "subtitle": "Humanóide médio (elfo), neutro caótico",
+        "size": "Medium",
+        "alignment": "chaotic neutral",
+        "armor_class": 16,
+        "hit_points": 66,
+        "hit_dice": "12d8+12",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 3
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 6
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 3,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 4,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-nature",
+                "modifier": 3,
+                "name": "Natureza"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 4,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Furtividade"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 4,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Dracônico, Anão, Gigante, Goblin",
+        "special_abilities": [
+            {
+                "name": "Fey Ancestry",
+                "desc": "Môrgæn tem vantagem em testes de resistência contra ser enfeitiçada, e a magia não pode colocá-la para dormir."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade de conjuração de Môrgæn é Inteligência. Ela pode conjurar inatamente os seguintes feitiços, sem a necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À Vontade",
+                        "spells": [
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão do Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "desc": "Môrgæn é um conjurador de nível 9. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 12, +4 para acertar com ataques de magia). Ela tem os seguintes feitiços de ranger preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "1º nível (4 espaços)",
+                        "spells": [
+                            {
+                                "index": "alarm",
+                                "name": "Alarme",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "animal-friendship",
+                                "name": "Amizade Animal",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "pass-without-trace",
+                                "name": "Passar Sem Deixar Rastros",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spike-growth",
+                                "name": "Pico de Crescimento",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (2 slots)",
+                        "spells": [
+                            {
+                                "index": "conjure-animals",
+                                "name": "Conjurar Animais",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Môrgæn faz três ataques com suas cimitarras ou seu arco longo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Arma corpo a corpo Ataque: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d6 + 4) de dano cortante.",
+                "name": "Cimitarras"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+4",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque com arma à distância: +6 para acertar, alcance 150/600 pés, um alvo. Acerto: 8 (1d8 + 4) de dano perfurante.",
+                "name": "Arco longo"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "oak-truestrike",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Oak Truestrike",
+        "subtitle": "Humanoide médio (elfo), neutro e bom",
+        "size": "Medium",
+        "alignment": "neutral good",
+        "armor_class": 15,
+        "hit_points": 32,
+        "hit_dice": "5d8+10",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-nature",
+                "modifier": 3,
+                "name": "Natureza"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 2,
+                "name": "Desempenho"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 3,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum",
+        "special_abilities": [
+            {
+                "name": "Fey Ancestry",
+                "desc": "Oak tem vantagem em testes de resistência contra ser enfeitiçado, e a magia não pode colocá-lo para dormir. "
+            },
+            {
+                "name": "Visão e Audição Aguçadas",
+                "desc": "Oak tem vantagem em testes de Sabedoria (Percepção) que dependem da audição ou visão."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Oak faz três ataques com suas adagas em forma de gancho ou sua besta de mão.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Arma corpo a corpo Ataque: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d4 + 3) de dano perfurante.",
+                "name": "Hooked Dagger"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma à distância: +5 para acertar, alcance 30/120 pés, um alvo. Acerto: 6 (1d6 + 3) de dano perfurante.",
+                "name": "Besta de mão"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Return the Favor (3/Day)",
+                "desc": "Quando Oak recebe dano de um ataque de arma corpo a corpo, ele pode fazer um ataque de adaga em forma de gancho."
+            }
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "omin-dran",
+        "type": "HUMANOID",
+        "subtype": "half-elf",
+        "group": null,
+        "challenge_rating": 5.0,
+        "name": "Minha Própria Dra",
+        "subtitle": "Humanoide médio (meio-elfo), leal e neutro",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 18,
+        "hit_points": 65,
+        "hit_dice": "10d8+20",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CHARISMA",
+                "value": 12,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 7
+            },
+            {
+                "index": "saving-throw-cha",
+                "type": "CHARISMA",
+                "modifier": 4
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 4,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 7,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 4,
+                "name": "Intimidação"
+            },
+            {
+                "index": "skill-medicine",
+                "modifier": 7,
+                "name": "Medicina"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 7,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 4,
+                "name": "Persuasão"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Anão, Élfico, Goblin",
+        "special_abilities": [
+            {
+                "name": "Divine Strike",
+                "desc": "Uma vez em cada um de seus turnos quando ele atinge uma criatura com um ataque de arma, Omin pode fazer com que o ataque cause 4 (1d8) de dano extra do mesmo tipo causado pela arma. "
+            },
+            {
+                "name": "Fey Ancestry",
+                "desc": "Omin tem vantagem em testes de resistência contra ser enfeitiçado, e a magia não pode colocá-lo para dormir."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Omin é um conjurador de nível 9. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 15, +7 para acertar com ataques de magia). Ele tem os seguintes feitiços de clérigo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Orientação",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "spare-the-dying",
+                                "name": "Poupe a Morte",
+                                "school": "NECROMANCY",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "bless",
+                                "name": "Bless",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "command",
+                                "name": "Comando",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "divine-favor",
+                                "name": "Favor Divino",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "shield-of-faith",
+                                "name": "Escudo da Fé",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "enhance-ability",
+                                "name": "Aprimorar Habilidade",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "hold-person",
+                                "name": "Reter Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "magic-weapon",
+                                "name": "Arma Mágica",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "silence",
+                                "name": "Silêncio",
+                                "school": "ILLUSION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Arma Espiritual",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "beacon-of-hope",
+                                "name": "Farol da Esperança",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dissipar Magia",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "mass-healing-word",
+                                "name": "Palavra de Cura em Massa",
+                                "school": "EVOCATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "spirit-guardians",
+                                "name": "Espíritos Guardiões",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (3 espaços)",
+                        "spells": [
+                            {
+                                "index": "death-ward",
+                                "name": "Proteção da Morte",
+                                "school": "ABJURATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "freedom-of-movement",
+                                "name": "Liberdade de Movimento",
+                                "school": "ABJURATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "locate-creature",
+                                "name": "Localize a Criatura",
+                                "school": "DIVINATION",
+                                "level": 4
+                            },
+                            {
+                                "index": "stoneskin",
+                                "name": "Pele de Pedra",
+                                "school": "ABJURATION",
+                                "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5º nível (1 espaço)",
+                        "spells": [
+                            {
+                                "index": "dispel-evil-and-good",
+                                "name": "Dissipar o Bem e o Mal",
+                                "school": "ABJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "flame-strike",
+                                "name": "Golpe de Chamas",
+                                "school": "EVOCATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "hold-monster",
+                                "name": "Segure o Monstro",
+                                "school": "ENCHANTMENT",
+                                "level": 5
+                            },
+                            {
+                                "index": "greater-restoration",
+                                "name": "Restauração Maior",
+                                "school": "ABJURATION",
+                                "level": 5
+                            },
+                            {
+                                "index": "legend-lore",
+                                "name": "Lendas",
+                                "school": "DIVINATION",
+                                "level": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Omin faz dois ataques com seu maul.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+3",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque corpo a corpo com arma: +6 para atingir, alcance 1,5 m, um alvo. Acerto: 10 (2d6 + 3) de dano de concussão.",
+                "name": "Maul"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Bênção do Deus da Guerra (recarrega após um descanso curto ou longo)",
+                "desc": "Quando uma criatura a até 9 metros de Omin faz uma jogada de ataque, mas antes de saber se ela acerta ou erra, Omin pode conceder à criatura um bônus de +10 para essa jogada."
+            }
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "pendragon-beestinger",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Pendragon Beestinger",
+        "subtitle": "Humanoide médio (humano), neutro e mau",
+        "size": "Medium",
+        "alignment": "neutral evil",
+        "armor_class": 12,
+        "hit_points": 27,
+        "hit_dice": "5d8+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 17,
+                "modifier": 3
+            },
+            {
+                "type": "WISDOM",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 11,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-arcana",
+                "modifier": 5,
+                "name": "Arcano"
+            },
+            {
+                "index": "skill-investigation",
+                "modifier": 5,
+                "name": "Investigação"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 2,
+                "name": "Desempenho"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Dracônico, Élfico, Halfling",
+        "special_abilities": [
+            {
+                "name": "Feitiço de eco (1/dia)",
+                "desc": "Pendragon pode lançar o feitiço que lançou em seu último turno, cujo tempo de lançamento se torna 1 ação bônus. Esta conjuração de bônus usa um espaço de magia normalmente."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Pendragon é um conjurador de nível 4. Sua habilidade de conjuração é Inteligência (resistência de magia CD 13, +5 para acertar com ataques de magia). Ele tem os seguintes feitiços de mago preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "acid-splash",
+                                "name": "Acid Splash",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mage-hand",
+                                "name": "Mão de Mago",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "poison-spray",
+                                "name": "Spray de Veneno",
+                                "school": "CONJURATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "shocking-grasp",
+                                "name": "Aperto Chocante",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "detect-magic",
+                                "name": "Detectar Magia",
+                                "school": "DIVINATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "mage-armor",
+                                "name": "Armadura de Mago",
+                                "school": "ABJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "magic-missile",
+                                "name": "Míssil Mágico",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sleep",
+                                "name": "Dormir",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "scorching-ray",
+                                "name": "Raio Ardente",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+2",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 5 (1d6 + 2) de dano perfurante.",
+                "name": "Espada curta"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "phoenix-anvil",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Bigorna da Fênix",
+        "subtitle": "Humanoide médio (humano), leal e neutro",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 18,
+        "hit_points": 27,
+        "hit_dice": "5d8+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 15,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 4,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 3,
+                "name": "Desempenho"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 3,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 3,
+                "name": "Religião"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "comum, élfico",
+        "special_abilities": [
+            {
+                "name": "Divine Display (1/Day)",
+                "desc": "Como uma ação bônus, Phoenix faz seu escudo brilhar com luz divina. Cada criatura à sua escolha a até 9 metros dele deve ser bem sucedida em um teste de resistência de Sabedoria CD 13 ou ficará cega por 1 minuto. Uma criatura pode repetir o teste de resistência no final de cada um de seus turnos, encerrando o efeito sobre si mesma com um sucesso."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Phoenix é um conjurador de nível 4. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 13, +5 para acertar com ataques de magia). Ele tem os seguintes feitiços de clérigo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "guidance",
+                                "name": "Orientação",
+                                "school": "DIVINATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "mending",
+                                "name": "Consertando",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "bane",
+                                "name": "Bane",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Feridas",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "guiding-bolt",
+                                "name": "Parafuso Guia",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 vagas)",
+                        "spells": [
+                            {
+                                "index": "hold-person",
+                                "name": "Segurar Pessoa",
+                                "school": "ENCHANTMENT",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Arma Espiritual",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Phoenix faz dois ataques corpo a corpo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d8 + 2) de dano de concussão e o alvo deve obter sucesso em um teste de resistência de Força CD 12 ou será empurrado 1,5 metro.",
+                "name": "Warhammer"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "portentia-dran",
+        "type": "MONSTROSITY",
+        "subtype": "shapechanger",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Portentia Dran",
+        "subtitle": "Monstruosidade média (metamorfo), leal e mau",
+        "size": "Medium",
+        "alignment": "lawful evil",
+        "armor_class": 17,
+        "hit_points": 45,
+        "hit_dice": "6d8+18",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-deception",
+                "modifier": 6,
+                "name": "Decepção"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 3,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 3,
+                "name": "Percepção"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+            {
+                "index": "charmed",
+                "type": "CHARMED",
+                "name": "Encantado"
+            }
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "comum, élfico",
+        "special_abilities": [
+            {
+                "name": "Ataque furtivo (1/turno)",
+                "desc": "Portentia causa 14 (4d6) de dano extra quando atinge um alvo com um ataque de arma e tem vantagem na jogada de ataque, ou quando o alvo está a 1,5 metro de um aliado de Portentia que não esteja t incapacitado e Portentia não tem desvantagem na jogada de ataque."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Portentia faz três ataques corpo a corpo.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque com arma corpo a corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d6 + 4) de dano cortante.",
+                "name": "Espada curta"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Portentia magicamente se metamorfoseia em um humanóide ou besta que tem um nível de desafio igual ou menor que o seu, ou de volta à sua forma verdadeira. Qualquer equipamento que ela esteja usando ou carregando é absorvido ou carregado pela nova forma (a escolha dela). Em uma nova forma, Portentia retém suas estatísticas de jogo e capacidade de falar, mas sua CA, modos de movimento, Força, Destreza e sentidos especiais são substituídos pelos da nova forma, e ela ganha todas as estatísticas e capacidades (exceto características de classe, ações lendárias e ações de covil) que a nova forma tem, mas que falta a ela.",
+                "name": "Mudar de Forma"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "prophetess-dran",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Profetisa Dran",
+        "subtitle": "Humanoide médio (elfo), leal e bom",
+        "size": "Medium",
+        "alignment": "lawful good",
+        "armor_class": 14,
+        "hit_points": 27,
+        "hit_dice": "5d8+5",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 13,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CHARISMA",
+                "value": 13,
+                "modifier": 1
+            }
+        ],
+        "saving_throws": [
+        ],
+        "skills": [
+            {
+                "index": "skill-medicine",
+                "modifier": 5,
+                "name": "Medicina"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 3,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-religion",
+                "modifier": 5,
+                "name": "Religião"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "comum, élfico",
+        "special_abilities": [
+            {
+                "name": "Eminência Divina",
+                "desc": "Como uma ação bônus, Profetisa pode gastar um espaço de feitiço para fazer com que seus ataques de arma corpo a corpo causem magicamente 10 (3d6) de dano radiante extra a um alvo em um acerto. Este benefício dura até o final do turno. Se a Profetisa gastar um espaço de magia de 2º nível ou superior, o dano extra aumenta em 1d6 para cada nível acima do 1º. "
+            },
+            {
+                "name": "Fey Ancestry",
+                "desc": "Prophetess tem vantagem em testes de resistência contra ser enfeitiçada, e a magia não pode colocá-la para dormir."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A Profetisa é uma conjuradora de 5º nível. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 13, +5 para acertar com ataques de magia). A Profetisa tem os seguintes feitiços de clérigo preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "light",
+                                "name": "Luz",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Ferimentos",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "guiding-bolt",
+                                "name": "Parafuso Guia",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "sanctuary",
+                                "name": "Santuário",
+                                "school": "ABJURATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "lesser-restoration",
+                                "name": "Restauração Inferior",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "spiritual-weapon",
+                                "name": "Arma Espiritual",
+                                "school": "EVOCATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (2 slots)",
+                        "spells": [
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dispel Magic",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "spirit-guardians",
+                                "name": "Espíritos Guardiões",
+                                "school": "CONJURATION",
+                                "level": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                    {
+                        "dice": "2d6+2",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "Espancamento"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque corpo a corpo com arma: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 9 (2d6 + 2) de dano de concussão.",
+                "name": "Maul"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "rosie-beestinger",
+        "type": "HUMANOID",
+        "subtype": "halfling",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Rosie Beestinger",
+        "subtitle": "Pequeno humanóide (halfling), caótico e bom",
+        "size": "Small",
+        "alignment": "chaotic good",
+        "armor_class": 15,
+        "hit_points": 45,
+        "hit_dice": "10d6+10",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 40,
+                    "value_formatted": "40 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "WISDOM",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-str",
+                "type": "STRENGTH",
+                "modifier": 1
+            },
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 5
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 5,
+                "name": "Acrobacia"
+            },
+            {
+                "index": "skill-history",
+                "modifier": 3,
+                "name": "História"
+            },
+            {
+                "index": "skill-intimidation",
+                "modifier": 4,
+                "name": "Intimidação"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Dracônico, Élfico, Halfling",
+        "special_abilities": [
+            {
+                "name": "Corajosa",
+                "desc": "Rosie tem vantagem em testes de resistência contra ficar assustada. "
+            },
+            {
+                "name": "Agilidade Halfling",
+                "desc": "Rosie pode se mover pelo espaço de qualquer criatura que seja de tamanho maior que o dela. "
+            },
+            {
+                "name": "Evasão",
+                "desc": "Se Rosie for submetida a um efeito que lhe permite fazer um teste de resistência de Destreza para receber apenas metade do dano, ela não sofre dano se for bem-sucedida no teste de resistência e apenas metade do dano se falhar. Ela não pode usar esta característica se estiver incapacitada. "
+            },
+            {
+                "name": "Shadow Step",
+                "desc": "Quando Rosie está na penumbra ou na escuridão, ela pode usar uma ação bônus para se teletransportar 18 metros para um espaço desocupado que ela possa ver que também esteja na penumbra ou na escuridão. Ela então tem vantagem no primeiro ataque corpo a corpo que fizer antes do final do turno."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "A habilidade inata de conjuração de Rosie é Sabedoria (CD de resistência de magia 12). Ela pode conjurar inatamente os seguintes feitiços, sem necessidade de componentes materiais:",
+                "type": "INNATE",
+                "spells_by_group": [
+                    {
+                        "group": "À Vontade",
+                        "spells": [
+                            {
+                                "index": "minor-illusion",
+                                "name": "Ilusão Menor",
+                                "school": "ILLUSION",
+                                "level": 0
+                            },
+                            {
+                                "index": "sacred-flame",
+                                "name": "Chama Sagrada",
+                                "school": "EVOCATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "thaumaturgy",
+                                "name": "Taumaturgia",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1/dia cada",
+                        "spells": [
+                            {
+                                "index": "command",
+                                "name": "Comando",
+                                "school": "ENCHANTMENT",
+                                "level": 1
+                            },
+                            {
+                                "index": "darkness",
+                                "name": "Escuridão",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "darkvision",
+                                "name": "Visão no Escuro",
+                                "school": "TRANSMUTATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "pass-without-trace",
+                                "name": "Passe Sem Deixar Vestígios",
+                                "school": "ABJURATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "silence",
+                                "name": "Silêncio",
+                                "school": "ILLUSION",
+                                "level": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Rosie faz três ataques, então faz dois ataques desarmados.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "concussão"
+                        }
+                    },
+                    {
+                        "dice": "1d8+4",
+                        "damage": {
+                            "index": "BLUDGEONING",
+                            "type": "BLUDGEONING",
+                            "name": "concussão"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque com arma corpo a corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d6 + 4) de dano de concussão ou 8 (1d8 + 4) de dano de concussão se usado com as duas mãos.",
+                "name": "Cajado do Mestre (+1 Quarterstaff)"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com Arma Corpo a Corpo: +5 para acertar, alcance 1,5 m, um alvo. Acerto: 6 (1d6 + 3) de dano de concussão. Os ataques desarmados de Rosie são mágicos.",
+                "name": "Ataque Desarmado"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Desviar mísseis",
+                "desc": "Em resposta a ser atingido por um ataque de arma de longo alcance, Rosie desvia o míssil. O dano que ela recebe do ataque é reduzido em 1d10 + 9. Se o dano for reduzido a 0, ela pega o míssil se for pequeno o suficiente para segurar em uma mão e ela tiver uma mão livre."
+            }
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "splugoth-the-returned",
+        "type": "HUMANOID",
+        "subtype": "goblinoid",
+        "group": null,
+        "challenge_rating": 2.0,
+        "name": "Splugoth, o Retorno",
+        "subtitle": "Pequeno humanóide (goblinoide), neutro e mau",
+        "size": "Small",
+        "alignment": "neutral evil",
+        "armor_class": 15,
+        "hit_points": 27,
+        "hit_dice": "6d6+6",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "WISDOM",
+                "value": 11,
+                "modifier": 0
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 4
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 2
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-stealth",
+                "modifier": 6,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Dracônico, Élfico, Goblin",
+        "special_abilities": [
+            {
+                "name": "Vantagem defensiva",
+                "desc": "Enquanto dois ou mais aliados de Splugoth estiverem a 1,5 metros dele e não estiverem incapacitados, as jogadas de ataque contra ele são feitas com desvantagem. "
+            },
+            {
+                "name": "Nimble Escape",
+                "desc": "Splugoth pode realizar a ação Desengajar ou Esconder como uma ação bônus em cada um de seus turnos. "
+            },
+            {
+                "name": "Toque da Loucura",
+                "desc": "Splugoth tem vantagem em testes de resistência contra ser enfeitiçado ou amedrontado."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Splugoth faz dois ataques com sua adaga.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+2",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 4,
+                "description": "Ataque com arma corpo a corpo: +4 para acertar, alcance 1,5 m, um alvo. Acerto: 4 (1d4 + 2) de dano cortante.",
+                "name": "Adaga"
+            },
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Splugoth lembra e repete em voz alta algumas palavras de um lugar que ele entrou enquanto caminhava de volta do outro mundo para este. Cada criatura de sua escolha a até 9 metros dele que possa ouvi-lo deve ser bem sucedida em um teste de resistência de Sabedoria CD 12 ou ficará atordoada até o final de seu próximo turno.",
+                "name": "Word From Beyond (1/Day)"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Absorver Ataque",
+                "desc": "Quando uma criatura que Splugoth pode ver o atinge com um ataque de arma corpo a corpo, a arma se prende em um bolsão de energia ressurreicional residual e é apanhada rapidamente. O ataque é negado e a arma não pode ser usada até que a criatura tenha sucesso em um teste de Força CD 12 (Atletismo) como uma ação para retirá-la de Splugoth. As armas naturais podem ter seus ataques negados por esse recurso, mas podem ser retraídas automaticamente no final do turno da criatura atacante."
+            }
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "viari",
+        "type": "HUMANOID",
+        "subtype": "human",
+        "group": null,
+        "challenge_rating": 5.0,
+        "name": "Estrada",
+        "subtitle": "Humanoide médio (humano), caótico e bom",
+        "size": "Medium",
+        "alignment": "chaotic good",
+        "armor_class": 18,
+        "hit_points": 65,
+        "hit_dice": "10d8+20",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 30,
+                    "value_formatted": "30 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 12,
+                "modifier": 1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 20,
+                "modifier": 5
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "CHARISMA",
+                "value": 14,
+                "modifier": 2
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-dex",
+                "type": "DEXTERITY",
+                "modifier": 8
+            },
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 3
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-acrobatics",
+                "modifier": 11,
+                "name": "Acrobacia"
+            },
+            {
+                "index": "skill-athletics",
+                "modifier": 7,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 5,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-performance",
+                "modifier": 5,
+                "name": "Desempenho"
+            },
+            {
+                "index": "skill-persuasion",
+                "modifier": 5,
+                "name": "Persuasão"
+            },
+            {
+                "index": "skill-sleight-of-hand",
+                "modifier": 11,
+                "name": "Prestidigitação"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 8,
+                "name": "Furtividade"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            ""
+        ],
+        "languages": "Comum, Dracônico, Cant de Ladrão",
+        "special_abilities": [
+            {
+                "name": "Evasão",
+                "desc": "Se Viari for submetido a um efeito que lhe permite fazer um teste de resistência de Destreza para receber apenas metade do dano, ele não sofre dano se for bem-sucedido no teste de resistência e apenas metade do dano se falhar. Ele não pode usar esta característica se estiver incapacitado. "
+            },
+            {
+                "name": "Trabalho no Segundo Andar",
+                "desc": "Escalar não custa movimento extra a Viari. Além disso, quando ele faz um salto correndo, a distância que ele percorre aumenta em 1,5 metro. "
+            },
+            {
+                "name": "Ataque Furtivo (1/Turno)",
+                "desc": "Viari causa 14 (4d6) de dano extra quando atinge um alvo com um ataque de arma e tem vantagem na jogada de ataque, ou quando o alvo está a 1,5 metro de um aliado de Viari que não está incapacitado e Viari não tem desvantagem na jogada de ataque."
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Viari faz dois ataques com sua espada curta e dois ataques com seu florete.",
+                "name": "Multiataque"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+6",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 9,
+                "description": "Ataque com arma corpo a corpo: +9 para atingir, alcance 1,5 m, um alvo. Acerto: 9 (1d6 + 6) de dano perfurante.",
+                "name": "+1 Espada curta"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+5",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque com arma corpo a corpo: +8 para acertar, alcance 1,5 m, um alvo. Acerto: 9 (1d8 + 5) de dano perfurante.",
+                "name": "Rapier"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d4+5",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 8,
+                "description": "Ataque corpo a corpo ou com arma à distância: +8 para atingir, alcance 1,5 m ou alcance 6/18 m, um alvo. Acerto: 7 (1d4 + 5) de dano perfurante.",
+                "name": "Adaga"
+            }
+        ],
+        "reactions": [
+            {
+                "name": "Uncanny Dodge",
+                "desc": "Viari reduz pela metade o dano que ele recebe de um ataque que o atinge. Ele deve ser capaz de ver o atacante."
+            }
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    },
+    {
+        "index": "walnut-dankgrass",
+        "type": "HUMANOID",
+        "subtype": "elf",
+        "group": null,
+        "challenge_rating": 3.0,
+        "name": "Nogueira Dankggrass",
+        "subtitle": "Humanoide médio (elfo), leal neutro",
+        "size": "Medium",
+        "alignment": "lawful neutral",
+        "armor_class": 14,
+        "hit_points": 52,
+        "hit_dice": "8d8+16",
+        "speed": {
+            "hover": false,
+            "value": [
+                {
+                    "type": "WALK",
+                    "measurement_unit": "FEET",
+                    "value": 35,
+                    "value_formatted": "35 ft."
+                }
+            ]
+        },
+        "ability_scores": [
+            {
+                "type": "STRENGTH",
+                "value": 8,
+                "modifier": -1
+            },
+            {
+                "type": "DEXTERITY",
+                "value": 16,
+                "modifier": 3
+            },
+            {
+                "type": "CONSTITUTION",
+                "value": 14,
+                "modifier": 2
+            },
+            {
+                "type": "INTELLIGENCE",
+                "value": 10,
+                "modifier": 0
+            },
+            {
+                "type": "WISDOM",
+                "value": 18,
+                "modifier": 4
+            },
+            {
+                "type": "CHARISMA",
+                "value": 10,
+                "modifier": 0
+            }
+        ],
+        "saving_throws": [
+            {
+                "index": "saving-throw-int",
+                "type": "INTELLIGENCE",
+                "modifier": 2
+            },
+            {
+                "index": "saving-throw-wis",
+                "type": "WISDOM",
+                "modifier": 6
+            }
+        ],
+        "skills": [
+            {
+                "index": "skill-athletics",
+                "modifier": 1,
+                "name": "Atletismo"
+            },
+            {
+                "index": "skill-insight",
+                "modifier": 6,
+                "name": "Discernimento"
+            },
+            {
+                "index": "skill-perception",
+                "modifier": 6,
+                "name": "Percepção"
+            },
+            {
+                "index": "skill-stealth",
+                "modifier": 5,
+                "name": "Furtividade"
+            },
+            {
+                "index": "skill-survival",
+                "modifier": 6,
+                "name": "Sobrevivência"
+            }
+        ],
+        "damage_vulnerabilities": [
+        ],
+        "damage_resistances": [
+        ],
+        "damage_immunities": [
+        ],
+        "condition_immunities": [
+        ],
+        "senses": [
+            "visão no escuro 60 pés."
+        ],
+        "languages": "Comum, Druídico, Élfico, Silvestre",
+        "special_abilities": [
+            {
+                "name": "Fey Ancestry",
+                "desc": "Walnut tem vantagem em testes de resistência contra ser enfeitiçado, e a magia não pode colocá-la para dormir. "
+            },
+            {
+                "name": "Mask of the Wild",
+                "desc": "Walnut pode tentar se esconder mesmo quando ela está apenas levemente obscurecida por folhagem, chuva forte, neve caindo, névoa e outros fenômenos naturais. "
+            },
+            {
+                "name": "Forma Selvagem (Recarrega após um descanso Curto ou Longo)",
+                "desc": "Como uma ação bônus, Walnut pode assumir a forma de um lobo terrível. Ela pode permanecer nesta forma por 3 horas ou até voltar à sua forma normal com uma ação bônus. Ela reverte automaticamente se ficar inconsciente, cair a 0 pontos de vida ou morrer.\nEnquanto transformada, as estatísticas de jogo de Walnut são substituídas pelas estatísticas do lobo terrível, exceto que ela mantém seu alinhamento, personalidade e pontuações de Inteligência, Sabedoria e Carisma.\nSeus ataques em forma de besta são mágicos. Enquanto estiver na forma de besta, Walnut pode usar uma ação bônus para gastar um espaço de magia e recuperar 1d8 pontos de vida por nível do espaço de magia gasto."
+            }
+        ],
+        "spellcasting": [
+            {
+                "desc": "Walnut é um conjurador de 7º nível. Sua habilidade de conjuração é Sabedoria (resistência de magia CD 14, +6 para acertar com ataques de magia). Ela tem os seguintes feitiços de druida preparados:",
+                "type": "SPELLCASTER",
+                "spells_by_group": [
+                    {
+                        "group": "Truques (à vontade)",
+                        "spells": [
+                            {
+                                "index": "druidcraft",
+                                "name": "Druidcraft",
+                                "school": "TRANSMUTATION",
+                                "level": 0
+                            },
+                            {
+                                "index": "produce-flame",
+                                "name": "Produzir Chama",
+                                "school": "CONJURATION",
+                                "level": 0
+                            }
+                        ]
+                    },
+                    {
+                        "group": "1º nível (4 slots)",
+                        "spells": [
+                            {
+                                "index": "cure-wounds",
+                                "name": "Curar Ferimentos",
+                                "school": "EVOCATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "entangle",
+                                "name": "Enredar",
+                                "school": "CONJURATION",
+                                "level": 1
+                            },
+                            {
+                                "index": "thunderwave",
+                                "name": "Thunderwave",
+                                "school": "EVOCATION",
+                                "level": 1
+                            }
+                        ]
+                    },
+                    {
+                        "group": "2º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "flame-blade",
+                                "name": "Flame Blade",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "moonbeam",
+                                "name": "Raio de Lua",
+                                "school": "EVOCATION",
+                                "level": 2
+                            },
+                            {
+                                "index": "pass-without-trace",
+                                "name": "Passe Sem Deixar Vestígios",
+                                "school": "ABJURATION",
+                                "level": 2
+                            }
+                        ]
+                    },
+                    {
+                        "group": "3º nível (3 slots)",
+                        "spells": [
+                            {
+                                "index": "call-lightning",
+                                "name": "Chamar Lightning",
+                                "school": "CONJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "dispel-magic",
+                                "name": "Dissipar Magia",
+                                "school": "ABJURATION",
+                                "level": 3
+                            },
+                            {
+                                "index": "plant-growth",
+                                "name": "Crescimento de Plantas",
+                                "school": "TRANSMUTATION",
+                                "level": 3
+                            }
+                        ]
+                    },
+                    {
+                        "group": "4º nível (1 espaço)",
+                        "spells": [
+                            {
+                                "index": "blight",
+                                "name": "Peste",
+                                "school": "NECROMANCY",
+                                "level": 4
+                            },
+                            {
+                                "index": "freedom-of-movement",
+                                "name": "Liberdade de Movimento",
+                                "school": "ABJURATION",
+                                "level": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "actions": [
+            {
+                "damage_dices": [
+                ],
+                "attack_bonus": null,
+                "description": "Walnut faz dois ataques com Foremother ou seu arco longo.",
+                "name": "Multiattack"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d6+4",
+                        "damage": {
+                            "index": "SLASHING",
+                            "type": "SLASHING",
+                            "name": "Cortando"
+                        }
+                    }
+                ],
+                "attack_bonus": 6,
+                "description": "Ataque com arma corpo a corpo: +6 para acertar, alcance 1,5 m, um alvo. Acerto: 7 (1d6 + 4) de dano cortante.",
+                "name": "Foremother (+1 Scimitar)"
+            },
+            {
+                "damage_dices": [
+                    {
+                        "dice": "1d8+3",
+                        "damage": {
+                            "index": "PIERCING",
+                            "type": "PIERCING",
+                            "name": "Perfuração"
+                        }
+                    }
+                ],
+                "attack_bonus": 5,
+                "description": "Ataque com arma à distância: +5 para acertar, alcance 150/600 pés, um alvo. Acerto: 7 (1d8 + 3) de dano perfurante.",
+                "name": "Arco longo"
+            }
+        ],
+        "reactions": [
+        ],
+        "source": {
+            "name": "Aquisições incorporadas",
+            "acronym": "AI"
+        }
+    }
+]
