@@ -15,13 +15,6 @@
     },
     {
         "source": {
-            "name": "Icewind Dale: Rime of the Frostmaiden",
-            "acronym": "IDRotF"
-        },
-        "totalMonsters": 81
-    },
-    {
-        "source": {
             "name": "Monster Manual",
             "acronym": "MM"
         },
@@ -40,13 +33,6 @@
             "acronym": "MTF"
         },
         "totalMonsters": 140
-    },
-    {
-        "source": {
-            "name": "Mythic Odysseys of Theros",
-            "acronym": "MOT"
-        },
-        "totalMonsters": 51
     },
     {
         "source": {
