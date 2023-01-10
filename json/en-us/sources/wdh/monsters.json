@@ -1385,7 +1385,7 @@
         "index": "blinded-troll",
         "type": "GIANT",
         "subtype": null,
-        "group": null,
+        "group": "Trolls",
         "challenge_rating": 4.0,
         "name": "Blinded Troll",
         "subtitle": "Large giant, chaotic evil",

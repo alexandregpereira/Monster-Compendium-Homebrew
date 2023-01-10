@@ -5947,7 +5947,7 @@
         "index": "ice-troll",
         "type": "GIANT",
         "subtype": null,
-        "group": null,
+        "group": "Trolls",
         "challenge_rating": 8.0,
         "name": "Ice Troll",
         "subtitle": "Large giant, chaotic evil",

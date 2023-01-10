@@ -1171,7 +1171,7 @@
         "index": "centaur-mummy",
         "type": "UNDEAD",
         "subtype": null,
-        "group": null,
+        "group": "Mummy",
         "challenge_rating": 6.0,
         "name": "Centaur Mummy",
         "subtitle": "Large undead, lawful evil",

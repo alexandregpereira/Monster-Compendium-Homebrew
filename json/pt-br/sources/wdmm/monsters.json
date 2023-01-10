@@ -5396,7 +5396,7 @@
         "index": "five-armed-troll",
         "type": "GIANT",
         "subtype": null,
-        "group": null,
+        "group": "Trolls",
         "challenge_rating": 5.0,
         "name": "Five-Armed Troll",
         "subtitle": "Large giant, chaotic evil",
