@@ -11409,7 +11409,7 @@
             "dark": "#e0dfd1"
         },
         "is_horizontal_image": false,
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/rakdos-performer.png"
     },
     {
         "monster_index": "rakdos-performer,-fire-eater",
@@ -11418,7 +11418,7 @@
             "dark": "#e0dfd1"
         },
         "is_horizontal_image": false,
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/rakdos-performer.png"
     },
     {
         "monster_index": "rakdos-performer,-high-wire-acrobat",
@@ -11427,7 +11427,7 @@
             "dark": "#e0dfd1"
         },
         "is_horizontal_image": false,
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/rakdos-performer.png"
     },
     {
         "monster_index": "rakshasa",
