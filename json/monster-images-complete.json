@@ -38,8 +38,8 @@
     {
         "monster_index": "aboleth",
         "background_color": {
-            "light": "#d3dedc",
-            "dark": "#d3dedc"
+            "light": "#d3dfde",
+            "dark": "#d3dfde"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/aboleth.png"
@@ -77,14 +77,14 @@
             "light": "#e6dfcb",
             "dark": "#e6dfcb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/acererak.png"
     },
     {
         "monster_index": "acolyte",
         "background_color": {
-            "light": "#e6d8cb",
-            "dark": "#e6d8cb"
+            "light": "#d3dcdf",
+            "dark": "#d3dcdf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/acolyte.png"
@@ -92,17 +92,17 @@
     {
         "monster_index": "adult-black-dragon",
         "background_color": {
-            "light": "#ded3d6",
-            "dark": "#ded3d6"
+            "light": "#d3dcde",
+            "dark": "#d3dcde"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-black-dragon.png"
     },
     {
         "monster_index": "adult-blue-dragon",
         "background_color": {
-            "light": "#e3dfcf",
-            "dark": "#e3dfcf"
+            "light": "#d3dbde",
+            "dark": "#d3dbde"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-blue-dragon.png"
@@ -110,8 +110,8 @@
     {
         "monster_index": "adult-brass-dragon",
         "background_color": {
-            "light": "#e5dbcd",
-            "dark": "#e5dbcd"
+            "light": "#e6decb",
+            "dark": "#e6decb"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-brass-dragon.png"
@@ -119,35 +119,35 @@
     {
         "monster_index": "adult-bronze-dragon",
         "background_color": {
-            "light": "#d2e0d9",
-            "dark": "#d2e0d9"
+            "light": "#ded6d3",
+            "dark": "#ded6d3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-bronze-dragon.png"
     },
     {
         "monster_index": "adult-copper-dragon",
         "background_color": {
-            "light": "#e6d0cb",
-            "dark": "#e6d0cb"
+            "light": "#e6d2cb",
+            "dark": "#e6d2cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-copper-dragon.png"
     },
     {
         "monster_index": "adult-gold-dragon",
         "background_color": {
-            "light": "#e6e2cb",
-            "dark": "#e6e2cb"
+            "light": "#e6d4cb",
+            "dark": "#e6d4cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-gold-dragon.png"
     },
     {
         "monster_index": "adult-green-dragon",
         "background_color": {
-            "light": "#dce5cc",
-            "dark": "#dce5cc"
+            "light": "#dbe6cb",
+            "dark": "#dbe6cb"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-green-dragon.png"
@@ -173,10 +173,10 @@
     {
         "monster_index": "adult-red-dragon",
         "background_color": {
-            "light": "#e6cecc",
-            "dark": "#e6cecc"
+            "light": "#dfd2d4",
+            "dark": "#dfd2d4"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-red-dragon.png"
     },
     {
@@ -191,17 +191,17 @@
     {
         "monster_index": "adult-silver-dragon",
         "background_color": {
-            "light": "#e6d5cb",
-            "dark": "#e6d5cb"
+            "light": "#d3ddde",
+            "dark": "#d3ddde"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-silver-dragon.png"
     },
     {
         "monster_index": "adult-white-dragon",
         "background_color": {
-            "light": "#e1dcd1",
-            "dark": "#e1dcd1"
+            "light": "#d3ddde",
+            "dark": "#d3ddde"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/adult-white-dragon.png"
@@ -254,8 +254,8 @@
     {
         "monster_index": "air-elemental",
         "background_color": {
-            "light": "#d1d6e1",
-            "dark": "#d1d6e1"
+            "light": "#cbe1e6",
+            "dark": "#cbe1e6"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/air-elemental.png"
@@ -479,26 +479,26 @@
     {
         "monster_index": "ancient-black-dragon",
         "background_color": {
-            "light": "#e6d8cb",
-            "dark": "#e6d8cb"
+            "light": "#cfdae3",
+            "dark": "#cfdae3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-black-dragon.png"
     },
     {
         "monster_index": "ancient-blue-dragon",
         "background_color": {
-            "light": "#cfd8e2",
-            "dark": "#cfd8e2"
+            "light": "#cbd9e6",
+            "dark": "#cbd9e6"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-blue-dragon.png"
     },
     {
         "monster_index": "ancient-brass-dragon",
         "background_color": {
-            "light": "#e3cfd0",
-            "dark": "#e3cfd0"
+            "light": "#e1dbd1",
+            "dark": "#e1dbd1"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-brass-dragon.png"
@@ -506,19 +506,19 @@
     {
         "monster_index": "ancient-bronze-dragon",
         "background_color": {
-            "light": "#e6ddcb",
-            "dark": "#e6ddcb"
+            "light": "#e6d4cb",
+            "dark": "#e6d4cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-bronze-dragon.png"
     },
     {
         "monster_index": "ancient-copper-dragon",
         "background_color": {
-            "light": "#e6cdcb",
-            "dark": "#e6cdcb"
+            "light": "#e6d7cb",
+            "dark": "#e6d7cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-copper-dragon.png"
     },
     {
@@ -527,23 +527,23 @@
             "light": "#e6d6cb",
             "dark": "#e6d6cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-deep-crow.png"
     },
     {
         "monster_index": "ancient-gold-dragon",
         "background_color": {
-            "light": "#e6dacb",
-            "dark": "#e6dacb"
+            "light": "#e6d3cb",
+            "dark": "#e6d3cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-gold-dragon.png"
     },
     {
         "monster_index": "ancient-green-dragon",
         "background_color": {
-            "light": "#dce6cb",
-            "dark": "#dce6cb"
+            "light": "#d0e1df",
+            "dark": "#d0e1df"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-green-dragon.png"
@@ -551,35 +551,35 @@
     {
         "monster_index": "ancient-red-dragon",
         "background_color": {
-            "light": "#e6cdcb",
-            "dark": "#e6cdcb"
+            "light": "#e6cecb",
+            "dark": "#e6cecb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-red-dragon.png"
     },
     {
         "monster_index": "ancient-silver-dragon",
         "background_color": {
-            "light": "#e6d5cb",
-            "dark": "#e6d5cb"
+            "light": "#d3dade",
+            "dark": "#d3dade"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-silver-dragon.png"
     },
     {
         "monster_index": "ancient-white-dragon",
         "background_color": {
-            "light": "#d1d7e0",
-            "dark": "#d1d7e0"
+            "light": "#ded9d3",
+            "dark": "#ded9d3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ancient-white-dragon.png"
     },
     {
         "monster_index": "androsphinx",
         "background_color": {
-            "light": "#e6d5cb",
-            "dark": "#e6d5cb"
+            "light": "#dfd7d2",
+            "dark": "#dfd7d2"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/androsphinx.png"
@@ -587,8 +587,8 @@
     {
         "monster_index": "animated-armor",
         "background_color": {
-            "light": "#e0d4d2",
-            "dark": "#e0d4d2"
+            "light": "#e6cfcb",
+            "dark": "#e6cfcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/animated-armor.png"
@@ -695,10 +695,10 @@
     {
         "monster_index": "ankheg",
         "background_color": {
-            "light": "#e6d6cb",
-            "dark": "#e6d6cb"
+            "light": "#ded5d3",
+            "dark": "#ded5d3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ankheg.png"
     },
     {
@@ -779,7 +779,7 @@
             "light": "#cde4da",
             "dark": "#cde4da"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/arasta.png"
     },
     {
@@ -821,8 +821,8 @@
     {
         "monster_index": "archmage",
         "background_color": {
-            "light": "#e6cccb",
-            "dark": "#e6cccb"
+            "light": "#e6cbcb",
+            "dark": "#e6cbcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/archmage.png"
@@ -833,7 +833,7 @@
             "light": "#cbd9e6",
             "dark": "#cbd9e6"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/archon-of-falling-stars.png"
     },
     {
@@ -974,10 +974,10 @@
     {
         "monster_index": "assassin",
         "background_color": {
-            "light": "#ced5e3",
-            "dark": "#ced5e3"
+            "light": "#e6cecb",
+            "dark": "#e6cecb"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/assassin.png"
     },
     {
@@ -1004,7 +1004,7 @@
             "light": "#e2d4d0",
             "dark": "#e2d4d0"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/astral-dreadnought.png"
     },
     {
@@ -1049,7 +1049,7 @@
             "light": "#e7dacc",
             "dark": "#e7dacc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-elemental.png"
     },
     {
@@ -1058,7 +1058,7 @@
             "light": "#e7dacc",
             "dark": "#e7dacc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-elemental.png"
     },
     {
@@ -1109,8 +1109,8 @@
     {
         "monster_index": "awakened-shrub",
         "background_color": {
-            "light": "#e4d6cd",
-            "dark": "#e4d6cd"
+            "light": "#d3ded9",
+            "dark": "#d3ded9"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/awakened-shrub.png"
@@ -1118,8 +1118,8 @@
     {
         "monster_index": "awakened-tree",
         "background_color": {
-            "light": "#e6dfcb",
-            "dark": "#e6dfcb"
+            "light": "#ded5d3",
+            "dark": "#ded5d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/awakened-tree.png"
@@ -1172,8 +1172,8 @@
     {
         "monster_index": "azer",
         "background_color": {
-            "light": "#e6dbcb",
-            "dark": "#e6dbcb"
+            "light": "#e0d3d2",
+            "dark": "#e0d3d2"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/azer.png"
@@ -1211,7 +1211,7 @@
             "light": "#e3d6ce",
             "dark": "#e3d6ce"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bael.png"
     },
     {
@@ -1229,7 +1229,7 @@
             "light": "#e1d6d0",
             "dark": "#e1d6d0"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bak-mei.png"
     },
     {
@@ -1238,14 +1238,14 @@
             "light": "#e1d8d1",
             "dark": "#e1d8d1"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/balhannoth.png"
     },
     {
         "monster_index": "balor",
         "background_color": {
-            "light": "#e6d0cb",
-            "dark": "#e6d0cb"
+            "light": "#e4d2ce",
+            "dark": "#e4d2ce"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/balor.png"
@@ -1271,8 +1271,8 @@
     {
         "monster_index": "bandit",
         "background_color": {
-            "light": "#e6d4cb",
-            "dark": "#e6d4cb"
+            "light": "#e2d4cf",
+            "dark": "#e2d4cf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bandit.png"
@@ -1280,8 +1280,8 @@
     {
         "monster_index": "bandit-captain",
         "background_color": {
-            "light": "#dfd2d9",
-            "dark": "#dfd2d9"
+            "light": "#e2d9d0",
+            "dark": "#e2d9d0"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bandit-captain.png"
@@ -1301,7 +1301,7 @@
             "light": "#e5cdd3",
             "dark": "#e5cdd3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/baphomet.png"
     },
     {
@@ -1316,8 +1316,8 @@
     {
         "monster_index": "barbed-devil",
         "background_color": {
-            "light": "#e6ddcb",
-            "dark": "#e6ddcb"
+            "light": "#e3cfd1",
+            "dark": "#e3cfd1"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/barbed-devil.png"
@@ -1397,8 +1397,8 @@
     {
         "monster_index": "basilisk",
         "background_color": {
-            "light": "#d0dde1",
-            "dark": "#d0dde1"
+            "light": "#e0dad2",
+            "dark": "#e0dad2"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/basilisk.png"
@@ -1433,8 +1433,8 @@
     {
         "monster_index": "bearded-devil",
         "background_color": {
-            "light": "#e2d7d0",
-            "dark": "#e2d7d0"
+            "light": "#e6d3cb",
+            "dark": "#e6d3cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bearded-devil.png"
@@ -1442,8 +1442,8 @@
     {
         "monster_index": "behir",
         "background_color": {
-            "light": "#d0dce2",
-            "dark": "#d0dce2"
+            "light": "#d3ddde",
+            "dark": "#d3ddde"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/behir.png"
@@ -1472,7 +1472,7 @@
             "light": "#e4d1cd",
             "dark": "#e4d1cd"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bel.png"
     },
     {
@@ -1490,7 +1490,7 @@
             "light": "#e6cecb",
             "dark": "#e6cecb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/belashyrra.png"
     },
     {
@@ -1532,8 +1532,8 @@
     {
         "monster_index": "berserker",
         "background_color": {
-            "light": "#e6d3cb",
-            "dark": "#e6d3cb"
+            "light": "#ded6d3",
+            "dark": "#ded6d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/berserker.png"
@@ -1613,8 +1613,8 @@
     {
         "monster_index": "black-dragon-wyrmling",
         "background_color": {
-            "light": "#dfd6d2",
-            "dark": "#dfd6d2"
+            "light": "#ded7d3",
+            "dark": "#ded7d3"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/black-dragon-wyrmling.png"
@@ -1658,8 +1658,8 @@
     {
         "monster_index": "black-pudding",
         "background_color": {
-            "light": "#e0d9d1",
-            "dark": "#e0d9d1"
+            "light": "#e2d9cf",
+            "dark": "#e2d9cf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/black-pudding.png"
@@ -1721,8 +1721,8 @@
     {
         "monster_index": "blink-dog",
         "background_color": {
-            "light": "#e6dacb",
-            "dark": "#e6dacb"
+            "light": "#e4d8cd",
+            "dark": "#e4d8cd"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/blink-dog.png"
@@ -1793,8 +1793,8 @@
     {
         "monster_index": "blue-dragon-wyrmling",
         "background_color": {
-            "light": "#e5d7cd",
-            "dark": "#e5d7cd"
+            "light": "#ccdbe6",
+            "dark": "#ccdbe6"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/blue-dragon-wyrmling.png"
@@ -1859,14 +1859,14 @@
             "light": "#e0dfd1",
             "dark": "#e0dfd1"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
     },
     {
         "monster_index": "bone-devil",
         "background_color": {
-            "light": "#ded4d3",
-            "dark": "#ded4d3"
+            "light": "#e2d0d1",
+            "dark": "#e2d0d1"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bone-devil.png"
@@ -1991,8 +1991,8 @@
     {
         "monster_index": "brass-dragon-wyrmling",
         "background_color": {
-            "light": "#e3cfd0",
-            "dark": "#e3cfd0"
+            "light": "#e4d4ce",
+            "dark": "#e4d4ce"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/brass-dragon-wyrmling.png"
@@ -2045,8 +2045,8 @@
     {
         "monster_index": "bronze-dragon-wyrmling",
         "background_color": {
-            "light": "#e6dbcb",
-            "dark": "#e6dbcb"
+            "light": "#dfd7d3",
+            "dark": "#dfd7d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bronze-dragon-wyrmling.png"
@@ -2090,8 +2090,8 @@
     {
         "monster_index": "bugbear",
         "background_color": {
-            "light": "#e3cfcf",
-            "dark": "#e3cfcf"
+            "light": "#e3d9cf",
+            "dark": "#e3d9cf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bugbear.png"
@@ -2126,8 +2126,8 @@
     {
         "monster_index": "bulette",
         "background_color": {
-            "light": "#e0dbd2",
-            "dark": "#e0dbd2"
+            "light": "#e1d8d0",
+            "dark": "#e1d8d0"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/bulette.png"
@@ -2405,8 +2405,8 @@
     {
         "monster_index": "chain-devil",
         "background_color": {
-            "light": "#e6d2cb",
-            "dark": "#e6d2cb"
+            "light": "#e1d4d1",
+            "dark": "#e1d4d1"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/chain-devil.png"
@@ -2504,8 +2504,8 @@
     {
         "monster_index": "chimera",
         "background_color": {
-            "light": "#e6d8cb",
-            "dark": "#e6d8cb"
+            "light": "#e0d1d2",
+            "dark": "#e0d1d2"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/chimera.png"
@@ -2549,8 +2549,8 @@
     {
         "monster_index": "chuul",
         "background_color": {
-            "light": "#e6dacb",
-            "dark": "#e6dacb"
+            "light": "#e6dccb",
+            "dark": "#e6dccb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/chuul.png"
@@ -2603,8 +2603,8 @@
     {
         "monster_index": "clay-golem",
         "background_color": {
-            "light": "#e6d9cb",
-            "dark": "#e6d9cb"
+            "light": "#e4d9cd",
+            "dark": "#e4d9cd"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/clay-golem.png"
@@ -2612,8 +2612,8 @@
     {
         "monster_index": "cloaker",
         "background_color": {
-            "light": "#e6d6cb",
-            "dark": "#e6d6cb"
+            "light": "#d3d9de",
+            "dark": "#d3d9de"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/cloaker.png"
@@ -2666,8 +2666,8 @@
     {
         "monster_index": "cloud-giant",
         "background_color": {
-            "light": "#d1dce0",
-            "dark": "#d1dce0"
+            "light": "#e2d6cf",
+            "dark": "#e2d6cf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/cloud-giant.png"
@@ -2711,8 +2711,8 @@
     {
         "monster_index": "cockatrice",
         "background_color": {
-            "light": "#e3dace",
-            "dark": "#e3dace"
+            "light": "#e1d9d0",
+            "dark": "#e1d9d0"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/cockatrice.png"
@@ -2747,11 +2747,11 @@
     {
         "monster_index": "commoner",
         "background_color": {
-            "light": "#e0dfd1",
-            "dark": "#e0dfd1"
+            "light": "#e4d3cd",
+            "dark": "#e4d3cd"
         },
         "is_horizontal_image": false,
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/commoner.png"
     },
     {
         "monster_index": "conclave-dryad",
@@ -2783,8 +2783,8 @@
     {
         "monster_index": "copper-dragon-wyrmling",
         "background_color": {
-            "light": "#e6cdcb",
-            "dark": "#e6cdcb"
+            "light": "#dfd7d3",
+            "dark": "#dfd7d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/copper-dragon-wyrmling.png"
@@ -2873,8 +2873,8 @@
     {
         "monster_index": "couatl",
         "background_color": {
-            "light": "#e1dad0",
-            "dark": "#e1dad0"
+            "light": "#d3dedb",
+            "dark": "#d3dedb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/couatl.png"
@@ -2990,8 +2990,8 @@
     {
         "monster_index": "cult-fanatic",
         "background_color": {
-            "light": "#e6d6cb",
-            "dark": "#e6d6cb"
+            "light": "#e4d1ce",
+            "dark": "#e4d1ce"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/cult-fanatic.png"
@@ -2999,8 +2999,8 @@
     {
         "monster_index": "cultist",
         "background_color": {
-            "light": "#e2d9cf",
-            "dark": "#e2d9cf"
+            "light": "#ded7d3",
+            "dark": "#ded7d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/cultist.png"
@@ -3098,8 +3098,8 @@
     {
         "monster_index": "darkmantle",
         "background_color": {
-            "light": "#e3dbce",
-            "dark": "#e3dbce"
+            "light": "#d1dde1",
+            "dark": "#d1dde1"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/darkmantle.png"
@@ -3161,8 +3161,8 @@
     {
         "monster_index": "death-dog",
         "background_color": {
-            "light": "#e6d5cb",
-            "dark": "#e6d5cb"
+            "light": "#ded8d3",
+            "dark": "#ded8d3"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/death-dog.png"
@@ -3200,7 +3200,7 @@
             "light": "#f4e7ec",
             "dark": "#f4e7ec"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/death-tyrant.png"
     },
     {
@@ -3260,8 +3260,8 @@
     {
         "monster_index": "deep-gnome-svirfneblin",
         "background_color": {
-            "light": "#e0d6d2",
-            "dark": "#e0d6d2"
+            "light": "#cbd9e6",
+            "dark": "#cbd9e6"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/deep-gnome-svirfneblin.png"
@@ -3299,7 +3299,7 @@
             "light": "#d5cbe6",
             "dark": "#d5cbe6"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/demilich.png"
     },
     {
@@ -3350,10 +3350,10 @@
     {
         "monster_index": "deva",
         "background_color": {
-            "light": "#ded7d3",
-            "dark": "#ded7d3"
+            "light": "#d3dede",
+            "dark": "#d3dede"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/deva.png"
     },
     {
@@ -3458,8 +3458,8 @@
     {
         "monster_index": "djinni",
         "background_color": {
-            "light": "#ced9e4",
-            "dark": "#ced9e4"
+            "light": "#ded3d3",
+            "dark": "#ded3d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/djinni.png"
@@ -3521,8 +3521,8 @@
     {
         "monster_index": "doppelganger",
         "background_color": {
-            "light": "#d3d8df",
-            "dark": "#d3d8df"
+            "light": "#d6e2e4",
+            "dark": "#d6e2e4"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/doppelganger.png"
@@ -3557,8 +3557,8 @@
     {
         "monster_index": "dragon-turtle",
         "background_color": {
-            "light": "#e0dbd2",
-            "dark": "#e0dbd2"
+            "light": "#d2dde0",
+            "dark": "#d2dde0"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/dragon-turtle.png"
@@ -3647,8 +3647,8 @@
     {
         "monster_index": "dretch",
         "background_color": {
-            "light": "#e2d4d0",
-            "dark": "#e2d4d0"
+            "light": "#d7dfd2",
+            "dark": "#d7dfd2"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/dretch.png"
@@ -3776,7 +3776,7 @@
             "light": "#ded3d8",
             "dark": "#ded3d8"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/drow-matron-mother.png"
     },
     {
@@ -4046,7 +4046,7 @@
             "light": "#e6cfcb",
             "dark": "#e6cfcb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/dullahan.png"
     },
     {
@@ -4118,7 +4118,7 @@
             "light": "#dfd3d7",
             "dark": "#dfd3d7"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/dyrrn.png"
     },
     {
@@ -4253,7 +4253,7 @@
             "light": "#e1d0d4",
             "dark": "#e1d0d4"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/elder-brain.png"
     },
     {
@@ -4280,7 +4280,7 @@
             "light": "#e6cbd5",
             "dark": "#e6cbd5"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/elder-tempest.png"
     },
     {
@@ -4406,7 +4406,7 @@
             "light": "#e6d1cb",
             "dark": "#e6d1cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/empyrean.png"
     },
     {
@@ -4430,8 +4430,8 @@
     {
         "monster_index": "erinyes",
         "background_color": {
-            "light": "#e6d0cb",
-            "dark": "#e6d0cb"
+            "light": "#e6cfcb",
+            "dark": "#e6cfcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/erinyes.png"
@@ -4799,8 +4799,8 @@
     {
         "monster_index": "fire-elemental",
         "background_color": {
-            "light": "#e6cfcb",
-            "dark": "#e6cfcb"
+            "light": "#e6d9cb",
+            "dark": "#e6d9cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/fire-elemental.png"
@@ -4964,7 +4964,7 @@
             "light": "#e2d9d0",
             "dark": "#e2d9d0"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/fleecemane-lion.png"
     },
     {
@@ -5069,8 +5069,8 @@
     {
         "monster_index": "flying-sword",
         "background_color": {
-            "light": "#d0dfe2",
-            "dark": "#d0dfe2"
+            "light": "#ded5d3",
+            "dark": "#ded5d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/flying-sword.png"
@@ -5126,7 +5126,7 @@
             "light": "#d0dfe2",
             "dark": "#d0dfe2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-fiend.png"
     },
     {
@@ -5234,7 +5234,7 @@
             "light": "#d3dbdf",
             "dark": "#d3dbdf"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-undead.png"
     },
     {
@@ -5290,6 +5290,15 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/galvanice-weird.png"
+    },
+    {
+        "monster_index": "gar-shatterkeel",
+        "background_color": {
+            "light": "#d0e8dc",
+            "dark": "#d0e8dc"
+        },
+        "is_horizontal_image": true,
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/gar-shatterkeel.png"
     },
     {
         "monster_index": "gar-shatterkeel",
@@ -5720,7 +5729,7 @@
             "light": "#d9d3df",
             "dark": "#d9d3df"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/githzerai-anarch.png"
     },
     {
@@ -5753,10 +5762,10 @@
     {
         "monster_index": "glabrezu",
         "background_color": {
-            "light": "#e0d3d1",
-            "dark": "#e0d3d1"
+            "light": "#dfd3d4",
+            "dark": "#dfd3d4"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/glabrezu.png"
     },
     {
@@ -5924,8 +5933,8 @@
     {
         "monster_index": "gold-dragon-wyrmling",
         "background_color": {
-            "light": "#e6dacb",
-            "dark": "#e6dacb"
+            "light": "#e6d7cb",
+            "dark": "#e6d7cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/gold-dragon-wyrmling.png"
@@ -6089,7 +6098,7 @@
             "light": "#d0dfe2",
             "dark": "#d0dfe2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-fiend.png"
     },
     {
@@ -6116,7 +6125,7 @@
             "light": "#e1d3d0",
             "dark": "#e1d3d0"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/greater-star-spawn-emissary.png"
     },
     {
@@ -6431,7 +6440,7 @@
             "light": "#cbe6d3",
             "dark": "#cbe6d3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/halaster-blackcloak.png"
     },
     {
@@ -6626,8 +6635,8 @@
     {
         "monster_index": "hezrou",
         "background_color": {
-            "light": "#e6d9cb",
-            "dark": "#e6d9cb"
+            "light": "#e2d7d0",
+            "dark": "#e2d7d0"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/hezrou.png"
@@ -6692,7 +6701,7 @@
             "light": "#e4d3cd",
             "dark": "#e4d3cd"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/hlam.png"
     },
     {
@@ -6797,10 +6806,10 @@
     {
         "monster_index": "horned-devil",
         "background_color": {
-            "light": "#e4d8ce",
-            "dark": "#e4d8ce"
+            "light": "#e6d1cb",
+            "dark": "#e6d1cb"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/horned-devil.png"
     },
     {
@@ -7025,16 +7034,16 @@
             "light": "#cce5e3",
             "dark": "#cce5e3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/hythonia.png"
     },
     {
         "monster_index": "ice-devil",
         "background_color": {
-            "light": "#dfd2d3",
-            "dark": "#dfd2d3"
+            "light": "#d3dbde",
+            "dark": "#d3dbde"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ice-devil.png"
     },
     {
@@ -7106,7 +7115,7 @@
             "light": "#d3dbdf",
             "dark": "#d3dbdf"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-undead.png"
     },
     {
@@ -7124,7 +7133,7 @@
             "light": "#dfd2d2",
             "dark": "#dfd2d2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/imix.png"
     },
     {
@@ -7139,8 +7148,8 @@
     {
         "monster_index": "imp",
         "background_color": {
-            "light": "#e0dad2",
-            "dark": "#e0dad2"
+            "light": "#e6cdcb",
+            "dark": "#e6cdcb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/imp.png"
@@ -7376,7 +7385,7 @@
             "light": "#cbd6e6",
             "dark": "#cbd6e6"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/iymrith.png"
     },
     {
@@ -7466,7 +7475,7 @@
             "light": "#e6dfcb",
             "dark": "#e6dfcb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/jarlaxle-baenre.png"
     },
     {
@@ -7556,7 +7565,7 @@
             "light": "#dbe6cb",
             "dark": "#dbe6cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/juiblex.png"
     },
     {
@@ -7808,7 +7817,7 @@
             "light": "#e0d2d5",
             "dark": "#e0d2d5"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/ki-rin.png"
     },
     {
@@ -8042,7 +8051,7 @@
             "light": "#e6d1cb",
             "dark": "#e6d1cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/kostchtchie.png"
     },
     {
@@ -8051,7 +8060,7 @@
             "light": "#e1dad0",
             "dark": "#e1dad0"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/kraken.png"
     },
     {
@@ -8222,7 +8231,7 @@
             "light": "#d0d6e2",
             "dark": "#d0d6e2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/lady-illmarrow.png"
     },
     {
@@ -8354,8 +8363,8 @@
     {
         "monster_index": "lemure",
         "background_color": {
-            "light": "#e0d1d6",
-            "dark": "#e0d1d6"
+            "light": "#e6d2cb",
+            "dark": "#e6d2cb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/lemure.png"
@@ -8402,7 +8411,7 @@
             "light": "#cbe0e6",
             "dark": "#cbe0e6"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/leviathan.png"
     },
     {
@@ -8429,7 +8438,7 @@
             "light": "#e6dacc",
             "dark": "#e6dacc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/lich.png"
     },
     {
@@ -8438,7 +8447,7 @@
             "light": "#e0d3d2",
             "dark": "#e0d3d2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/lichen-lich.png"
     },
     {
@@ -8681,7 +8690,7 @@
             "light": "#e6d1cb",
             "dark": "#e6d1cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/loup-garou.png"
     },
     {
@@ -8798,7 +8807,7 @@
             "light": "#e7dacc",
             "dark": "#e7dacc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-elemental.png"
     },
     {
@@ -8966,8 +8975,8 @@
     {
         "monster_index": "marilith",
         "background_color": {
-            "light": "#dfd7d3",
-            "dark": "#dfd7d3"
+            "light": "#dfd3d5",
+            "dark": "#dfd3d5"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/marilith.png"
@@ -9293,7 +9302,7 @@
             "light": "#cce5e2",
             "dark": "#cce5e2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/miirym.png"
     },
     {
@@ -9500,7 +9509,7 @@
             "light": "#e6cdcb",
             "dark": "#e6cdcb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/moloch.png"
     },
     {
@@ -9518,7 +9527,7 @@
             "light": "#d0dfe2",
             "dark": "#d0dfe2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-fiend.png"
     },
     {
@@ -9563,7 +9572,7 @@
             "light": "#e6d3cb",
             "dark": "#e6d3cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/mordakhesh.png"
     },
     {
@@ -9644,7 +9653,7 @@
             "light": "#e5d5cd",
             "dark": "#e5d5cd"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/muiral.png"
     },
     {
@@ -9662,7 +9671,7 @@
             "light": "#e6cdcb",
             "dark": "#e6cdcb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/mummy-lord.png"
     },
     {
@@ -9776,8 +9785,8 @@
     {
         "monster_index": "nalfeshnee",
         "background_color": {
-            "light": "#e1d9d1",
-            "dark": "#e1d9d1"
+            "light": "#e2dacf",
+            "dark": "#e2dacf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/nalfeshnee.png"
@@ -10175,7 +10184,7 @@
             "light": "#ded0e2",
             "dark": "#ded0e2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/nintra-siotta.png"
     },
     {
@@ -10481,7 +10490,7 @@
             "light": "#e7dacc",
             "dark": "#e7dacc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-elemental.png"
     },
     {
@@ -10508,7 +10517,7 @@
             "light": "#e1dad0",
             "dark": "#e1dad0"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/olhydra.png"
     },
     {
@@ -10976,7 +10985,7 @@
             "light": "#e6d6cb",
             "dark": "#e6d6cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/phoenix.png"
     },
     {
@@ -11063,8 +11072,8 @@
     {
         "monster_index": "pit-fiend",
         "background_color": {
-            "light": "#e6cbcf",
-            "dark": "#e6cbcf"
+            "light": "#e6cccb",
+            "dark": "#e6cccb"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/pit-fiend.png"
@@ -11081,10 +11090,10 @@
     {
         "monster_index": "planetar",
         "background_color": {
-            "light": "#ded9d3",
-            "dark": "#ded9d3"
+            "light": "#ccdae5",
+            "dark": "#ccdae5"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/planetar.png"
     },
     {
@@ -11315,8 +11324,8 @@
     {
         "monster_index": "quasit",
         "background_color": {
-            "light": "#e6e2cb",
-            "dark": "#e6e2cb"
+            "light": "#e2d9cf",
+            "dark": "#e2d9cf"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/quasit.png"
@@ -11409,7 +11418,7 @@
             "dark": "#e0dfd1"
         },
         "is_horizontal_image": false,
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/rakdos-performer.png"
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
     },
     {
         "monster_index": "rakdos-performer,-fire-eater",
@@ -11418,7 +11427,7 @@
             "dark": "#e0dfd1"
         },
         "is_horizontal_image": false,
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/rakdos-performer.png"
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
     },
     {
         "monster_index": "rakdos-performer,-high-wire-acrobat",
@@ -11427,7 +11436,7 @@
             "dark": "#e0dfd1"
         },
         "is_horizontal_image": false,
-        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/rakdos-performer.png"
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
     },
     {
         "monster_index": "rakshasa",
@@ -11495,10 +11504,10 @@
     {
         "monster_index": "red-dragon-wyrmling",
         "background_color": {
-            "light": "#e6cccb",
-            "dark": "#e6cccb"
+            "light": "#e6cbd2",
+            "dark": "#e6cbd2"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/red-dragon-wyrmling.png"
     },
     {
@@ -11579,7 +11588,7 @@
             "light": "#e6d4cb",
             "dark": "#e6d4cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/relentless-juggernaut.png"
     },
     {
@@ -11588,7 +11597,7 @@
             "light": "#d0dfe2",
             "dark": "#d0dfe2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-fiend.png"
     },
     {
@@ -11732,7 +11741,7 @@
             "light": "#dce0d2",
             "dark": "#dce0d2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/rezmir.png"
     },
     {
@@ -12200,7 +12209,7 @@
             "light": "#d3ddde",
             "dark": "#d3ddde"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/sea-fury.png"
     },
     {
@@ -12308,7 +12317,7 @@
             "light": "#e5ddcc",
             "dark": "#e5ddcc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/severin.png"
     },
     {
@@ -12569,7 +12578,7 @@
             "light": "#e4d6ce",
             "dark": "#e4d6ce"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/sibriex.png"
     },
     {
@@ -12584,8 +12593,8 @@
     {
         "monster_index": "silver-dragon-wyrmling",
         "background_color": {
-            "light": "#e6d5cb",
-            "dark": "#e6d5cb"
+            "light": "#d1dbe1",
+            "dark": "#d1dbe1"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/silver-dragon-wyrmling.png"
@@ -12803,7 +12812,7 @@
             "light": "#e6d7cb",
             "dark": "#e6d7cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/skull-lord.png"
     },
     {
@@ -12944,8 +12953,8 @@
     {
         "monster_index": "solar",
         "background_color": {
-            "light": "#ded7d3",
-            "dark": "#ded7d3"
+            "light": "#e6d5cb",
+            "dark": "#e6d5cb"
         },
         "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/solar.png"
@@ -13154,7 +13163,7 @@
             "light": "#cbe1e6",
             "dark": "#cbe1e6"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/star-spawn-larva-mage.png"
     },
     {
@@ -13361,7 +13370,7 @@
             "light": "#cdd8e5",
             "dark": "#cdd8e5"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/storm-giant-quintessent.png"
     },
     {
@@ -13388,7 +13397,7 @@
             "light": "#e2d4cf",
             "dark": "#e2d4cf"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/strahd-von-zarovich.png"
     },
     {
@@ -13433,7 +13442,7 @@
             "light": "#cbd6e6",
             "dark": "#cbd6e6"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/sul-khatesh.png"
     },
     {
@@ -13658,7 +13667,7 @@
             "light": "#e6d6cb",
             "dark": "#e6d6cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/tarrasque.png"
     },
     {
@@ -13676,7 +13685,7 @@
             "light": "#e0d5d2",
             "dark": "#e0d5d2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/tarul-var.png"
     },
     {
@@ -14063,7 +14072,7 @@
             "light": "#e6d8cb",
             "dark": "#e6d8cb"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/tiamat.png"
     },
     {
@@ -14603,7 +14612,7 @@
             "light": "#d3dbdf",
             "dark": "#d3dbdf"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-undead.png"
     },
     {
@@ -14738,7 +14747,7 @@
             "light": "#ded6d3",
             "dark": "#ded6d3"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/valin-sarnaster.png"
     },
     {
@@ -14747,7 +14756,7 @@
             "light": "#e3d9ce",
             "dark": "#e3d9ce"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/valindra-shadowmantle.png"
     },
     {
@@ -14765,7 +14774,7 @@
             "light": "#d0d6e2",
             "dark": "#d0d6e2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/vampire.png"
     },
     {
@@ -14783,7 +14792,7 @@
             "light": "#d3dbdf",
             "dark": "#d3dbdf"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-undead.png"
     },
     {
@@ -14792,7 +14801,7 @@
             "light": "#d3dbdf",
             "dark": "#d3dbdf"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-undead.png"
     },
     {
@@ -14819,7 +14828,7 @@
             "light": "#d3dedc",
             "dark": "#d3dedc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-construct.png"
     },
     {
@@ -15086,8 +15095,8 @@
     {
         "monster_index": "vrock",
         "background_color": {
-            "light": "#d3ded9",
-            "dark": "#d3ded9"
+            "light": "#e4d6ce",
+            "dark": "#e4d6ce"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/vrock.png"
@@ -15197,7 +15206,7 @@
             "light": "#e0dfd1",
             "dark": "#e0dfd1"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
     },
     {
@@ -15212,8 +15221,8 @@
     {
         "monster_index": "water-elemental",
         "background_color": {
-            "light": "#cbe2e6",
-            "dark": "#cbe2e6"
+            "light": "#ccdde6",
+            "dark": "#ccdde6"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/water-elemental.png"
@@ -15410,10 +15419,10 @@
     {
         "monster_index": "white-dragon-wyrmling",
         "background_color": {
-            "light": "#e1dcd1",
-            "dark": "#e1dcd1"
+            "light": "#dfebef",
+            "dark": "#dfebef"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/white-dragon-wyrmling.png"
     },
     {
@@ -15800,7 +15809,7 @@
             "light": "#e7dacc",
             "dark": "#e7dacc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-elemental.png"
     },
     {
@@ -15809,7 +15818,7 @@
             "light": "#d0dfe2",
             "dark": "#d0dfe2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-fiend.png"
     },
     {
@@ -15932,17 +15941,17 @@
     {
         "monster_index": "young-black-dragon",
         "background_color": {
-            "light": "#cfe0e2",
-            "dark": "#cfe0e2"
+            "light": "#d3dede",
+            "dark": "#d3dede"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/young-black-dragon.png"
     },
     {
         "monster_index": "young-blue-dragon",
         "background_color": {
-            "light": "#e1dbd0",
-            "dark": "#e1dbd0"
+            "light": "#cbdce6",
+            "dark": "#cbdce6"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/young-blue-dragon.png"
@@ -15950,17 +15959,17 @@
     {
         "monster_index": "young-brass-dragon",
         "background_color": {
-            "light": "#e3cfd0",
-            "dark": "#e3cfd0"
+            "light": "#dfdad3",
+            "dark": "#dfdad3"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/young-brass-dragon.png"
     },
     {
         "monster_index": "young-bronze-dragon",
         "background_color": {
-            "light": "#e6ddcb",
-            "dark": "#e6ddcb"
+            "light": "#e1d7d1",
+            "dark": "#e1d7d1"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/young-bronze-dragon.png"
@@ -16013,8 +16022,8 @@
     {
         "monster_index": "young-green-dragon",
         "background_color": {
-            "light": "#e1d9d0",
-            "dark": "#e1d9d0"
+            "light": "#dadfd3",
+            "dark": "#dadfd3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/young-green-dragon.png"
@@ -16094,10 +16103,10 @@
     {
         "monster_index": "young-red-dragon",
         "background_color": {
-            "light": "#e6cccb",
-            "dark": "#e6cccb"
+            "light": "#e6cecb",
+            "dark": "#e6cecb"
         },
-        "is_horizontal_image": true,
+        "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/young-red-dragon.png"
     },
     {
@@ -16121,8 +16130,8 @@
     {
         "monster_index": "young-silver-dragon",
         "background_color": {
-            "light": "#e6d5cb",
-            "dark": "#e6d5cb"
+            "light": "#ded9d3",
+            "dark": "#ded9d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/young-silver-dragon.png"
@@ -16139,8 +16148,8 @@
     {
         "monster_index": "young-white-dragon",
         "background_color": {
-            "light": "#d1d7e0",
-            "dark": "#d1d7e0"
+            "light": "#ded5d3",
+            "dark": "#ded5d3"
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/young-white-dragon.png"
@@ -16313,7 +16322,7 @@
             "light": "#e7dacc",
             "dark": "#e7dacc"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-elemental.png"
     },
     {
@@ -16322,7 +16331,7 @@
             "light": "#d0dfe2",
             "dark": "#d0dfe2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-fiend.png"
     },
     {
@@ -16340,7 +16349,7 @@
             "light": "#e0dfd1",
             "dark": "#e0dfd1"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
     },
     {
@@ -16412,7 +16421,7 @@
             "light": "#d3dbdf",
             "dark": "#d3dbdf"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-undead.png"
     },
     {
@@ -16466,7 +16475,7 @@
             "light": "#d3dbdf",
             "dark": "#d3dbdf"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-undead.png"
     },
     {
@@ -16502,7 +16511,7 @@
             "light": "#d0dfe2",
             "dark": "#d0dfe2"
         },
-        "is_horizontal_image": false,
+        "is_horizontal_image": true,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-fiend.png"
     },
     {
