@@ -4,7 +4,7 @@
         "type": "HUMANOID",
         "subtype": "human",
         "group": "Jogadores",
-        "challenge_rating": 8,
+        "challenge_rating": 9,
         "name": "Volmir Targaryen",
         "subtitle": "Humanoide médio, neutro",
         "image_url": "volmir-targaryen.png",
@@ -15,9 +15,9 @@
         "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral",
-        "armor_class": 20,
-        "hit_points": 76,
-        "hit_dice": "8d10",
+        "armor_class": 21,
+        "hit_points": 85,
+        "hit_dice": "9d10",
         "speed": {
             "hover": false,
             "value": [
@@ -65,33 +65,33 @@
             {
                 "index": "saving-throw-str",
                 "type": "STRENGTH",
-                "modifier": 8
+                "modifier": 9
             },
             {
                 "index": "saving-throw-con",
                 "type": "CONSTITUTION",
-                "modifier": 6
+                "modifier": 7
             }
         ],
         "skills": [
             {
                 "index": "skill-athletics",
-                "modifier": 8,
+                "modifier": 9,
                 "name": "Atletismo"
             },
             {
                 "index": "skill-history",
-                "modifier": 4,
+                "modifier": 5,
                 "name": "História"
             },
             {
                 "index": "skill-intimidation",
-                "modifier": 5,
+                "modifier": 6,
                 "name": "Intimidação"
             },
             {
                 "index": "skill-perception",
-                "modifier": 4,
+                "modifier": 5,
                 "name": "Percepção"
             }
         ],
@@ -101,7 +101,7 @@
         "damage_immunities": [],
         "condition_immunities": [],
         "senses": [
-            "Percepção passiva 14"
+            "Percepção passiva 15"
         ],
         "languages": "Common, Orc",
         "special_abilities": [
@@ -112,6 +112,10 @@
             {
                 "name": "Atleta Notável",
                 "desc": "Você pode adicionar metade do seu bônus de proficiência (arredondado para cima) a qualquer teste de Força, Destreza ou Constituição que você fizer que ainda não use seu bônus de proficiência. Além disso, quando você faz um salto longo correndo, a distância que você pode cobrir aumenta em um número de pés igual ao seu modificador de Força."
+            },
+            {
+                "name": "Indomitable",
+                "desc": "You can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can’t use this feature again until you finish a long rest."
             }
         ],
         "actions": [
@@ -170,7 +174,7 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+8",
+                        "dice": "1d10+9",
                         "damage": {
                             "index": "radiant",
                             "type": "RADIANT",
@@ -205,7 +209,7 @@
         "type": "HUMANOID",
         "subtype": "human",
         "group": "Jogadores",
-        "challenge_rating": 8,
+        "challenge_rating": 9,
         "name": "Smoke",
         "subtitle": "Humanoide médio, neutro",
         "image_url": "smoke.png",
@@ -217,8 +221,8 @@
         "size": "Medium",
         "alignment": "neutral",
         "armor_class": 17,
-        "hit_points": 59,
-        "hit_dice": "8d8",
+        "hit_points": 66,
+        "hit_dice": "9d8",
         "speed": {
             "hover": false,
             "value": [
@@ -266,43 +270,43 @@
             {
                 "index": "saving-throw-dex",
                 "type": "DEXTERITY",
-                "modifier": 8
+                "modifier": 9
             },
             {
                 "index": "saving-throw-int",
                 "type": "INTELLIGENCE",
-                "modifier": 5
+                "modifier": 6
             }
         ],
         "skills": [
             {
                 "index": "skill-acrobatics",
-                "modifier": 8,
+                "modifier": 9,
                 "name": "Acrobacia"
             },
             {
                 "index": "skill-deception",
-                "modifier": 2,
+                "modifier": 3,
                 "name": "Enganar"
             },
             {
                 "index": "skill-investigation",
-                "modifier": 8,
+                "modifier": 10,
                 "name": "Investigação"
             },
             {
                 "index": "skill-perception",
-                "modifier": 7,
+                "modifier": 9,
                 "name": "Percepção"
             },
             {
                 "index": "skill-sleight-of-hand",
-                "modifier": 7,
+                "modifier": 9,
                 "name": "Roubar"
             },
             {
                 "index": "skill-stealth",
-                "modifier": 11,
+                "modifier": 13,
                 "name": "Furtividade"
             }
         ],
@@ -312,7 +316,7 @@
         "damage_immunities": [],
         "condition_immunities": [],
         "senses": [
-            "Percepção passiva 17"
+            "Percepção passiva 19"
         ],
         "languages": "Common, Halfling, thieves cant",
         "special_abilities": [
@@ -408,7 +412,7 @@
         "type": "HUMANOID",
         "subtype": "human",
         "group": "Jogadores",
-        "challenge_rating": 8,
+        "challenge_rating": 9,
         "name": "Newt Scamander",
         "subtitle": "Humanoide médio, neutro",
         "image_url": "newt-scamander.png",
@@ -420,8 +424,8 @@
         "size": "Medium",
         "alignment": "neutral",
         "armor_class": 13,
-        "hit_points": 42,
-        "hit_dice": "8d6",
+        "hit_points": 47,
+        "hit_dice": "9d6",
         "speed": {
             "hover": false,
             "value": [
@@ -469,38 +473,38 @@
             {
                 "index": "saving-throw-wis",
                 "type": "WISDOM",
-                "modifier": 4
+                "modifier": 5
             },
             {
                 "index": "saving-throw-int",
                 "type": "INTELLIGENCE",
-                "modifier": 8
+                "modifier": 9
             }
         ],
         "skills": [
             {
                 "index": "skill-arcana",
-                "modifier": 8,
+                "modifier": 9,
                 "name": "Arcana"
             },
             {
                 "index": "skill-persuasion",
-                "modifier": 2,
+                "modifier": 3,
                 "name": "Persuasão"
             },
             {
                 "index": "skill-investigation",
-                "modifier": 8,
+                "modifier": 9,
                 "name": "Investigação"
             },
             {
                 "index": "skill-history",
-                "modifier": 8,
+                "modifier": 9,
                 "name": "História"
             },
             {
                 "index": "skill-perception",
-                "modifier": 4,
+                "modifier": 5,
                 "name": "Percepção"
             }
         ],
@@ -510,7 +514,7 @@
         "damage_immunities": [],
         "condition_immunities": [],
         "senses": [
-            "Percepção passiva 14"
+            "Percepção passiva 15"
         ],
         "languages": "Comum, Elfo, Draconico",
         "special_abilities": [
@@ -529,7 +533,7 @@
         ],
         "spellcasting": [
             {
-                "desc": "A habilidade de conjuração de Newt Scamander é Inteligência (resistência de feitiço CD 16, +8 para acertar com ataques de feitiço). Escolha 13 feitiços para preparar na lista baixo:",
+                "desc": "A habilidade de conjuração de Newt Scamander é Inteligência (resistência de feitiço CD 17, +9 para acertar com ataques de feitiço). Escolha 13 feitiços para preparar na lista baixo:",
                 "type": "SPELLCASTER",
                 "spells_by_group": [
                     {
@@ -738,7 +742,7 @@
                         ]
                     },
                     {
-                        "group": "4rd level (2 slots)",
+                        "group": "4rd level (3 slots)",
                         "spells": [
                             {
                                 "index": "blight",
@@ -751,6 +755,17 @@
                                 "name": "stoneskin",
                                 "school": "TRANSMUTATION",
                                 "level": 4
+                            }
+                        ]
+                    },
+                    {
+                        "group": "5rd level (1 slots)",
+                        "spells": [
+                            {
+                                "index": "telekinesis",
+                                "name": "telekinesis",
+                                "school": "TRANSMUTATION",
+                                "level": 5
                             }
                         ]
                     }
