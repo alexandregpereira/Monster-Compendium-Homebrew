@@ -4,7 +4,7 @@
         "type": "HUMANOID",
         "subtype": "human",
         "group": "Jogadores",
-        "challenge_rating": 9,
+        "challenge_rating": 10,
         "name": "Volmir Targaryen",
         "subtitle": "Humanoide médio, neutro",
         "image_url": "volmir-targaryen.png",
@@ -15,9 +15,9 @@
         "is_horizontal_image": false,
         "size": "Medium",
         "alignment": "neutral",
-        "armor_class": 21,
-        "hit_points": 85,
-        "hit_dice": "9d10",
+        "armor_class": 22,
+        "hit_points": 94,
+        "hit_dice": "10d10",
         "speed": {
             "hover": false,
             "value": [
@@ -174,7 +174,7 @@
             {
                 "damage_dices": [
                     {
-                        "dice": "1d10+9",
+                        "dice": "1d10+10",
                         "damage": {
                             "index": "radiant",
                             "type": "RADIANT",
@@ -209,7 +209,7 @@
         "type": "HUMANOID",
         "subtype": "human",
         "group": "Jogadores",
-        "challenge_rating": 9,
+        "challenge_rating": 10,
         "name": "Smoke",
         "subtitle": "Humanoide médio, neutro",
         "image_url": "smoke.png",
@@ -221,8 +221,8 @@
         "size": "Medium",
         "alignment": "neutral",
         "armor_class": 17,
-        "hit_points": 66,
-        "hit_dice": "9d8",
+        "hit_points": 73,
+        "hit_dice": "10d8",
         "speed": {
             "hover": false,
             "value": [
@@ -252,8 +252,8 @@
             },
             {
                 "type": "INTELLIGENCE",
-                "value": 14,
-                "modifier": 2
+                "value": 16,
+                "modifier": 3
             },
             {
                 "type": "WISDOM",
@@ -275,7 +275,7 @@
             {
                 "index": "saving-throw-int",
                 "type": "INTELLIGENCE",
-                "modifier": 6
+                "modifier": 7
             }
         ],
         "skills": [
@@ -291,7 +291,7 @@
             },
             {
                 "index": "skill-investigation",
-                "modifier": 10,
+                "modifier": 11,
                 "name": "Investigação"
             },
             {
@@ -326,7 +326,7 @@
             },
             {
                 "name": "Ataque Furtivo",
-                "desc": "Uma vez por turno, você pode adicionar 4d6 nas jogadas de dano contra qualquer criatura que acertar, desde que tenha vantagem nas jogadas de ataque. O ataque deve ser com uma arma de acuidade ou à distância. Você não precisa ter vantagem nas jogadas de ataque se outro inimigo do seu alvo estiver a 5ft. de distância dele, desde que este inimigo não esteja incapacitado e você não tenha desvantagem nas jogadas de ataque."
+                "desc": "Uma vez por turno, você pode adicionar 5d6 nas jogadas de dano contra qualquer criatura que acertar, desde que tenha vantagem nas jogadas de ataque. O ataque deve ser com uma arma de acuidade ou à distância. Você não precisa ter vantagem nas jogadas de ataque se outro inimigo do seu alvo estiver a 5ft. de distância dele, desde que este inimigo não esteja incapacitado e você não tenha desvantagem nas jogadas de ataque."
             },
             {
                 "name": "Ação Ardilosa",
@@ -424,8 +424,8 @@
         "size": "Medium",
         "alignment": "neutral",
         "armor_class": 13,
-        "hit_points": 47,
-        "hit_dice": "9d6",
+        "hit_points": 52,
+        "hit_dice": "10d6",
         "speed": {
             "hover": false,
             "value": [
@@ -529,6 +529,10 @@
             {
                 "name": "Recuperação Arcana",
                 "desc": "Uma vez por dia, quando você terminar um descanso curto, você pode escolher espaços de magia gastos para se recuperar. Os espaços de magia podem ter um nível combinado igual ou inferior a 4."
+            },
+            {
+                "name": "Evocação Fortalecida",
+                "desc": "Você pode adicionar seu modificador de Inteligência à rolagem de dano de qualquer magia de evocação de mago que lançar."
             }
         ],
         "spellcasting": [
@@ -759,7 +763,7 @@
                         ]
                     },
                     {
-                        "group": "5rd level (1 slots)",
+                        "group": "5rd level (2 slots)",
                         "spells": [
                             {
                                 "index": "telekinesis",
