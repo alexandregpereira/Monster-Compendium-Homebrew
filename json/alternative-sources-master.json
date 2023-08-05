@@ -4,258 +4,403 @@
             "name": "Baldur's Gate: Descent Into Avernus",
             "acronym": "BGDIA"
         },
-        "totalMonsters": 53
+        "totalMonsters": 53,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/bgdia.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Welcome to Baldur's Gate, a city of ambition and corruption. You’ve just started your adventuring career, but already find yourself embroiled in a plot that sprawls from the shadows of Baldur's Gate to the front lines of the planes-spanning Blood War! Do you have what it takes to turn infernal war machines and nefarious contracts against the archdevil Zariel and her diabolical hordes? And can you ever hope to find your way home safely when pitted against the infinite evils of the Nine Hells?"
     },
     {
         "source": {
             "name": "Candlekeep Mysteries",
             "acronym": "CM"
         },
-        "totalMonsters": 38
+        "totalMonsters": 38,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/cm.webp",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Candlekeep attracts scholars like a flame attracts moths. Historians, sages, and others who crave knowledge flock to this library fortress to peruse its vast collection of books, scribbled into which are the answers to the mysteries that bedevil them. Many of these books contain their own mysteries—each one a doorway to adventure. Dare you cross that threshold?"
     },
     {
         "source": {
             "name": "Curse of Strahd",
             "acronym": "CoS"
         },
-        "totalMonsters": 82
+        "totalMonsters": 82,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/cos.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Under raging storm clouds, the vampire Count Strahd von Zarovich stands silhouetted against the ancient walls of Castle Ravenloft. Rumbling thunder pounds the castle spires. The wind’s howling increases as he turns his gaze down toward the village of Barovia. Far below, yet not beyond his keen eyesight, a party of adventurers has just entered his domain. Strahd’s face forms the barest hint of a smile as his dark plan unfolds. He knew they were coming, and he knows why they came — all according to his plan. A lightning flash rips through the darkness, but Strahd is gone. Only the howling of the wind fills the midnight air. The master of Castle Ravenloft is having guests for dinner. And you are invited."
     },
     {
         "source": {
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
         },
-        "totalMonsters": 43
+        "totalMonsters": 43,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Explore the lands of Eberron in this campaign sourcebook for the world’s greatest roleplaying game. This book provides everything players and Dungeon Masters need to play Dungeons & Dragons in Eberron—a war-torn world filled with magic-fueled technology, airships and lightning trains, where noir-inspired mystery meets swashbuckling adventure. Will Eberron enter a prosperous new age or will the shadow of war descend once again?"
     },
     {
         "source": {
             "name": "Ghosts of Saltmarsh",
             "acronym": "GoS"
         },
-        "totalMonsters": 57
+        "totalMonsters": 57,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/gos.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Explore the waves above and the fathoms below in these watery adventures for the world’s greatest roleplaying game. Nestled on the coast of the Azure Sea is Saltmarsh, a sleepy fishing village that sits on the precipice of destruction. Smugglers guide their ships to hidden coves, willing to slit the throat of anyone foolhardy enough to cross their path. Cruel sahuagin gather beneath the waves, plotting to sweep away coastal cities. Drowned sailors stir to unnatural life, animated by dark magic and sent forth in search of revenge. The cult of a forbidden god extends its reach outward from a decaying port, hungry for fresh victims and willing recruits. While Saltmarsh slumbers, the evils that seek to plunder it grow stronger. Heroes must arise to keep the waves safe!"
     },
     {
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
         },
-        "totalMonsters": 79
+        "totalMonsters": 79,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": ""
     },
     {
         "source": {
             "name": "Hoard of the Dragon Queen",
             "acronym": "HotDQ"
         },
-        "totalMonsters": 16
+        "totalMonsters": 16,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/hotdq.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Fight the war against draconic oppression in this adventure for the world’s greatest roleplaying game. In an audacious bid for power, the Cult of the Dragon, along with its dragon allies and the Red Wizards of Thay, seek to bring Tiamat from her prison in the Nine Hells to Faerûn. To this end, they are sweeping from town to town, laying waste to all those who oppose them and gathering a hoard of riches for their dread queen. The threat of annihilation has become so dire that groups as disparate as the Harpers and Zhentarim are banding together in the fight against the cult. Never before has the need for heroes been so desperate."
     },
     {
         "source": {
             "name": "House of Lament",
             "acronym": "HoL"
         },
-        "totalMonsters": 4
+        "totalMonsters": 4,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/hol.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "A tale of grief and madness for four to six characters of 5th to 10th level. This side-trek encounter for 5th Edition Dungeons and Dragons is great for any horror or intrigue-themed campaign."
     },
     {
         "source": {
             "name": "Hunt for the Thessalhydra",
             "acronym": "HftT"
         },
-        "totalMonsters": 2
+        "totalMonsters": 2,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/hftt.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Based on the Netflix series and the Dark Horse Comics series, Stranger Things Dungeons & Dragons follows the adventures of the Stranger Things kids — Mike, Will, Lucas, and Dustin — as they play Dungeons & Dragons for the very first time. Includes unique Stranger Things themed rules, game mechanics, and exciting new adventures to help players create their own Stranger Things story."
     },
     {
         "source": {
             "name": "Icewind Dale: Rime of the Frostmaiden",
             "acronym": "IDRotF"
         },
-        "totalMonsters": 81
+        "totalMonsters": 81,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/idrotf.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Icewind Dale: Rime of the Frostmaiden is a tale of dark terror that revisits the forlorn, flickering candlelights of civilization known as Ten-Towns and sheds light on the many bone-chilling locations that surround these frontier settlements."
     },
     {
         "source": {
             "name": "Infernal Machine Rebuild",
             "acronym": "IMR"
         },
-        "totalMonsters": 11
+        "totalMonsters": 11,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/imr.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "A fallen clock tower holds components from an ancient artifact. Upon discovery of the components, competing agents look to launch expeditions to uncover additional components scattered across distant places—and times. The now-lost Temple of Moloch and the construction site of the legendary Tomb of Horrors are two of those locations. However great the risks, finding the components demands the effort, for whoever does so can reassemble the fabled Infernal Machine of Lum the Mad!"
     },
     {
         "source": {
             "name": "Krenko's Way",
             "acronym": "KKW"
         },
-        "totalMonsters": 3
+        "totalMonsters": 3,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/kkw.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "A Guildmaster's Guide to Ravnica Adventure for 1st-Level Characters. In the adventure, the characters infiltrate the marketplace of the Golgari to investigate rumors of Krenko's involvement in a plot to destroy the guild from within."
     },
     {
         "source": {
             "name": "Locathah Rising",
             "acronym": "LR"
         },
-        "totalMonsters": 4
+        "totalMonsters": 4,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/lr.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "A SUCCESSFUL adventure is REALLY more about the FRIENDS you make along the way, than it is the monsters you slay while you PLAY! A fifth edition D&D adventure for 9th level locathah characters."
     },
     {
         "source": {
             "name": "Lost Laboratory of Kwalish",
             "acronym": "LLK"
         },
-        "totalMonsters": 5
+        "totalMonsters": 5,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/llk.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Lost Laboratory of Kwalish explores an alternate expedition into the Barrier Peaks. The legendary inventor disappeared in the peaks eons ago… as it turns out, finding a crashed planar ship and studying its technology to fuel his own experiments—only now, Kwalish’s lost research is desperately needed!"
     },
     {
         "source": {
             "name": "Lost Mines of Phandelver",
             "acronym": "LMoP"
         },
-        "totalMonsters": 9
+        "totalMonsters": 9,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/lmop.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Lost Mine of Phandelver is an adventure for four to five characters of 1st level. During the course of the adventure, the characters will advance to 5th level. The adventure is set a short distance from the city of Neverwinter in the Sword Coast region of the Forgotten Realms setting. The Sword Coast is part of the North--a vast realm of free settlements surrounded by wilderness and adventure."
     },
     {
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
         },
-        "totalMonsters": 450
+        "totalMonsters": 450,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "The Monster Manual is a treasure trove of iconic D&D creatures like dragons, giants, mind flayers, and beholders. Packed with easy-to-use stats and captivating stories, it fuels your imagination. A must-have resource for Dungeon Masters, it enriches any adventure!"
     },
     {
         "source": {
             "name": "Mordenkainen's Fiendish Folio",
             "acronym": "MFF"
         },
-        "totalMonsters": 18
+        "totalMonsters": 18,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mff.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Mordenkainen hails from the City of Greyhawk, but over the eons he has expanded his mastery of the major conflicts in the multiverse. Similar to 2016's Volo's Guide to Monsters, Mordenkainen's Tome of Foes not only contains everything you need to run challenging new monsters at the table with your friends but also provides tons of storytelling information on some of the most contentious relationships in the multiverse. You'll learn more about the schism between drow and other elves, githyanki and githzerai, and dwarves and duergar, in addition to reading about the incessant Blood War between demons and devils."
     },
     {
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
         },
-        "totalMonsters": 140
+        "totalMonsters": 140,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Mordenkainen hails from the City of Greyhawk, but over the eons he has expanded his mastery of the major conflicts in the multiverse. Similar to 2016's Volo's Guide to Monsters, Mordenkainen's Tome of Foes not only contains everything you need to run challenging new monsters at the table with your friends but also provides tons of storytelling information on some of the most contentious relationships in the multiverse. You'll learn more about the schism between drow and other elves, githyanki and githzerai, and dwarves and duergar, in addition to reading about the incessant Blood War between demons and devils."
     },
     {
         "source": {
             "name": "Mythic Odysseys of Theros",
             "acronym": "MOT"
         },
-        "totalMonsters": 51
+        "totalMonsters": 51,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mot.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Legends walk the lands of Theros, a realm shaped by deities and the deeds of heroes. From the temples of omen-speaking oracles to the five realms of the Underworld, the champions of the gods vie for immortal favor and a place among the world’s living myths. Choose a supernatural gift that sets you on the path of destiny, align yourself with one of Theros’s fifteen gods, then carve a tale of odysseys and ordeals across the domains of mortals, gods, and the dead."
     },
     {
         "source": {
             "name": "Orrery of the Wanderer",
             "acronym": "OoW"
         },
-        "totalMonsters": 17
+        "totalMonsters": 17,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/oow.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "The Orrery of the Wanderer is a collection of adventures that can be played individually or as a series. These adventures are designed for characters of levels 5–10 and feature the planeswalker Kaya, a hero of the Magic: The Gathering Multiverse."
     },
     {
         "source": {
             "name": "Out of the Abyss",
             "acronym": "OotA"
         },
-        "totalMonsters": 31
+        "totalMonsters": 31,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/oota.webp",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Out of the Abyss is a Dungeons & Dragons adventure for characters of levels 1–15. The Underdark is a subterranean wonderland, a vast and twisted labyrinth where fear reigns. It is the home of horrific monsters that have never seen the light of day. It is here that the dark elf Gromph Baenre, Archmage of Menzoberranzan, casts a foul spell meant to ignite a magical energy that suffuses the Underdark and tears open portals to the demonic Abyss. What steps through surprises even him, and from that moment on, the insanity that pervades the Underdark escalates and threatens to shake the Forgotten Realms to its foundations. Stop the madness before it consumes you!"
     },
     {
         "source": {
             "name": "Princes of the Apocalypse",
             "acronym": "PotA"
         },
-        "totalMonsters": 59
+        "totalMonsters": 59,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/pota.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Abolish an Ancient Evil Threatening Devastation in this Adventure for the World’s Greatest Roleplaying Game Called by the Elder Elemental Eye to serve, four corrupt prophets have risen from the depths of anonymity to claim mighty weapons with direct links to the power of the elemental princes. Each of these prophets has assembled a cadre of cultists and creatures to serve them in the construction of four elemental temples of lethal design. It is up to adventurers from heroic factions such as the Emerald Enclave and the Order of the Gauntlet to discover where the true power of each prophet lay, and dismantle it before it comes boiling up to obliterate the Realms."
     },
     {
         "source": {
             "name": "Rise of Tiamat",
             "acronym": "RoT"
         },
-        "totalMonsters": 8
+        "totalMonsters": 8,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/rot.png",
+        "isEnabled": false,
+        "isLoreEnabled": true
     },
     {
         "source": {
             "name": "Sapphire Anniversary Dice Set",
             "acronym": "SADS"
         },
-        "totalMonsters": 1
+        "totalMonsters": 1,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/sads.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "This set commemorates the 45th anniversary of the first publication of the original Dungeons & Dragons rules with a set of deluxe, limited-edition dice for the fifth edition of the game. Inside the sapphire-colored dice with golden numbers, you’ll find a d20, d12, d10, d8, d6, d4, and a percentile die."
     },
     {
         "source": {
             "name": "Sleeping Dragon's Wake",
             "acronym": "SDW"
         },
-        "totalMonsters": 2
+        "totalMonsters": 2,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/sdw.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Sleeping Dragon's Wake is a Dungeons & Dragons adventure for characters of levels 17–20. It is the sequel to Storm King's Thunder and Princes of the Apocalypse, and is inspired by the novel The Rise of Tiamat by Erin Evans."
     },
     {
         "source": {
             "name": "Storm King's Thunder",
             "acronym": "SKT"
         },
-        "totalMonsters": 105
+        "totalMonsters": 105,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/skt.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Giants have emerged from their strongholds to threaten civilization as never before. Hill giants are stealing all the grain and livestock they can, while stone giants have been scouring settlements that have been around forever. Fire giants are press-ganging the smallfolk into the desert, while frost giant longships have been pillaging along the Sword Coast. Even the elusive cloud giants have been witnessed, their wondrous floating cities appearing above Waterdeep and Baldur’s Gate. Where is the storm giant King Hekaton, who is tasked with keeping order among the giants? The humans, dwarves, elves, and other small folk of the Sword Coast will be crushed underfoot from the onslaught of these giant foes. The only chance at survival is for the small folk to work together to investigate this invasion and harness the power of rune magic, the giants’ weapon against their ancient enemy the dragons. The only way the people of Faerun can restore order is to use the giants’ own power against them."
     },
     {
         "source": {
             "name": "Storm Lord's Wrath",
             "acronym": "SLW"
         },
-        "totalMonsters": 3
+        "totalMonsters": 3,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/slw.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Storm Lord's Wrath is a Dungeons & Dragons adventure for characters of levels 7–9. It is the sequel to Sleeping Dragon's Wake, and is inspired by the novel Storm King's Thunder by Chris Perkins."
     },
     {
         "source": {
             "name": "Tales from the Yawning Portal",
             "acronym": "TftYP"
         },
-        "totalMonsters": 107
+        "totalMonsters": 107,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/tftyp.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Within this tome are seven of the most compelling dungeons from the 40+ year history of Dungeons & Dragons. Some are classics that have hosted an untold number of adventurers, while others are some of the most popular adventures ever printed. The seeds of these stories now rest in your hands. D&D’s most storied dungeons are now part of your modern repertoire of adventures. Enjoy, and remember to keep a few spare character sheets handy."
     },
     {
         "source": {
             "name": "Tasha's Cauldron of Everything",
             "acronym": "TCE"
         },
-        "totalMonsters": 18
+        "totalMonsters": 18,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/tce.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "A magical mixture of rules options for the world's greatest roleplaying game. The wizard Tasha, whose great works include the spell Tasha’s hideous laughter, has gathered bits and bobs of precious lore during her illustrious career as an adventurer. Her enemies wouldn’t want these treasured secrets scattered across the multiverse, so in defiance, she has collected and codified these tidbits for the enrichment of all."
     },
     {
         "source": {
             "name": "The Tortle Package",
             "acronym": "TTP"
         },
-        "totalMonsters": 4
+        "totalMonsters": 4,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ttp.png",
+        "isEnabled": false,
+        "isLoreEnabled": true
     },
     {
         "source": {
             "name": "Tomb of Annihilation",
             "acronym": "ToA"
         },
-        "totalMonsters": 89
+        "totalMonsters": 89,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/toa.webp",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Dare to defy death in this adventure for the world’s greatest roleplaying game. The talk of the streets and taverns has all been about the so-called death curse: a wasting disease afflicting everyone who’s ever been raised from the dead. Victims grow thinner and weaker each day, slowly but steadily sliding toward the death they once denied. When they finally succumb, they can’t be raised—and neither can anyone else, regardless of whether they’ve ever received that miracle in the past. Temples and scholars of divine magic are at a loss to explain a curse that has affected the entire region, and possibly the entire world. The cause is a necromantic artifact called the Soulmonger, which is located somewhere in Chult, a mysterious peninsula far to the south, ringed with mountains and choked with rainforests."
     },
     {
         "source": {
             "name": "Van Richten's Guide to Ravenloft",
             "acronym": "VRGR"
         },
-        "totalMonsters": 32
+        "totalMonsters": 32,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vrgr.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Unleash the horrors of Ravenloft in this campaign sourcebook for the world's greatest roleplaying game. Terror stalks the nightmare realms of Ravenloft. No one knows this better than monster scholar Rudolph Van Richten. To arm a new generation against the creatures of the night, Van Richten has compiled his correspondence and case files into this tome of eerie tales and chilling truths."
     },
     {
         "source": {
             "name": "Volo's Guide to Monsters",
             "acronym": "VGM"
         },
-        "totalMonsters": 136
+        "totalMonsters": 136,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": true
     },
     {
         "source": {
             "name": "Waterdeep: Dragon Heist",
             "acronym": "WDH"
         },
-        "totalMonsters": 89
+        "totalMonsters": 89,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/wdh.webp",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Experience the ultimate urban treasure hunt in this adventure for the world's greatest roleplaying game. Welcome to Waterdeep, City of Splendors! You're summoned by Volothamp Geddarm, famous explorer and raconteur, to complete a simple quest. Is anything ever really simple though? Experience a grand caper, pitting your skills and bravado against two nefarious organizations as you go on a hunt for the greatest prize of all."
     },
     {
         "source": {
             "name": "Waterdeep: Dungeon of the Mad Mage",
             "acronym": "WDMM"
         },
-        "totalMonsters": 95
+        "totalMonsters": 95,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/wdmm.webp",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Delve deeper than you ever thought possible in this adventure for the world's greatest roleplaying game. Hundreds of years ago, long before Waterdeep had been built, Halaster Blackcloak carved a vast dungeon beneath Mount Waterdeep and stocked it with all manner of creatures from across the planes. Over time Halaster has gone quite insane and the dungeon he carved, now dubbed Undermountain, is a labyrinthine death trap for those bold enough to venture within. Precious few have returned from Halaster's home, and frequently they're not who they were when they started out. One thing is certain however. Wealth unimaginable exists within the halls of Undermountain."
     },
     {
         "source": {
             "name": "Xanathar's Guide to Everything",
             "acronym": "XGE"
         },
-        "totalMonsters": 1
+        "totalMonsters": 1,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/xge.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Explore a wealth of new rules options for both players and Dungeon Masters in this supplement for the world's greatest roleplaying game. The beholder Xanathar—Waterdeep’s most infamous crime lord—is known to hoard information on friend and foe alike. The beholder catalogs lore about adventurers and ponders methods to thwart them. Its twisted mind imagines that it can eventually record everything! Xanathar's Guide to Everything is the first major expansion for fifth edition Dungeons & Dragons, offering new rules and story options."
     },
     {
         "source": {
             "name": "Boka",
             "acronym": "BOKA"
         },
-        "totalMonsters": 3
+        "totalMonsters": 3,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Boka is a small village in the middle of nowhere. It is a peaceful place, but it hides a dark secret. The village is cursed and the villagers are slowly turning into werewolves. The village is ruled by a werewolf named Katarina who has been trying to find a cure for the curse for years. She has been unsuccessful so far, but she is not giving up. She has been sending adventurers to find a cure for her curse, but none of them have returned. She is now looking for a new group of adventurers to help her find a cure for her curse."
     }
 ]

@@ -16,7 +16,7 @@
             "acronym": "BGDIA"
         },
         "totalMonsters": 53,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/bgdia.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/bgdia.jpeg",
         "isEnabled": false,
         "isLoreEnabled": false,
         "summary": "Welcome to Baldur's Gate, a city of ambition and corruption. You’ve just started your adventuring career, but already find yourself embroiled in a plot that sprawls from the shadows of Baldur's Gate to the front lines of the planes-spanning Blood War! Do you have what it takes to turn infernal war machines and nefarious contracts against the archdevil Zariel and her diabolical hordes? And can you ever hope to find your way home safely when pitted against the infinite evils of the Nine Hells?"
@@ -27,7 +27,7 @@
             "acronym": "CM"
         },
         "totalMonsters": 38,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/cm.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/cm.webp",
         "isEnabled": false,
         "isLoreEnabled": false,
         "summary": "Candlekeep attracts scholars like a flame attracts moths. Historians, sages, and others who crave knowledge flock to this library fortress to peruse its vast collection of books, scribbled into which are the answers to the mysteries that bedevil them. Many of these books contain their own mysteries—each one a doorway to adventure. Dare you cross that threshold?"
@@ -38,7 +38,7 @@
             "acronym": "CoS"
         },
         "totalMonsters": 82,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/cos.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/cos.jpeg",
         "isEnabled": false,
         "isLoreEnabled": false,
         "summary": "Under raging storm clouds, the vampire Count Strahd von Zarovich stands silhouetted against the ancient walls of Castle Ravenloft. Rumbling thunder pounds the castle spires. The wind’s howling increases as he turns his gaze down toward the village of Barovia. Far below, yet not beyond his keen eyesight, a party of adventurers has just entered his domain. Strahd’s face forms the barest hint of a smile as his dark plan unfolds. He knew they were coming, and he knows why they came — all according to his plan. A lightning flash rips through the darkness, but Strahd is gone. Only the howling of the wind fills the midnight air. The master of Castle Ravenloft is having guests for dinner. And you are invited."
@@ -82,7 +82,7 @@
             "acronym": "ERLW"
         },
         "totalMonsters": 43,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
         "isEnabled": false,
         "isLoreEnabled": false,
         "summary": "Explore the lands of Eberron in this campaign sourcebook for the world’s greatest roleplaying game. This book provides everything players and Dungeon Masters need to play Dungeons & Dragons in Eberron—a war-torn world filled with magic-fueled technology, airships and lightning trains, where noir-inspired mystery meets swashbuckling adventure. Will Eberron enter a prosperous new age or will the shadow of war descend once again?"
@@ -126,7 +126,7 @@
             "acronym": "GGR"
         },
         "totalMonsters": 79,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.jpeg",
         "isEnabled": false,
         "isLoreEnabled": false,
         "summary": ""
@@ -170,7 +170,7 @@
             "acronym": "IDRotF"
         },
         "totalMonsters": 81,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/idroft.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/idrotf.png",
         "isEnabled": false,
         "isLoreEnabled": false,
         "summary": "Icewind Dale: Rime of the Frostmaiden is a tale of dark terror that revisits the forlorn, flickering candlelights of civilization known as Ten-Towns and sheds light on the many bone-chilling locations that surround these frontier settlements."
@@ -225,7 +225,7 @@
             "acronym": "LMoP"
         },
         "totalMonsters": 9,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/lmop.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/lmop.jpeg",
         "isEnabled": false,
         "isLoreEnabled": false,
         "summary": "Lost Mine of Phandelver is an adventure for four to five characters of 1st level. During the course of the adventure, the characters will advance to 5th level. The adventure is set a short distance from the city of Neverwinter in the Sword Coast region of the Forgotten Realms setting. The Sword Coast is part of the North--a vast realm of free settlements surrounded by wilderness and adventure."
@@ -258,7 +258,7 @@
             "acronym": "MTF"
         },
         "totalMonsters": 140,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.jpeg",
         "isEnabled": false,
         "isLoreEnabled": true,
         "summary": "Mordenkainen hails from the City of Greyhawk, but over the eons he has expanded his mastery of the major conflicts in the multiverse. Similar to 2016's Volo's Guide to Monsters, Mordenkainen's Tome of Foes not only contains everything you need to run challenging new monsters at the table with your friends but also provides tons of storytelling information on some of the most contentious relationships in the multiverse. You'll learn more about the schism between drow and other elves, githyanki and githzerai, and dwarves and duergar, in addition to reading about the incessant Blood War between demons and devils."
@@ -269,7 +269,7 @@
             "acronym": "MOT"
         },
         "totalMonsters": 51,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mot.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mot.jpeg",
         "isEnabled": false,
         "isLoreEnabled": true,
         "summary": "Legends walk the lands of Theros, a realm shaped by deities and the deeds of heroes. From the temples of omen-speaking oracles to the five realms of the Underworld, the champions of the gods vie for immortal favor and a place among the world’s living myths. Choose a supernatural gift that sets you on the path of destiny, align yourself with one of Theros’s fifteen gods, then carve a tale of odysseys and ordeals across the domains of mortals, gods, and the dead."
@@ -291,7 +291,7 @@
             "acronym": "OotA"
         },
         "totalMonsters": 31,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/oota.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/oota.webp",
         "isEnabled": false,
         "isLoreEnabled": true,
         "summary": "Out of the Abyss is a Dungeons & Dragons adventure for characters of levels 1–15. The Underdark is a subterranean wonderland, a vast and twisted labyrinth where fear reigns. It is the home of horrific monsters that have never seen the light of day. It is here that the dark elf Gromph Baenre, Archmage of Menzoberranzan, casts a foul spell meant to ignite a magical energy that suffuses the Underdark and tears open portals to the demonic Abyss. What steps through surprises even him, and from that moment on, the insanity that pervades the Underdark escalates and threatens to shake the Forgotten Realms to its foundations. Stop the madness before it consumes you!"
@@ -420,7 +420,7 @@
             "acronym": "ToA"
         },
         "totalMonsters": 89,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/toa.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/toa.webp",
         "isEnabled": false,
         "isLoreEnabled": true,
         "summary": "Dare to defy death in this adventure for the world’s greatest roleplaying game. The talk of the streets and taverns has all been about the so-called death curse: a wasting disease afflicting everyone who’s ever been raised from the dead. Victims grow thinner and weaker each day, slowly but steadily sliding toward the death they once denied. When they finally succumb, they can’t be raised—and neither can anyone else, regardless of whether they’ve ever received that miracle in the past. Temples and scholars of divine magic are at a loss to explain a curse that has affected the entire region, and possibly the entire world. The cause is a necromantic artifact called the Soulmonger, which is located somewhere in Chult, a mysterious peninsula far to the south, ringed with mountains and choked with rainforests."
@@ -442,7 +442,7 @@
             "acronym": "VGM"
         },
         "totalMonsters": 136,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
         "isEnabled": false,
         "isLoreEnabled": true
     },
@@ -452,7 +452,7 @@
             "acronym": "WDH"
         },
         "totalMonsters": 89,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/wdh.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/wdh.webp",
         "isEnabled": false,
         "isLoreEnabled": true,
         "summary": "Experience the ultimate urban treasure hunt in this adventure for the world's greatest roleplaying game. Welcome to Waterdeep, City of Splendors! You're summoned by Volothamp Geddarm, famous explorer and raconteur, to complete a simple quest. Is anything ever really simple though? Experience a grand caper, pitting your skills and bravado against two nefarious organizations as you go on a hunt for the greatest prize of all."
@@ -463,7 +463,7 @@
             "acronym": "WDMM"
         },
         "totalMonsters": 95,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/wdmm.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/wdmm.webp",
         "isEnabled": false,
         "isLoreEnabled": true,
         "summary": "Delve deeper than you ever thought possible in this adventure for the world's greatest roleplaying game. Hundreds of years ago, long before Waterdeep had been built, Halaster Blackcloak carved a vast dungeon beneath Mount Waterdeep and stocked it with all manner of creatures from across the planes. Over time Halaster has gone quite insane and the dungeon he carved, now dubbed Undermountain, is a labyrinthine death trap for those bold enough to venture within. Precious few have returned from Halaster's home, and frequently they're not who they were when they started out. One thing is certain however. Wealth unimaginable exists within the halls of Undermountain."
@@ -485,7 +485,7 @@
             "acronym": "BOKA"
         },
         "totalMonsters": 3,
-        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/boka.png",
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
         "isEnabled": false,
         "isLoreEnabled": false,
         "summary": "Boka is a small village in the middle of nowhere. It is a peaceful place, but it hides a dark secret. The village is cursed and the villagers are slowly turning into werewolves. The village is ruled by a werewolf named Katarina who has been trying to find a cure for the curse for years. She has been unsuccessful so far, but she is not giving up. She has been sending adventurers to find a cure for her curse, but none of them have returned. She is now looking for a new group of adventurers to help her find a cure for her curse."

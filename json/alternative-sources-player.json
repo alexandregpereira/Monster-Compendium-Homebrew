@@ -4,48 +4,75 @@
             "name": "Eberron: Rising from the Last War",
             "acronym": "ERLW"
         },
-        "totalMonsters": 43
+        "totalMonsters": 43,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/erlw.jpg",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Explore the lands of Eberron in this campaign sourcebook for the world’s greatest roleplaying game. This book provides everything players and Dungeon Masters need to play Dungeons & Dragons in Eberron—a war-torn world filled with magic-fueled technology, airships and lightning trains, where noir-inspired mystery meets swashbuckling adventure. Will Eberron enter a prosperous new age or will the shadow of war descend once again?"
     },
     {
         "source": {
             "name": "Guildmaster's Guide to Ravnica",
             "acronym": "GGR"
         },
-        "totalMonsters": 79
+        "totalMonsters": 79,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/ggr.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": ""
     },
     {
         "source": {
             "name": "Monster Manual",
             "acronym": "MM"
         },
-        "totalMonsters": 450
+        "totalMonsters": 450,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/monster-manual.png",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "The Monster Manual is a treasure trove of iconic D&D creatures like dragons, giants, mind flayers, and beholders. Packed with easy-to-use stats and captivating stories, it fuels your imagination. A must-have resource for Dungeon Masters, it enriches any adventure!"
     },
     {
         "source": {
             "name": "Mordenkainen's Fiendish Folio",
             "acronym": "MFF"
         },
-        "totalMonsters": 18
+        "totalMonsters": 18,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mff.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Mordenkainen hails from the City of Greyhawk, but over the eons he has expanded his mastery of the major conflicts in the multiverse. Similar to 2016's Volo's Guide to Monsters, Mordenkainen's Tome of Foes not only contains everything you need to run challenging new monsters at the table with your friends but also provides tons of storytelling information on some of the most contentious relationships in the multiverse. You'll learn more about the schism between drow and other elves, githyanki and githzerai, and dwarves and duergar, in addition to reading about the incessant Blood War between demons and devils."
     },
     {
         "source": {
             "name": "Mordenkainen's Tome of Foes",
             "acronym": "MTF"
         },
-        "totalMonsters": 140
+        "totalMonsters": 140,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/mtf.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": true,
+        "summary": "Mordenkainen hails from the City of Greyhawk, but over the eons he has expanded his mastery of the major conflicts in the multiverse. Similar to 2016's Volo's Guide to Monsters, Mordenkainen's Tome of Foes not only contains everything you need to run challenging new monsters at the table with your friends but also provides tons of storytelling information on some of the most contentious relationships in the multiverse. You'll learn more about the schism between drow and other elves, githyanki and githzerai, and dwarves and duergar, in addition to reading about the incessant Blood War between demons and devils."
     },
     {
         "source": {
             "name": "Volo's Guide to Monsters",
             "acronym": "VGM"
         },
-        "totalMonsters": 136
+        "totalMonsters": 136,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/vgm.jpeg",
+        "isEnabled": false,
+        "isLoreEnabled": true
     },
     {
         "source": {
             "name": "Boka",
             "acronym": "BOKA"
         },
-        "totalMonsters": 3
+        "totalMonsters": 3,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Boka is a small village in the middle of nowhere. It is a peaceful place, but it hides a dark secret. The village is cursed and the villagers are slowly turning into werewolves. The village is ruled by a werewolf named Katarina who has been trying to find a cure for the curse for years. She has been unsuccessful so far, but she is not giving up. She has been sending adventurers to find a cure for her curse, but none of them have returned. She is now looking for a new group of adventurers to help her find a cure for her curse."
     }
 ]
