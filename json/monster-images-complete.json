@@ -16531,5 +16531,59 @@
         },
         "is_horizontal_image": false,
         "image_url": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Homebrew/main/images/default-humanoid.png"
+    },
+    {
+        "monster_index": "barbarian-3",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/barbarian-3.png"
+    },
+    {
+        "monster_index": "cleric-3",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/cleric-3.png"
+    },
+    {
+        "monster_index": "sorcerer-3",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/sorcerer-3.png"
+    },
+    {
+        "monster_index": "fighter-3",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/fighter-3.png"
+    },
+    {
+        "monster_index": "rogue-3",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/rogue-3.png"
+    },
+    {
+        "monster_index": "wizard-3",
+        "background_color": {
+            "light": "#FAF9F8",
+            "dark": "#262626"
+        },
+        "is_horizontal_image": false,
+        "image_url": "https://raw.githubusercontent.com/alexandregpereira/hunter-api/main/images/wizard-3.png"
     }
 ]
