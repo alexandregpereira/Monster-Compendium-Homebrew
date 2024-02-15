@@ -402,5 +402,16 @@
         "isEnabled": false,
         "isLoreEnabled": false,
         "summary": "Boka is a small village in the middle of nowhere. It is a peaceful place, but it hides a dark secret. The village is cursed and the villagers are slowly turning into werewolves. The village is ruled by a werewolf named Katarina who has been trying to find a cure for the curse for years. She has been unsuccessful so far, but she is not giving up. She has been sending adventurers to find a cure for her curse, but none of them have returned. She is now looking for a new group of adventurers to help her find a cure for her curse."
+    },
+    {
+        "source": {
+            "name": "Fichas do Jogador 3",
+            "acronym": "PSB3"
+        },
+        "totalMonsters": 6,
+        "coverImageUrl": "https://raw.githubusercontent.com/alexandregpereira/Monster-Compendium-Content/main/covers/player-stat-blocks-3.png",
+        "isEnabled": false,
+        "isLoreEnabled": false,
+        "summary": "Viva o mundo de D&D 5ª edição com fichas de personagens prontas para jogar no nível 3. Seja você iniciante ou esteja em busca de aventuras rápidas, essas fichas pré-geradas são a escolha perfeita!"
     }
 ]
